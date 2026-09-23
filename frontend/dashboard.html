@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Executive BI & Analytics Dashboard – NyBasket</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="ny-header">
+        <div class="ny-container">
+            <nav class="ny-navbar">
+                <a href="index.html" class="ny-logo">
+                    <div class="ny-logo-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div>Ny<span>Basket</span> <span style="font-size:0.75rem; font-weight:700; color:var(--primary); background:var(--primary-light); padding:2px 8px; border-radius:12px; margin-left:6px;">BI Suite</span></div>
+                </a>
+
+                <ul class="ny-nav-links">
+                    <li><a href="index.html" class="ny-nav-link"><i class="fas fa-store"></i> Storefront</a></li>
+                    <li><a href="products.html" class="ny-nav-link"><i class="fas fa-th-large"></i> Products</a></li>
+                    <li><a href="dashboard.html" class="ny-nav-link active"><i class="fas fa-chart-pie"></i> Executive BI</a></li>
+                    <li><a href="customers.html" class="ny-nav-link"><i class="fas fa-users"></i> Customers</a></li>
+                    <li><a href="analytics.html" class="ny-nav-link"><i class="fas fa-chart-line"></i> Deep Analytics</a></li>
+                </ul>
+
+                <div class="ny-nav-actions">
+                    <button class="ny-icon-btn" id="theme-toggle-btn" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+                    <a href="cart.html" class="ny-icon-btn" title="View Basket">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="ny-badge-counter cart-count-badge" style="display:none;">0</span>
+                    </a>
+                    <div class="ny-user-menu">
+                        <button class="ny-icon-btn" id="user-profile-btn"><i class="fas fa-user-circle"></i></button>
+                        <div class="ny-user-dropdown" id="user-dropdown-menu">
+                            <div class="ny-user-dropdown-header" id="user-dropdown-header">
+                                <div class="ny-user-name">Administrator</div>
+                                <div class="ny-user-email">admin@nybasket.com</div>
+                            </div>
+                            <a href="dashboard.html" class="ny-dropdown-item"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                            <a href="index.html" class="ny-dropdown-item"><i class="fas fa-store"></i> Storefront</a>
+                            <a href="#" class="ny-dropdown-item" id="logout-btn" style="color:var(--danger);"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="ny-dashboard-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="ny-dashboard-sidebar">
+            <div class="ny-sidebar-header">
+                <span class="ny-sidebar-role-badge"><i class="fas fa-shield-alt"></i> Analytics Console</span>
+            </div>
+
+            <div class="ny-sidebar-nav-group">
+                <span class="ny-sidebar-group-title">Overview</span>
+                <a href="dashboard.html" class="ny-sidebar-item active">
+                    <i class="fas fa-tachometer-alt"></i> Executive Dashboard
+                </a>
+                <a href="analytics.html" class="ny-sidebar-item">
+                    <i class="fas fa-chart-line"></i> Sales Analytics
+                </a>
+                <a href="customers.html" class="ny-sidebar-item">
+                    <i class="fas fa-users"></i> Customer Segmentation
+                </a>
+            </div>
+
+            <div class="ny-sidebar-nav-group">
+                <span class="ny-sidebar-group-title">Operations & BI</span>
+                <a href="analytics.html" class="ny-sidebar-item">
+                    <i class="fas fa-boxes"></i> Inventory Valuation
+                </a>
+                <a href="analytics.html" class="ny-sidebar-item">
+                    <i class="fas fa-undo-alt"></i> Returns & Cancellations
+                </a>
+                <a href="products.html" class="ny-sidebar-item">
+                    <i class="fas fa-tags"></i> Product Catalog
+                </a>
+                <a href="index.html" class="ny-sidebar-item">
+                    <i class="fas fa-external-link-alt"></i> Live Storefront
+                </a>
+            </div>
+
+            <div style="margin-top:auto; padding:1rem; background:var(--bg-surface-secondary); border-radius:var(--radius-md); font-size:0.8rem; color:var(--text-secondary);">
+                <div style="font-weight:700; color:var(--text-primary); margin-bottom:2px;"><i class="fas fa-database"></i> SQLite Database</div>
+                <div>Connected to <code>nybasket.db</code> (280+ Orders)</div>
+            </div>
+        </aside>
+
+        <!-- Main Dashboard Content -->
+        <main class="ny-dashboard-main">
+            <!-- Topbar Header -->
+            <div class="ny-dashboard-topbar">
+                <div>
+                    <h1 class="ny-dashboard-title">Executive Sales & KPI Dashboard</h1>
+                    <p class="ny-dashboard-subtitle">Real-time financial performance, profitability metrics, and machine intelligence insights.</p>
+                </div>
+
+                <div class="ny-dashboard-actions">
+                    <button class="ny-btn ny-btn-secondary ny-btn-sm" onclick="loadDashboardData()">
+                        <i class="fas fa-sync-alt"></i> Refresh Data
+                    </button>
+                    <a href="data/ecommerce_data.csv" download class="ny-btn ny-btn-primary ny-btn-sm">
+                        <i class="fas fa-file-csv"></i> Download Dataset CSV
+                    </a>
+                </div>
+            </div>
+
+            <!-- Top 6 KPI Metric Cards -->
+            <div class="ny-kpi-grid">
+                <!-- Total Revenue -->
+                <div class="ny-kpi-card">
+                    <div class="ny-kpi-top">
+                        <div class="ny-kpi-icon-box ny-kpi-icon-revenue">
+                            <i class="fas fa-rupee-sign"></i>
+                        </div>
+                        <span class="ny-kpi-trend-pill positive" id="kpi-revenue-trend">
+                            <i class="fas fa-arrow-up"></i> +14.8%
+                        </span>
+                    </div>
+                    <div class="ny-kpi-label">Total Gross Revenue</div>
+                    <div class="ny-kpi-value" id="kpi-revenue">₹0.00</div>
+                    <div class="ny-kpi-subtext">Completed & Shipped Orders</div>
+                </div>
+
+                <!-- Total Profit -->
+                <div class="ny-kpi-card">
+                    <div class="ny-kpi-top">
+                        <div class="ny-kpi-icon-box ny-kpi-icon-profit">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <span class="ny-kpi-trend-pill positive">
+                            <i class="fas fa-check"></i> High Margin
+                        </span>
+                    </div>
+                    <div class="ny-kpi-label">Total Net Profit</div>
+                    <div class="ny-kpi-value" id="kpi-profit" style="color:var(--accent);">₹0.00</div>
+                    <div class="ny-kpi-subtext" id="kpi-profit-sub">53.8% Margin</div>
+                </div>
+
+                <!-- Total Orders -->
+                <div class="ny-kpi-card">
+                    <div class="ny-kpi-top">
+                        <div class="ny-kpi-icon-box ny-kpi-icon-orders">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <span class="ny-kpi-trend-pill positive" id="kpi-orders-trend">
+                            <i class="fas fa-arrow-up"></i> +12.3%
+                        </span>
+                    </div>
+                    <div class="ny-kpi-label">Total Orders</div>
+                    <div class="ny-kpi-value" id="kpi-orders">0</div>
+                    <div class="ny-kpi-subtext">Volume Velocity</div>
+                </div>
+
+                <!-- Average Order Value (AOV) -->
+                <div class="ny-kpi-card">
+                    <div class="ny-kpi-top">
+                        <div class="ny-kpi-icon-box ny-kpi-icon-aov">
+                            <i class="fas fa-receipt"></i>
+                        </div>
+                        <span class="ny-kpi-trend-pill positive" id="kpi-aov-trend">
+                            <i class="fas fa-arrow-up"></i> +4.2%
+                        </span>
+                    </div>
+                    <div class="ny-kpi-label">Avg Order Value (AOV)</div>
+                    <div class="ny-kpi-value" id="kpi-aov">₹0.00</div>
+                    <div class="ny-kpi-subtext">Per Basket Average</div>
+                </div>
+
+                <!-- Total Customers -->
+                <div class="ny-kpi-card">
+                    <div class="ny-kpi-top">
+                        <div class="ny-kpi-icon-box ny-kpi-icon-customers">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <span class="ny-kpi-trend-pill positive">
+                            <i class="fas fa-user-check"></i> 80% Retention
+                        </span>
+                    </div>
+                    <div class="ny-kpi-label">Total Active Customers</div>
+                    <div class="ny-kpi-value" id="kpi-customers">0</div>
+                    <div class="ny-kpi-subtext" id="kpi-customers-sub">80% Repeat Buyers</div>
+                </div>
+
+                <!-- Total Products -->
+                <div class="ny-kpi-card">
+                    <div class="ny-kpi-top">
+                        <div class="ny-kpi-icon-box ny-kpi-icon-products">
+                            <i class="fas fa-boxes"></i>
+                        </div>
+                        <span class="ny-kpi-trend-pill positive">
+                            <i class="fas fa-layer-group"></i> 6 Categories
+                        </span>
+                    </div>
+                    <div class="ny-kpi-label">Active SKUs / Products</div>
+                    <div class="ny-kpi-value" id="kpi-products">100</div>
+                    <div class="ny-kpi-subtext">Multi-category catalog</div>
+                </div>
+            </div>
+
+            <!-- Charts Section 1: Monthly Sales & Category Doughnut -->
+            <div class="ny-charts-grid-2col">
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title">
+                            <i class="fas fa-chart-area" style="color:var(--primary);"></i> Monthly Revenue & Profit Trend
+                        </div>
+                        <span style="font-size:0.8rem; color:var(--text-muted);">Last 12 Months</span>
+                    </div>
+                    <div class="ny-chart-container">
+                        <canvas id="chart-monthly-sales"></canvas>
+                    </div>
+                </div>
+
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title">
+                            <i class="fas fa-chart-pie" style="color:var(--secondary);"></i> Revenue by Category
+                        </div>
+                    </div>
+                    <div class="ny-chart-container">
+                        <canvas id="chart-category-revenue"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Regional Performance & Top Products -->
+            <div class="ny-charts-grid-2col">
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title">
+                            <i class="fas fa-map-marked-alt" style="color:var(--info);"></i> Regional Market Performance
+                        </div>
+                    </div>
+                    <div class="ny-chart-container">
+                        <canvas id="chart-regional-sales"></canvas>
+                    </div>
+                </div>
+
+                <!-- Top 10 Best Sellers Table -->
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title">
+                            <i class="fas fa-award" style="color:var(--warning);"></i> Top Best-Selling Products
+                        </div>
+                        <a href="products.html" class="ny-btn ny-btn-secondary ny-btn-sm">View All</a>
+                    </div>
+                    <div class="ny-table-responsive" style="max-height:300px; overflow-y:auto;">
+                        <table class="ny-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Product</th>
+                                    <th>Sold</th>
+                                    <th>Revenue</th>
+                                    <th>Profit</th>
+                                    <th>Margin</th>
+                                </tr>
+                            </thead>
+                            <tbody id="dashboard-top-products-tbody">
+                                <!-- Rendered dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Automated Strategic Decision Engine (CEO & CMO Questions) -->
+            <div>
+                <div class="ny-section-header" style="margin-bottom:1.5rem;">
+                    <div>
+                        <h2 style="font-size:1.5rem; display:flex; align-items:center; gap:0.5rem;">
+                            <i class="fas fa-brain" style="color:var(--primary);"></i> Automated Business Intelligence Insights
+                        </h2>
+                        <p style="color:var(--text-secondary); font-size:0.9rem;">
+                            Python analytics engine answers strategic leadership queries directly from database metrics.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="ny-insights-grid">
+                    <!-- CEO Questions -->
+                    <div class="ny-insight-box">
+                        <h3 style="font-size:1.15rem; color:var(--primary); display:flex; align-items:center; gap:0.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.75rem;">
+                            <i class="fas fa-user-tie"></i> Chief Executive Officer (CEO) Insights
+                        </h3>
+                        <div id="ceo-insights-list" style="display:flex; flex-direction:column; gap:0.75rem;">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+
+                    <!-- CMO Questions -->
+                    <div class="ny-insight-box">
+                        <h3 style="font-size:1.15rem; color:var(--accent); display:flex; align-items:center; gap:0.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.75rem;">
+                            <i class="fas fa-bullhorn"></i> Chief Marketing Officer (CMO) Insights
+                        </h3>
+                        <div id="cmo-insights-list" style="display:flex; flex-direction:column; gap:0.75rem;">
+                            <!-- Dynamically populated -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/dashboard.js"></script>
+</body>
+</html>

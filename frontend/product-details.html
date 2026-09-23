@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details – NyBasket</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ecommerce.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="ny-header">
+        <div class="ny-container">
+            <nav class="ny-navbar">
+                <a href="index.html" class="ny-logo">
+                    <div class="ny-logo-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div>Ny<span>Basket</span></div>
+                </a>
+
+                <div class="ny-search-wrapper">
+                    <i class="fas fa-search ny-search-icon"></i>
+                    <input type="text" class="ny-search-input" placeholder="Search catalog..." id="header-search">
+                    <div class="ny-search-results" id="header-search-results"></div>
+                </div>
+
+                <ul class="ny-nav-links">
+                    <li><a href="index.html" class="ny-nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="products.html" class="ny-nav-link active"><i class="fas fa-th-large"></i> Products</a></li>
+                    <li><a href="dashboard.html" class="ny-nav-link"><i class="fas fa-chart-pie"></i> Executive BI</a></li>
+                    <li><a href="customers.html" class="ny-nav-link"><i class="fas fa-users"></i> Customers</a></li>
+                    <li><a href="analytics.html" class="ny-nav-link"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                </ul>
+
+                <div class="ny-nav-actions">
+                    <button class="ny-icon-btn" id="theme-toggle-btn" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+                    <a href="cart.html" class="ny-icon-btn" title="View Basket">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="ny-badge-counter cart-count-badge" style="display:none;">0</span>
+                    </a>
+                    <div class="ny-user-menu">
+                        <a href="login.html" class="ny-btn ny-btn-primary ny-btn-sm" id="nav-login-btn"><i class="fas fa-sign-in-alt"></i> Login</a>
+                        <button class="ny-icon-btn" id="user-profile-btn" style="display:none;"><i class="fas fa-user-circle"></i></button>
+                        <div class="ny-user-dropdown" id="user-dropdown-menu">
+                            <div class="ny-user-dropdown-header" id="user-dropdown-header"></div>
+                            <a href="dashboard.html" class="ny-dropdown-item"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                            <a href="#" class="ny-dropdown-item" id="logout-btn" style="color:var(--danger);"><i class="fas fa-sign-out-alt"></i> Logout</a>
+                        </div>
+                    </div>
+                    <button class="ny-mobile-toggle"><i class="fas fa-bars"></i></button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="ny-container" style="padding-top: 2rem;">
+        <!-- Breadcrumb Navigation -->
+        <nav style="font-size:0.85rem; color:var(--text-muted); margin-bottom:1.5rem; display:flex; align-items:center; gap:0.5rem;">
+            <a href="index.html" style="color:var(--text-secondary);">Home</a>
+            <i class="fas fa-chevron-right" style="font-size:0.7rem;"></i>
+            <a href="products.html" style="color:var(--text-secondary);">Products</a>
+            <i class="fas fa-chevron-right" style="font-size:0.7rem;"></i>
+            <a href="#" id="details-breadcrumb-category" style="color:var(--text-secondary);">Category</a>
+            <i class="fas fa-chevron-right" style="font-size:0.7rem;"></i>
+            <span id="details-breadcrumb-title" style="color:var(--primary); font-weight:600;">Product</span>
+        </nav>
+
+        <!-- Product Details Layout -->
+        <div class="ny-product-details-layout">
+            <!-- Large Image Preview -->
+            <div class="ny-details-gallery">
+                <div class="ny-details-main-img">
+                    <img src="" alt="Product Image" id="details-img">
+                </div>
+            </div>
+
+            <!-- Product Info & Actions -->
+            <div class="ny-details-info">
+                <div>
+                    <span class="ny-card-category" id="details-category" style="font-size:0.85rem;">Category</span>
+                    <h1 class="ny-details-title" id="details-title">Loading product details...</h1>
+                    
+                    <div class="ny-card-rating" id="details-rating" style="margin-top:0.5rem; font-size:0.95rem;">
+                        <!-- Rating details -->
+                    </div>
+                </div>
+
+                <div class="ny-details-pricing">
+                    <div>
+                        <span class="ny-details-price" id="details-price">₹0</span>
+                        <span class="ny-price-original" id="details-original-price" style="font-size:1.1rem; margin-left:0.5rem;">₹0</span>
+                    </div>
+                    <span class="ny-discount-tag" id="details-save-amount">Save 20%</span>
+                </div>
+
+                <div>
+                    <span id="details-stock-badge" class="badge-stock-in">In Stock</span>
+                </div>
+
+                <div>
+                    <h4 style="font-size:1rem; margin-bottom:0.5rem;">Product Overview</h4>
+                    <p id="details-description" style="color:var(--text-secondary); font-size:0.95rem; line-height:1.6;"></p>
+                </div>
+
+                <!-- Quantity and Buttons -->
+                <div style="display:flex; align-items:center; gap:1.25rem; margin-top:1rem; flex-wrap:wrap;">
+                    <div class="ny-qty-counter">
+                        <button class="ny-qty-btn" id="details-qty-minus">-</button>
+                        <span class="ny-qty-val" id="details-qty-val">1</span>
+                        <button class="ny-qty-btn" id="details-qty-plus">+</button>
+                    </div>
+
+                    <button class="ny-btn ny-btn-primary ny-btn-lg" id="details-add-cart-btn">
+                        <i class="fas fa-shopping-basket"></i> Add to Basket
+                    </button>
+
+                    <button class="ny-btn ny-btn-accent ny-btn-lg" id="details-buy-now-btn">
+                        <i class="fas fa-bolt"></i> Buy Now
+                    </button>
+                </div>
+
+                <!-- Value Badges -->
+                <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:1rem; margin-top:2rem; padding-top:1.5rem; border-top:1px solid var(--border-color);">
+                    <div style="display:flex; align-items:center; gap:0.6rem; font-size:0.85rem; color:var(--text-secondary);">
+                        <i class="fas fa-shipping-fast" style="color:var(--primary); font-size:1.2rem;"></i>
+                        <span>Free Shipping over ₹999</span>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:0.6rem; font-size:0.85rem; color:var(--text-secondary);">
+                        <i class="fas fa-shield-alt" style="color:var(--accent); font-size:1.2rem;"></i>
+                        <span>1 Year Warranty</span>
+                    </div>
+                    <div style="display:flex; align-items:center; gap:0.6rem; font-size:0.85rem; color:var(--text-secondary);">
+                        <i class="fas fa-undo-alt" style="color:var(--info); font-size:1.2rem;"></i>
+                        <span>7-Day Easy Returns</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Related Products Section -->
+        <section style="margin: 4.5rem 0 3rem;">
+            <div class="ny-section-header">
+                <div>
+                    <h3 style="font-size:1.5rem;">Customers Who Bought This Also Purchased</h3>
+                    <p style="color:var(--text-secondary); font-size:0.9rem;">Frequently paired recommendations based on category relevance</p>
+                </div>
+            </div>
+
+            <div class="ny-products-grid" id="related-products-grid" style="grid-template-columns:repeat(auto-fill, minmax(240px, 1fr));">
+                <!-- Loaded dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="ny-footer">
+        <div class="ny-container">
+            <div class="ny-footer-bottom" style="border:none; padding-top:0;">
+                <div>© 2026 NyBasket Platform. B.Tech Data Science & Full-Stack Portfolio.</div>
+                <div class="ny-portfolio-pill"><i class="fas fa-check-circle"></i> Complete End-to-End Storefront</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/product-details.js"></script>
+</body>
+</html>

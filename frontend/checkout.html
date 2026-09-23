@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout & Payment – NyBasket</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ecommerce.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="ny-header">
+        <div class="ny-container">
+            <nav class="ny-navbar">
+                <a href="index.html" class="ny-logo">
+                    <div class="ny-logo-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div>Ny<span>Basket</span></div>
+                </a>
+
+                <ul class="ny-nav-links">
+                    <li><a href="index.html" class="ny-nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="products.html" class="ny-nav-link"><i class="fas fa-th-large"></i> Products</a></li>
+                    <li><a href="dashboard.html" class="ny-nav-link"><i class="fas fa-chart-pie"></i> Executive BI</a></li>
+                </ul>
+
+                <div class="ny-nav-actions">
+                    <button class="ny-icon-btn" id="theme-toggle-btn" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+                    <a href="cart.html" class="ny-icon-btn" title="View Basket">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="ny-badge-counter cart-count-badge" style="display:none;">0</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="ny-container">
+        <div class="ny-checkout-layout">
+            <!-- Left Form & Payment Selector -->
+            <div>
+                <form id="checkout-form">
+                    <!-- Shipping Address Card -->
+                    <div class="ny-form-card">
+                        <h3 style="font-size:1.35rem; margin-bottom:1.25rem; display:flex; align-items:center; gap:0.6rem;">
+                            <i class="fas fa-map-marker-alt" style="color:var(--primary);"></i> 1. Shipping Information
+                        </h3>
+
+                        <div class="ny-form-grid">
+                            <div class="ny-form-group">
+                                <label class="ny-label">Full Customer Name *</label>
+                                <input type="text" class="ny-input" id="cust-name" placeholder="e.g. Aarav Sharma" required>
+                            </div>
+
+                            <div class="ny-form-group">
+                                <label class="ny-label">Email Address *</label>
+                                <input type="email" class="ny-input" id="cust-email" placeholder="e.g. aarav@gmail.com" required>
+                            </div>
+
+                            <div class="ny-form-group">
+                                <label class="ny-label">Phone Number *</label>
+                                <input type="tel" class="ny-input" id="cust-phone" placeholder="e.g. +91 98765 43210" required>
+                            </div>
+
+                            <div class="ny-form-group">
+                                <label class="ny-label">Pincode / Postal Code *</label>
+                                <input type="text" class="ny-input" id="cust-pincode" placeholder="e.g. 400001" required>
+                            </div>
+
+                            <div class="ny-form-group ny-form-full">
+                                <label class="ny-label">Street Address / Flat / Building *</label>
+                                <input type="text" class="ny-input" id="cust-address" placeholder="e.g. 402, Highline Residency, Linking Road" required>
+                            </div>
+
+                            <div class="ny-form-group">
+                                <label class="ny-label">City *</label>
+                                <input type="text" class="ny-input" id="cust-city" placeholder="e.g. Mumbai" required>
+                            </div>
+
+                            <div class="ny-form-group">
+                                <label class="ny-label">State *</label>
+                                <input type="text" class="ny-input" id="cust-state" placeholder="e.g. Maharashtra" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Payment Method Card -->
+                    <div class="ny-form-card">
+                        <h3 style="font-size:1.35rem; margin-bottom:1.25rem; display:flex; align-items:center; gap:0.6rem;">
+                            <i class="fas fa-credit-card" style="color:var(--accent);"></i> 2. Payment Method (Demo)
+                        </h3>
+
+                        <div class="ny-payment-options">
+                            <div class="ny-payment-card active" data-method="UPI">
+                                <i class="fas fa-mobile-alt" style="font-size:1.5rem; color:var(--primary);"></i>
+                                <div>
+                                    <div style="font-weight:700;">UPI / QR</div>
+                                    <div style="font-size:0.75rem; color:var(--text-muted);">GPay, PhonePe, Paytm</div>
+                                </div>
+                            </div>
+
+                            <div class="ny-payment-card" data-method="Credit Card">
+                                <i class="fas fa-credit-card" style="font-size:1.5rem; color:var(--secondary);"></i>
+                                <div>
+                                    <div style="font-weight:700;">Credit / Debit Card</div>
+                                    <div style="font-size:0.75rem; color:var(--text-muted);">Visa, MasterCard, RuPay</div>
+                                </div>
+                            </div>
+
+                            <div class="ny-payment-card" data-method="Cash on Delivery">
+                                <i class="fas fa-money-bill-wave" style="font-size:1.5rem; color:var(--accent);"></i>
+                                <div>
+                                    <div style="font-weight:700;">Cash on Delivery</div>
+                                    <div style="font-size:0.75rem; color:var(--text-muted);">Pay cash upon arrival</div>
+                                </div>
+                            </div>
+
+                            <div class="ny-payment-card" data-method="Demo Payment">
+                                <i class="fas fa-magic" style="font-size:1.5rem; color:var(--warning);"></i>
+                                <div>
+                                    <div style="font-weight:700;">Instant Demo Pay</div>
+                                    <div style="font-size:0.75rem; color:var(--text-muted);">One-click simulation</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <p style="font-size:0.8rem; color:var(--text-muted); margin-top:1rem;">
+                            <i class="fas fa-info-circle"></i> This is a portfolio analytics simulation. No real money or payment processing is executed.
+                        </p>
+                    </div>
+
+                    <button type="submit" class="ny-btn ny-btn-primary ny-btn-lg" id="place-order-btn" style="width:100%; padding:1rem; font-size:1.1rem;">
+                        <i class="fas fa-lock"></i> Place Order Now
+                    </button>
+                </form>
+            </div>
+
+            <!-- Right Order Summary -->
+            <div>
+                <div class="ny-cart-summary-card">
+                    <h3 style="font-size:1.35rem; margin-bottom:1.25rem;">Review Basket</h3>
+
+                    <div id="checkout-items-preview" style="max-height:280px; overflow-y:auto; margin-bottom:1.25rem; padding-right:0.5rem;">
+                        <!-- Rendered dynamically -->
+                    </div>
+
+                    <div class="ny-summary-row">
+                        <span>Items Subtotal</span>
+                        <strong id="checkout-subtotal">₹0.00</strong>
+                    </div>
+
+                    <div class="ny-summary-row">
+                        <span>GST (18%)</span>
+                        <strong id="checkout-tax">₹0.00</strong>
+                    </div>
+
+                    <div class="ny-summary-row">
+                        <span>Shipping</span>
+                        <strong id="checkout-shipping">FREE</strong>
+                    </div>
+
+                    <div class="ny-summary-row total">
+                        <span>Grand Total</span>
+                        <span id="checkout-grand-total" style="color:var(--primary);">₹0.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Order Success Receipt Modal -->
+    <div id="order-success-modal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.65); z-index:9999; backdrop-filter:blur(6px); align-items:center; justify-content:center; padding:1.5rem;">
+        <div style="background:var(--bg-surface); border-radius:var(--radius-xl); max-width:520px; width:100%; padding:2.5rem; text-align:center; box-shadow:var(--shadow-xl); border:1px solid var(--border-color); animation:toastSlideIn 0.4s ease;">
+            <div style="width:70px; height:70px; border-radius:var(--radius-full); background:var(--accent-light); color:var(--accent); display:flex; align-items:center; justify-content:center; font-size:2.2rem; margin:0 auto 1.5rem;">
+                <i class="fas fa-check"></i>
+            </div>
+
+            <h2 style="font-size:1.85rem; margin-bottom:0.5rem; color:var(--text-primary);">Order Placed Successfully!</h2>
+            <p style="color:var(--text-secondary); font-size:0.95rem; margin-bottom:1.75rem;">
+                Thank you for shopping with NyBasket. Your order has been recorded into the live analytics database.
+            </p>
+
+            <div style="background:var(--bg-surface-secondary); border-radius:var(--radius-md); padding:1.25rem; text-align:left; font-size:0.9rem; margin-bottom:1.75rem; display:flex; flex-direction:column; gap:0.5rem;">
+                <div style="display:flex; justify-content:space-between;">
+                    <span style="color:var(--text-muted);">Order ID:</span>
+                    <strong id="modal-order-id" style="color:var(--primary);">#NYB-00000</strong>
+                </div>
+                <div style="display:flex; justify-content:space-between;">
+                    <span style="color:var(--text-muted);">Date & Time:</span>
+                    <span id="modal-order-date">2026-09-23</span>
+                </div>
+                <div style="display:flex; justify-content:space-between;">
+                    <span style="color:var(--text-muted);">Customer:</span>
+                    <span id="modal-customer-name">Aarav Sharma</span>
+                </div>
+                <div style="display:flex; justify-content:space-between;">
+                    <span style="color:var(--text-muted);">Payment:</span>
+                    <span id="modal-order-payment">UPI</span>
+                </div>
+                <div style="display:flex; justify-content:space-between;">
+                    <span style="color:var(--text-muted);">Order Status:</span>
+                    <span class="badge-stock-in" id="modal-order-status">Completed</span>
+                </div>
+                <div style="display:flex; justify-content:space-between; border-top:1px solid var(--border-color); padding-top:0.5rem; margin-top:0.25rem; font-size:1.05rem;">
+                    <strong>Total Amount:</strong>
+                    <strong id="modal-order-total" style="color:var(--primary);">₹0.00</strong>
+                </div>
+            </div>
+
+            <div style="display:flex; gap:1rem;">
+                <a href="dashboard.html" class="ny-btn ny-btn-primary" style="flex:1;">
+                    <i class="fas fa-chart-pie"></i> View Live BI Dashboard
+                </a>
+                <a href="products.html" class="ny-btn ny-btn-secondary" style="flex:1;">
+                    Continue Shopping
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="ny-footer">
+        <div class="ny-container">
+            <div class="ny-footer-bottom" style="border:none; padding-top:0;">
+                <div>© 2026 NyBasket Platform. B.Tech Data Science & Full-Stack Portfolio.</div>
+                <div class="ny-portfolio-pill"><i class="fas fa-database"></i> SQLite Transactional Logging</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/checkout.js"></script>
+</body>
+</html>

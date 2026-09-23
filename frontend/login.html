@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In – NyBasket</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ecommerce.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="ny-header">
+        <div class="ny-container">
+            <nav class="ny-navbar">
+                <a href="index.html" class="ny-logo">
+                    <div class="ny-logo-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div>Ny<span>Basket</span></div>
+                </a>
+
+                <ul class="ny-nav-links">
+                    <li><a href="index.html" class="ny-nav-link"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="products.html" class="ny-nav-link"><i class="fas fa-th-large"></i> Products</a></li>
+                    <li><a href="dashboard.html" class="ny-nav-link"><i class="fas fa-chart-pie"></i> Executive BI</a></li>
+                </ul>
+
+                <div class="ny-nav-actions">
+                    <button class="ny-icon-btn" id="theme-toggle-btn" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+                    <a href="cart.html" class="ny-icon-btn" title="View Basket">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="ny-badge-counter cart-count-badge" style="display:none;">0</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="ny-auth-wrapper">
+        <div class="ny-auth-card">
+            <div class="ny-auth-header">
+                <div class="ny-logo-icon" style="margin: 0 auto 1rem; width:50px; height:50px; font-size:1.5rem;">
+                    <i class="fas fa-lock"></i>
+                </div>
+                <h2 style="font-size: 1.85rem; margin-bottom: 0.35rem;">Welcome Back</h2>
+                <p style="color: var(--text-secondary); font-size: 0.9rem;">Sign in to your NyBasket account</p>
+            </div>
+
+            <!-- Demo Credentials Quick-Fill -->
+            <div class="ny-demo-credentials-box">
+                <div style="font-weight: 700; margin-bottom: 4px; color: var(--text-primary);"><i class="fas fa-key"></i> Quick Demo Auto-Fill:</div>
+                <div style="color: var(--text-secondary); font-size: 0.8rem;">Click to instantly test admin analytics or customer shopping:</div>
+                <div class="ny-demo-btns">
+                    <button type="button" class="ny-btn ny-btn-outline ny-btn-sm" id="fill-admin-btn" style="flex:1;">
+                        <i class="fas fa-user-shield"></i> Demo Admin
+                    </button>
+                    <button type="button" class="ny-btn ny-btn-secondary ny-btn-sm" id="fill-customer-btn" style="flex:1;">
+                        <i class="fas fa-user"></i> Demo Customer
+                    </button>
+                </div>
+            </div>
+
+            <form id="login-form">
+                <div class="ny-form-group" style="margin-bottom: 1.25rem;">
+                    <label class="ny-label">Email Address</label>
+                    <input type="email" class="ny-input" id="login-email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="ny-form-group" style="margin-bottom: 1.5rem;">
+                    <label class="ny-label">Password</label>
+                    <input type="password" class="ny-input" id="login-password" placeholder="••••••••" required>
+                </div>
+
+                <button type="submit" class="ny-btn ny-btn-primary" id="login-submit-btn" style="width:100%; padding:0.85rem; font-size:1rem;">
+                    Sign In
+                </button>
+            </form>
+
+            <div style="text-align: center; margin-top: 1.5rem; font-size: 0.9rem; color: var(--text-secondary);">
+                Don't have an account? <a href="register.html" style="font-weight: 700;">Create an account</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="ny-footer">
+        <div class="ny-container">
+            <div class="ny-footer-bottom" style="border:none; padding-top:0;">
+                <div>© 2026 NyBasket Platform. B.Tech Data Science & Full-Stack Portfolio.</div>
+                <div class="ny-portfolio-pill"><i class="fas fa-lock"></i> Hashed Password Authentication</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/auth.js"></script>
+</body>
+</html>

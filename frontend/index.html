@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NyBasket – Smart E-Commerce & Customer Analytics Platform</title>
+    <meta name="description" content="NyBasket combines an intuitive, modern shopping experience with high-powered business intelligence and customer analytics.">
+    
+    <!-- CSS Stylesheets & CDNs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/ecommerce.css">
+</head>
+<body>
+
+    <!-- Top Navigation Bar -->
+    <header class="ny-header">
+        <div class="ny-container">
+            <nav class="ny-navbar">
+                <!-- Brand Logo -->
+                <a href="index.html" class="ny-logo">
+                    <div class="ny-logo-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <div>Ny<span>Basket</span></div>
+                </a>
+
+                <!-- Search Input with Live Autocomplete -->
+                <div class="ny-search-wrapper">
+                    <i class="fas fa-search ny-search-icon"></i>
+                    <input type="text" class="ny-search-input" placeholder="Search 100+ products, brands, categories..." id="header-search">
+                    <div class="ny-search-results" id="header-search-results"></div>
+                </div>
+
+                <!-- Navigation Links -->
+                <ul class="ny-nav-links">
+                    <li><a href="index.html" class="ny-nav-link active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="products.html" class="ny-nav-link"><i class="fas fa-th-large"></i> Products</a></li>
+                    <li><a href="dashboard.html" class="ny-nav-link"><i class="fas fa-chart-pie"></i> Executive BI <span class="ny-nav-badge">Live</span></a></li>
+                    <li><a href="customers.html" class="ny-nav-link"><i class="fas fa-users"></i> Customers</a></li>
+                    <li><a href="analytics.html" class="ny-nav-link"><i class="fas fa-chart-line"></i> Analytics</a></li>
+                </ul>
+
+                <!-- Action Icons (Theme, Cart, Auth) -->
+                <div class="ny-nav-actions">
+                    <!-- Dark Mode Toggle -->
+                    <button class="ny-icon-btn" id="theme-toggle-btn" title="Toggle Light/Dark Theme">
+                        <i class="fas fa-moon"></i>
+                    </button>
+
+                    <!-- Cart Icon with Live Counter -->
+                    <a href="cart.html" class="ny-icon-btn" title="View Basket">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="ny-badge-counter cart-count-badge" style="display:none;">0</span>
+                    </a>
+
+                    <!-- User Profile / Login -->
+                    <div class="ny-user-menu">
+                        <a href="login.html" class="ny-btn ny-btn-primary ny-btn-sm" id="nav-login-btn">
+                            <i class="fas fa-sign-in-alt"></i> Login
+                        </a>
+                        <button class="ny-icon-btn" id="user-profile-btn" style="display:none;" title="User Profile">
+                            <i class="fas fa-user-circle"></i>
+                        </button>
+                        <div class="ny-user-dropdown" id="user-dropdown-menu">
+                            <div class="ny-user-dropdown-header" id="user-dropdown-header">
+                                <div class="ny-user-name">User</div>
+                                <div class="ny-user-email">user@nybasket.com</div>
+                            </div>
+                            <a href="dashboard.html" class="ny-dropdown-item"><i class="fas fa-tachometer-alt"></i> BI Dashboard</a>
+                            <a href="cart.html" class="ny-dropdown-item"><i class="fas fa-shopping-cart"></i> My Basket</a>
+                            <a href="#" class="ny-dropdown-item" id="logout-btn" style="color:var(--danger);"><i class="fas fa-sign-out-alt"></i> Log Out</a>
+                        </div>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <button class="ny-mobile-toggle" aria-label="Toggle Navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="ny-hero">
+            <div class="ny-container">
+                <div class="ny-hero-grid">
+                    <div>
+                        <div class="ny-hero-tag">
+                            <i class="fas fa-bolt"></i> Next-Gen Retail Intelligence
+                        </div>
+                        <h1 class="ny-hero-title">
+                            Everything You Need.<br>
+                            <span>One Smart Basket.</span>
+                        </h1>
+                        <p class="ny-hero-subtitle">
+                            Discover quality hand-picked products across electronics, fashion, and lifestyle while exploring real-time sales & customer analytics.
+                        </p>
+                        <div class="ny-hero-actions">
+                            <a href="products.html" class="ny-btn ny-btn-primary ny-btn-lg">
+                                <i class="fas fa-shopping-cart"></i> Shop Now
+                            </a>
+                            <a href="dashboard.html" class="ny-btn ny-btn-secondary ny-btn-lg">
+                                <i class="fas fa-chart-pie"></i> Explore Analytics
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="ny-hero-visual">
+                        <div class="ny-hero-card-banner">
+                            <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&auto=format&fit=crop&q=80" alt="NyBasket Shopping Experience">
+                        </div>
+                        <div class="ny-floating-stat-card">
+                            <div class="ny-stat-badge-icon">
+                                <i class="fas fa-trophy"></i>
+                            </div>
+                            <div>
+                                <div style="font-weight:800; font-size:1.1rem; color:var(--text-primary);">₹1.39 Cr+</div>
+                                <div style="font-size:0.8rem; color:var(--text-secondary);">Simulated Sales Volume</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Statistics Bar -->
+        <section class="ny-stats-bar">
+            <div class="ny-container">
+                <div class="ny-stats-grid">
+                    <div>
+                        <div class="ny-stat-number" id="home-stat-customers">10K+</div>
+                        <div class="ny-stat-label"><i class="fas fa-users" style="color:var(--primary); margin-right:4px;"></i> Happy Customers</div>
+                    </div>
+                    <div>
+                        <div class="ny-stat-number" id="home-stat-orders">25K+</div>
+                        <div class="ny-stat-label"><i class="fas fa-box-check" style="color:var(--accent); margin-right:4px;"></i> Completed Orders</div>
+                    </div>
+                    <div>
+                        <div class="ny-stat-number" id="home-stat-products">100+</div>
+                        <div class="ny-stat-label"><i class="fas fa-tags" style="color:var(--secondary); margin-right:4px;"></i> Curated Products</div>
+                    </div>
+                    <div>
+                        <div class="ny-stat-number" id="home-stat-sales">₹1Cr+</div>
+                        <div class="ny-stat-label"><i class="fas fa-chart-line" style="color:var(--warning); margin-right:4px;"></i> Total Gross Sales</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Categories Section -->
+        <section class="ny-container" style="margin-bottom: 4rem;">
+            <div class="ny-section-header">
+                <div>
+                    <h2 class="ny-section-title">Shop by Category</h2>
+                    <p class="ny-section-subtitle">Browse through top trending collections curated for your lifestyle</p>
+                </div>
+                <a href="products.html" class="ny-btn ny-btn-outline ny-btn-sm">View All Categories <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="ny-categories-grid">
+                <a href="products.html?category=Electronics" class="ny-category-card">
+                    <div class="ny-category-icon-box"><i class="fas fa-laptop"></i></div>
+                    <div class="ny-category-name">Electronics</div>
+                </a>
+                <a href="products.html?category=Fashion" class="ny-category-card">
+                    <div class="ny-category-icon-box"><i class="fas fa-tshirt"></i></div>
+                    <div class="ny-category-name">Fashion</div>
+                </a>
+                <a href="products.html?category=Home%20%26%20Kitchen" class="ny-category-card">
+                    <div class="ny-category-icon-box"><i class="fas fa-couch"></i></div>
+                    <div class="ny-category-name">Home & Kitchen</div>
+                </a>
+                <a href="products.html?category=Beauty" class="ny-category-card">
+                    <div class="ny-category-icon-box"><i class="fas fa-spa"></i></div>
+                    <div class="ny-category-name">Beauty</div>
+                </a>
+                <a href="products.html?category=Sports" class="ny-category-card">
+                    <div class="ny-category-icon-box"><i class="fas fa-dumbbell"></i></div>
+                    <div class="ny-category-name">Sports</div>
+                </a>
+                <a href="products.html?category=Grocery" class="ny-category-card">
+                    <div class="ny-category-icon-box"><i class="fas fa-apple-alt"></i></div>
+                    <div class="ny-category-name">Grocery</div>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Trending Products Section -->
+        <section class="ny-container" style="margin-bottom: 5rem;">
+            <div class="ny-section-header">
+                <div>
+                    <h2 class="ny-section-title">Trending Best Sellers</h2>
+                    <p class="ny-section-subtitle">Top rated essentials loved by thousands of shoppers nationwide</p>
+                </div>
+                <a href="products.html" class="ny-btn ny-btn-primary ny-btn-sm">Explore All Products <i class="fas fa-arrow-right"></i></a>
+            </div>
+
+            <div class="ny-products-grid" id="home-featured-products">
+                <!-- Dynamically Populated by JavaScript -->
+            </div>
+        </section>
+
+        <!-- Analytics Feature Highlight Banner -->
+        <section class="ny-container" style="margin-bottom: 5rem;">
+            <div style="background: linear-gradient(135deg, #1e1b4b, #312e81); border-radius: var(--radius-xl); padding: 3.5rem; color: #ffffff; display: grid; grid-template-columns: 1.2fr 0.8fr; align-items: center; gap: 3rem; box-shadow: var(--shadow-xl);">
+                <div>
+                    <div style="background: rgba(255, 255, 255, 0.15); display: inline-flex; align-items: center; gap: 6px; padding: 4px 12px; border-radius: 999px; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1rem;">
+                        <i class="fas fa-database"></i> Portfolio Project Highlight
+                    </div>
+                    <h2 style="color: #ffffff; font-size: 2.2rem; margin-bottom: 1rem;">Real-Time Business Intelligence & Customer Analytics</h2>
+                    <p style="color: #cbd5e1; font-size: 1.05rem; margin-bottom: 2rem; line-height: 1.6;">
+                        NyBasket incorporates an end-to-end Python (Pandas/SQLAlchemy) analytics pipeline. Evaluate revenue, profit margins, RFM customer segmentation, return rates, and automated CEO/CMO strategic insights.
+                    </p>
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="dashboard.html" class="ny-btn ny-btn-accent ny-btn-lg">
+                            <i class="fas fa-tachometer-alt"></i> Open BI Dashboard
+                        </a>
+                        <a href="customers.html" class="ny-btn ny-btn-outline ny-btn-lg" style="color:#ffffff; border-color:#ffffff;">
+                            <i class="fas fa-users"></i> View Customer Segments
+                        </a>
+                    </div>
+                </div>
+                <div style="text-align: center;">
+                    <div style="background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.15); border-radius: var(--radius-lg); padding: 2rem; backdrop-filter: blur(8px);">
+                        <i class="fas fa-chart-pie" style="font-size: 4rem; color: #38bdf8; margin-bottom: 1rem;"></i>
+                        <h4 style="color: #ffffff; margin-bottom: 0.5rem;">Automated Decision Engine</h4>
+                        <p style="color: #94a3b8; font-size: 0.9rem;">Translates complex e-commerce transactional data into high-value executive business decisions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Global Footer -->
+    <footer class="ny-footer">
+        <div class="ny-container">
+            <div class="ny-footer-grid">
+                <div class="ny-footer-brand">
+                    <a href="index.html" class="ny-logo">
+                        <div class="ny-logo-icon"><i class="fas fa-shopping-bag"></i></div>
+                        <div>Ny<span>Basket</span></div>
+                    </a>
+                    <p>
+                        NyBasket is a full-stack e-commerce analytics platform simulating real-world retail transactions with business intelligence.
+                    </p>
+                    <div class="ny-footer-socials">
+                        <a href="#" class="ny-icon-btn"><i class="fab fa-github"></i></a>
+                        <a href="#" class="ny-icon-btn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="ny-icon-btn"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="ny-footer-title">Shopping</h4>
+                    <ul class="ny-footer-links">
+                        <li><a href="products.html?category=Electronics">Electronics</a></li>
+                        <li><a href="products.html?category=Fashion">Fashion & Apparel</a></li>
+                        <li><a href="products.html?category=Home%20%26%20Kitchen">Home & Kitchen</a></li>
+                        <li><a href="products.html?category=Beauty">Beauty & Personal Care</a></li>
+                        <li><a href="products.html?category=Sports">Sports & Fitness</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="ny-footer-title">Analytics & BI</h4>
+                    <ul class="ny-footer-links">
+                        <li><a href="dashboard.html">Executive Dashboard</a></li>
+                        <li><a href="customers.html">Customer Segmentation</a></li>
+                        <li><a href="analytics.html">Sales Trends & Reports</a></li>
+                        <li><a href="analytics.html">Inventory Valuation</a></li>
+                        <li><a href="analytics.html">Return & Cancellation Analysis</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="ny-footer-title">Stay Connected</h4>
+                    <p style="color:var(--text-secondary); font-size:0.9rem;">Subscribe for weekly retail analytics updates and product releases.</p>
+                    <form class="ny-newsletter-form" onsubmit="event.preventDefault(); showToast('Subscribed to NyBasket updates!', 'success');">
+                        <input type="email" class="ny-newsletter-input" placeholder="Enter your email" required>
+                        <button type="submit" class="ny-btn ny-btn-primary ny-btn-sm"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="ny-footer-bottom">
+                <div>
+                    © 2026 NyBasket Platform. Designed for B.Tech AI & Data Science Portfolio.
+                </div>
+                <div class="ny-portfolio-pill">
+                    <i class="fas fa-graduation-cap"></i> Data Analyst & Full-Stack Showcase
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            // Load trending products on home page
+            const container = document.getElementById('home-featured-products');
+            if (container) {
+                try {
+                    const res = await API.get('/api/products', { limit: 8, sort_by: 'popularity' });
+                    if (res.products) {
+                        container.innerHTML = res.products.map(p => {
+                            const original = Math.round(p.price * 1.25);
+                            return `
+                                <div class="ny-product-card">
+                                    <div class="ny-card-image-wrap">
+                                        <img src="${p.image_url}" alt="${p.name}" loading="lazy">
+                                        <span class="ny-card-badge">20% OFF</span>
+                                    </div>
+                                    <div class="ny-card-body">
+                                        <div class="ny-card-category">${p.category}</div>
+                                        <a href="product-details.html?id=${p.id}" class="ny-card-title">${p.name}</a>
+                                        <div class="ny-card-rating">
+                                            <i class="fas fa-star"></i> <strong>${p.rating}</strong> <span>(${p.review_count})</span>
+                                        </div>
+                                        <div class="ny-card-pricing">
+                                            <span class="ny-price-current">${formatCurrency(p.price)}</span>
+                                            <span class="ny-price-original">${formatCurrency(original)}</span>
+                                        </div>
+                                        <div class="ny-card-actions">
+                                            <button class="ny-btn ny-btn-primary ny-btn-sm" onclick='addToCart(${JSON.stringify(p).replace(/'/g, "&#39;")})'>
+                                                <i class="fas fa-shopping-basket"></i> Add
+                                            </button>
+                                            <a href="product-details.html?id=${p.id}" class="ny-btn ny-btn-secondary ny-btn-sm">
+                                                <i class="fas fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            `;
+                        }).join('');
+                    }
+                } catch(e){}
+            }
+        });
+    </script>
+</body>
+</html>

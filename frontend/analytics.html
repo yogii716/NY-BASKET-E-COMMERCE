@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep-Dive Business Analytics – NyBasket</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="ny-header">
+        <div class="ny-container">
+            <nav class="ny-navbar">
+                <a href="index.html" class="ny-logo">
+                    <div class="ny-logo-icon"><i class="fas fa-shopping-bag"></i></div>
+                    <div>Ny<span>Basket</span> <span style="font-size:0.75rem; font-weight:700; color:var(--primary); background:var(--primary-light); padding:2px 8px; border-radius:12px; margin-left:6px;">Deep BI</span></div>
+                </a>
+
+                <ul class="ny-nav-links">
+                    <li><a href="index.html" class="ny-nav-link"><i class="fas fa-store"></i> Storefront</a></li>
+                    <li><a href="products.html" class="ny-nav-link"><i class="fas fa-th-large"></i> Products</a></li>
+                    <li><a href="dashboard.html" class="ny-nav-link"><i class="fas fa-chart-pie"></i> Executive BI</a></li>
+                    <li><a href="customers.html" class="ny-nav-link"><i class="fas fa-users"></i> Customers</a></li>
+                    <li><a href="analytics.html" class="ny-nav-link active"><i class="fas fa-chart-line"></i> Deep Analytics</a></li>
+                </ul>
+
+                <div class="ny-nav-actions">
+                    <button class="ny-icon-btn" id="theme-toggle-btn" title="Toggle Theme"><i class="fas fa-moon"></i></button>
+                    <a href="cart.html" class="ny-icon-btn" title="View Basket">
+                        <i class="fas fa-shopping-basket"></i>
+                        <span class="ny-badge-counter cart-count-badge" style="display:none;">0</span>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div class="ny-dashboard-layout">
+        <!-- Sidebar Navigation -->
+        <aside class="ny-dashboard-sidebar">
+            <div class="ny-sidebar-header">
+                <span class="ny-sidebar-role-badge"><i class="fas fa-chart-line"></i> Analytical Suite</span>
+            </div>
+
+            <div class="ny-sidebar-nav-group">
+                <span class="ny-sidebar-group-title">Deep Dive Views</span>
+                <a href="#sales-tab" class="ny-sidebar-item active ny-tab-btn" data-tab="sales-tab">
+                    <i class="fas fa-chart-area"></i> Sales Analytics
+                </a>
+                <a href="#products-tab" class="ny-sidebar-item ny-tab-btn" data-tab="products-tab">
+                    <i class="fas fa-boxes"></i> Product Analytics
+                </a>
+                <a href="#returns-tab" class="ny-sidebar-item ny-tab-btn" data-tab="returns-tab">
+                    <i class="fas fa-undo"></i> Returns & Cancellations
+                </a>
+                <a href="#inventory-tab" class="ny-sidebar-item ny-tab-btn" data-tab="inventory-tab">
+                    <i class="fas fa-warehouse"></i> Inventory Analytics
+                </a>
+                <a href="#insights-tab" class="ny-sidebar-item ny-tab-btn" data-tab="insights-tab">
+                    <i class="fas fa-brain"></i> Strategic BI Insights
+                </a>
+            </div>
+
+            <div style="margin-top:auto; padding:1rem; background:var(--bg-surface-secondary); border-radius:var(--radius-md); font-size:0.8rem; color:var(--text-secondary);">
+                <div style="font-weight:700; color:var(--text-primary); margin-bottom:2px;"><i class="fas fa-code"></i> Python Analytics API</div>
+                <div>Pandas & SQLAlchemy Engine</div>
+            </div>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="ny-dashboard-main">
+            <!-- Topbar Navigation Tabs -->
+            <div class="ny-nav-tabs">
+                <button class="ny-tab-btn active" data-tab="sales-tab">
+                    <i class="fas fa-chart-area"></i> Sales Analytics
+                </button>
+                <button class="ny-tab-btn" data-tab="products-tab">
+                    <i class="fas fa-boxes"></i> Product Profitability
+                </button>
+                <button class="ny-tab-btn" data-tab="returns-tab">
+                    <i class="fas fa-undo"></i> Returns & Cancellations
+                </button>
+                <button class="ny-tab-btn" data-tab="inventory-tab">
+                    <i class="fas fa-warehouse"></i> Inventory Valuation
+                </button>
+                <button class="ny-tab-btn" data-tab="insights-tab">
+                    <i class="fas fa-brain"></i> CEO/CMO Insights
+                </button>
+            </div>
+
+            <!-- TAB 1: SALES ANALYTICS -->
+            <div class="ny-tab-pane active" id="sales-tab">
+                <div class="ny-charts-grid-2col">
+                    <div class="ny-panel-card">
+                        <div class="ny-panel-header">
+                            <div class="ny-panel-title"><i class="fas fa-chart-bar" style="color:var(--primary);"></i> Weekly Sales Velocity (Revenue vs Profit)</div>
+                        </div>
+                        <div class="ny-chart-container">
+                            <canvas id="chart-weekly-sales"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="ny-panel-card">
+                        <div class="ny-panel-header">
+                            <div class="ny-panel-title"><i class="fas fa-credit-card" style="color:var(--secondary);"></i> Payment Method Share (%)</div>
+                        </div>
+                        <div class="ny-chart-container">
+                            <canvas id="chart-payment-methods"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 2: PRODUCT ANALYTICS -->
+            <div class="ny-tab-pane" id="products-tab">
+                <!-- Top Profitable Products -->
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title"><i class="fas fa-trophy" style="color:var(--accent);"></i> Top 10 Most Profitable Products</div>
+                    </div>
+                    <div class="ny-table-responsive">
+                        <table class="ny-table">
+                            <thead>
+                                <tr>
+                                    <th>Rank</th>
+                                    <th>Product Name</th>
+                                    <th>Selling Price</th>
+                                    <th>Total Profit</th>
+                                    <th>Profit Margin</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-top-profitable-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- High Sales / Low Margin Anomalies -->
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title"><i class="fas fa-exclamation-triangle" style="color:var(--warning);"></i> High Sales / Low Margin Warning SKUs</div>
+                        <span style="font-size:0.8rem; color:var(--text-muted);">High volume but margin &lt; 40%</span>
+                    </div>
+                    <div class="ny-table-responsive">
+                        <table class="ny-table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Category</th>
+                                    <th>Volume</th>
+                                    <th>Gross Revenue</th>
+                                    <th>Margin</th>
+                                    <th>Recommended Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-high-sales-low-profit-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Low Stock Products -->
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title"><i class="fas fa-box" style="color:var(--danger);"></i> Low Stock Warning (Inventory &le; 10 units)</div>
+                    </div>
+                    <div class="ny-table-responsive">
+                        <table class="ny-table">
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Category</th>
+                                    <th>Current Stock</th>
+                                    <th>Status</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+                            <tbody id="table-low-stock-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: RETURNS & CANCELLATIONS -->
+            <div class="ny-tab-pane" id="returns-tab">
+                <!-- Return KPIs -->
+                <div class="ny-kpi-grid" style="grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));">
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Total Orders Placed</div>
+                        <div class="ny-kpi-value" id="ret-kpi-total-orders">0</div>
+                    </div>
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Completed & Shipped</div>
+                        <div class="ny-kpi-value" id="ret-kpi-completed" style="color:var(--accent);">0</div>
+                    </div>
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Returned Orders</div>
+                        <div class="ny-kpi-value" id="ret-kpi-returned" style="color:var(--warning);">0</div>
+                        <div class="ny-kpi-subtext" id="ret-kpi-return-rate">0% Rate</div>
+                    </div>
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Cancelled Orders</div>
+                        <div class="ny-kpi-value" id="ret-kpi-cancelled" style="color:var(--danger);">0</div>
+                        <div class="ny-kpi-subtext" id="ret-kpi-cancellation-rate">0% Rate</div>
+                    </div>
+                </div>
+
+                <div class="ny-charts-grid-2col">
+                    <div class="ny-panel-card">
+                        <div class="ny-panel-header">
+                            <div class="ny-panel-title"><i class="fas fa-list-ol" style="color:var(--warning);"></i> Customer Return Reasons Breakdown</div>
+                        </div>
+                        <div class="ny-chart-container">
+                            <canvas id="chart-return-reasons"></canvas>
+                        </div>
+                    </div>
+
+                    <div class="ny-panel-card">
+                        <div class="ny-panel-header">
+                            <div class="ny-panel-title"><i class="fas fa-tags" style="color:var(--danger);"></i> Returns by Product Category</div>
+                        </div>
+                        <div class="ny-chart-container">
+                            <canvas id="chart-returns-category"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 4: INVENTORY ANALYTICS -->
+            <div class="ny-tab-pane" id="inventory-tab">
+                <div class="ny-kpi-grid">
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Total Inventory Units</div>
+                        <div class="ny-kpi-value" id="inv-total-units">0</div>
+                    </div>
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Inventory Valuation (Cost)</div>
+                        <div class="ny-kpi-value" id="inv-cost-val" style="color:var(--primary);">₹0</div>
+                    </div>
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Inventory Retail Value</div>
+                        <div class="ny-kpi-value" id="inv-retail-val" style="color:var(--accent);">₹0</div>
+                    </div>
+                    <div class="ny-kpi-card">
+                        <div class="ny-kpi-label">Stock Status Counts</div>
+                        <div style="font-size:0.95rem; font-weight:700; margin-top:0.5rem;">
+                            <span class="badge-stock-in" id="inv-in-stock">0 In Stock</span>
+                            <span class="badge-stock-low" id="inv-low-stock">0 Low</span>
+                            <span class="badge-stock-out" id="inv-out-of-stock">0 Out</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ny-panel-card">
+                    <div class="ny-panel-header">
+                        <div class="ny-panel-title"><i class="fas fa-clipboard-list" style="color:var(--primary);"></i> Inventory Valuation & Replenishment Monitor</div>
+                    </div>
+                    <div class="ny-table-responsive" style="max-height:480px; overflow-y:auto;">
+                        <table class="ny-table">
+                            <thead>
+                                <tr>
+                                    <th>Product Name</th>
+                                    <th>Category</th>
+                                    <th>Stock Level</th>
+                                    <th>Unit Cost</th>
+                                    <th>Retail Price</th>
+                                    <th>Units Sold</th>
+                                    <th>Revenue Generated</th>
+                                    <th>Stock Status</th>
+                                    <th>Restock Priority</th>
+                                </tr>
+                            </thead>
+                            <tbody id="inventory-table-tbody"></tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 5: STRATEGIC BI INSIGHTS -->
+            <div class="ny-tab-pane" id="insights-tab">
+                <div class="ny-insights-grid">
+                    <div class="ny-insight-box">
+                        <h3 style="font-size:1.2rem; color:var(--primary); display:flex; align-items:center; gap:0.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.75rem;">
+                            <i class="fas fa-briefcase"></i> CEO Executive Query Results
+                        </h3>
+                        <div id="deep-ceo-insights" style="display:flex; flex-direction:column; gap:0.75rem;"></div>
+                    </div>
+
+                    <div class="ny-insight-box">
+                        <h3 style="font-size:1.2rem; color:var(--accent); display:flex; align-items:center; gap:0.5rem; border-bottom:1px solid var(--border-color); padding-bottom:0.75rem;">
+                            <i class="fas fa-bullseye"></i> CMO Marketing Strategic Actions
+                        </h3>
+                        <div id="deep-cmo-insights" style="display:flex; flex-direction:column; gap:0.75rem;"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/analytics.js"></script>
+</body>
+</html>

@@ -1,0 +1,777 @@
+/* ==========================================================================
+   NyBasket – Global Design System & Stylesheet
+   ========================================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+    /* Color Palette - Light Mode */
+    --primary: #4f46e5;
+    --primary-hover: #4338ca;
+    --primary-light: #e0e7ff;
+    --primary-glow: rgba(79, 70, 229, 0.15);
+    
+    --secondary: #0ea5e9;
+    --secondary-hover: #0284c7;
+    
+    --accent: #10b981;
+    --accent-hover: #059669;
+    --accent-light: #d1fae5;
+    
+    --warning: #f59e0b;
+    --warning-light: #fef3c7;
+    --danger: #ef4444;
+    --danger-light: #fee2e2;
+    --info: #3b82f6;
+    --info-light: #dbeafe;
+
+    /* Backgrounds & Surfaces */
+    --bg-body: #f8fafc;
+    --bg-surface: #ffffff;
+    --bg-surface-secondary: #f1f5f9;
+    --bg-card: #ffffff;
+    --bg-input: #ffffff;
+    
+    /* Typography Colors */
+    --text-primary: #0f172a;
+    --text-secondary: #475569;
+    --text-muted: #94a3b8;
+    --text-inverse: #ffffff;
+    
+    /* Borders & Dividers */
+    --border-color: #e2e8f0;
+    --border-hover: #cbd5e1;
+    
+    /* Elevation Shadows */
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -2px rgba(0, 0, 0, 0.05);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -4px rgba(0, 0, 0, 0.03);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.04);
+    --shadow-glow: 0 0 25px rgba(79, 70, 229, 0.2);
+
+    /* Radii & Transitions */
+    --radius-sm: 8px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-full: 9999px;
+    --transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    /* Font Families */
+    --font-heading: 'Outfit', sans-serif;
+    --font-body: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Dark Theme Variables */
+[data-theme="dark"] {
+    --bg-body: #0b0f19;
+    --bg-surface: #111827;
+    --bg-surface-secondary: #1e293b;
+    --bg-card: #131c2e;
+    --bg-input: #1e293b;
+    
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #64748b;
+    
+    --border-color: #1e293b;
+    --border-hover: #334155;
+    
+    --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+    --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+    --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.7);
+    --shadow-glow: 0 0 30px rgba(99, 102, 241, 0.25);
+    
+    --primary-light: rgba(79, 70, 229, 0.2);
+    --accent-light: rgba(16, 185, 129, 0.2);
+    --warning-light: rgba(245, 158, 11, 0.2);
+    --danger-light: rgba(239, 68, 68, 0.2);
+}
+
+/* Global Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--bg-body);
+    color: var(--text-primary);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--text-primary);
+    line-height: 1.25;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+a:hover {
+    color: var(--primary-hover);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Container */
+.ny-container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+/* ==========================================================================
+   Header & Navigation
+   ========================================================================== */
+.ny-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+[data-theme="dark"] .ny-header {
+    background: rgba(17, 24, 39, 0.85);
+}
+
+.ny-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 72px;
+    gap: 1.5rem;
+}
+
+/* Brand Logo */
+.ny-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--text-primary);
+    text-decoration: none;
+}
+
+.ny-logo-icon {
+    width: 42px;
+    height: 42px;
+    border-radius: var(--radius-md);
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25rem;
+    box-shadow: 0 4px 12px rgba(79, 70, 229, 0.35);
+}
+
+.ny-logo span {
+    background: linear-gradient(135deg, var(--primary), #818cf8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Nav Menu */
+.ny-nav-links {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    list-style: none;
+}
+
+.ny-nav-link {
+    color: var(--text-secondary);
+    font-weight: 500;
+    font-size: 0.95rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.ny-nav-link:hover, .ny-nav-link.active {
+    color: var(--primary);
+    background-color: var(--primary-light);
+}
+
+.ny-nav-badge {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: #fff;
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: var(--radius-full);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Search Bar */
+.ny-search-wrapper {
+    position: relative;
+    flex: 1;
+    max-width: 320px;
+}
+
+.ny-search-input {
+    width: 100%;
+    padding: 0.55rem 1rem 0.55rem 2.5rem;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-surface-secondary);
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-family: inherit;
+    transition: var(--transition);
+}
+
+.ny-search-input:focus {
+    outline: none;
+    border-color: var(--primary);
+    background-color: var(--bg-surface);
+    box-shadow: 0 0 0 3px var(--primary-light);
+}
+
+.ny-search-icon {
+    position: absolute;
+    left: 0.9rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    pointer-events: none;
+}
+
+/* Search Results Autocomplete */
+.ny-search-results {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    right: 0;
+    background: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+    max-height: 380px;
+    overflow-y: auto;
+    z-index: 1050;
+    display: none;
+}
+
+.ny-search-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.ny-search-item:last-child {
+    border-bottom: none;
+}
+
+.ny-search-item:hover {
+    background-color: var(--bg-surface-secondary);
+}
+
+.ny-search-item img {
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+}
+
+/* Nav Actions */
+.ny-nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.ny-icon-btn {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-radius: var(--radius-full);
+    border: 1px solid var(--border-color);
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 1rem;
+}
+
+.ny-icon-btn:hover {
+    background-color: var(--primary-light);
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.ny-badge-counter {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    background-color: var(--danger);
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 700;
+    min-width: 18px;
+    height: 18px;
+    border-radius: var(--radius-full);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border: 2px solid var(--bg-surface);
+}
+
+/* Action Buttons */
+.ny-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 0.95rem;
+    padding: 0.65rem 1.25rem;
+    border-radius: var(--radius-md);
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+.ny-btn-primary {
+    background: linear-gradient(135deg, var(--primary), #6366f1);
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(79, 70, 229, 0.3);
+}
+
+.ny-btn-primary:hover {
+    background: linear-gradient(135deg, var(--primary-hover), #4f46e5);
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(79, 70, 229, 0.4);
+}
+
+.ny-btn-secondary {
+    background-color: var(--bg-surface-secondary);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+.ny-btn-secondary:hover {
+    background-color: var(--border-color);
+    color: var(--text-primary);
+}
+
+.ny-btn-outline {
+    background-color: transparent;
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
+.ny-btn-outline:hover {
+    background-color: var(--primary-light);
+    color: var(--primary-hover);
+}
+
+.ny-btn-accent {
+    background: linear-gradient(135deg, var(--accent), #059669);
+    color: #ffffff;
+    box-shadow: 0 4px 14px rgba(16, 185, 129, 0.3);
+}
+
+.ny-btn-accent:hover {
+    background: linear-gradient(135deg, #059669, #047857);
+    color: #ffffff;
+    transform: translateY(-1px);
+}
+
+.ny-btn-danger {
+    background-color: var(--danger);
+    color: #ffffff;
+}
+
+.ny-btn-sm {
+    padding: 0.4rem 0.85rem;
+    font-size: 0.85rem;
+    border-radius: var(--radius-sm);
+}
+
+.ny-btn-lg {
+    padding: 0.85rem 1.75rem;
+    font-size: 1.05rem;
+    border-radius: var(--radius-md);
+}
+
+/* User Dropdown */
+.ny-user-menu {
+    position: relative;
+}
+
+.ny-user-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 0;
+    width: 220px;
+    background-color: var(--bg-surface);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+    padding: 0.5rem 0;
+    display: none;
+    z-index: 1050;
+}
+
+.ny-user-dropdown.show {
+    display: block;
+}
+
+.ny-user-dropdown-header {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.ny-user-name {
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+.ny-user-email {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
+
+.ny-dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.6rem 1rem;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    transition: var(--transition);
+}
+
+.ny-dropdown-item:hover {
+    background-color: var(--bg-surface-secondary);
+    color: var(--primary);
+}
+
+/* Mobile Toggle */
+.ny-mobile-toggle {
+    display: none;
+    font-size: 1.25rem;
+    background: none;
+    border: none;
+    color: var(--text-primary);
+    cursor: pointer;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+.ny-footer {
+    background-color: var(--bg-surface);
+    border-top: 1px solid var(--border-color);
+    padding: 4rem 0 2rem;
+    margin-top: auto;
+}
+
+.ny-footer-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1.5fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.ny-footer-brand p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    margin: 1rem 0 1.5rem;
+    max-width: 320px;
+}
+
+.ny-footer-socials {
+    display: flex;
+    gap: 0.75rem;
+}
+
+.ny-footer-title {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    color: var(--text-primary);
+}
+
+.ny-footer-links {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.ny-footer-links a {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+}
+
+.ny-footer-links a:hover {
+    color: var(--primary);
+    padding-left: 4px;
+}
+
+.ny-newsletter-form {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.ny-newsletter-input {
+    flex: 1;
+    padding: 0.6rem 1rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    background-color: var(--bg-surface-secondary);
+    color: var(--text-primary);
+    font-family: inherit;
+    font-size: 0.9rem;
+}
+
+.ny-newsletter-input:focus {
+    outline: none;
+    border-color: var(--primary);
+}
+
+.ny-footer-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border-color);
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.ny-portfolio-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--primary-light);
+    color: var(--primary);
+    padding: 4px 12px;
+    border-radius: var(--radius-full);
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+/* ==========================================================================
+   Toast Notifications & Modals
+   ========================================================================== */
+#toast-container {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    pointer-events: none;
+}
+
+.ny-toast {
+    pointer-events: auto;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 20px;
+    background: var(--bg-surface);
+    color: var(--text-primary);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-xl);
+    border-left: 4px solid var(--primary);
+    font-size: 0.9rem;
+    min-width: 280px;
+    max-width: 400px;
+    animation: toastSlideIn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    transition: var(--transition);
+}
+
+.ny-toast.success { border-left-color: var(--accent); }
+.ny-toast.error { border-left-color: var(--danger); }
+.ny-toast.warning { border-left-color: var(--warning); }
+.ny-toast.info { border-left-color: var(--info); }
+
+.ny-toast-icon {
+    font-size: 1.1rem;
+}
+.ny-toast.success .ny-toast-icon { color: var(--accent); }
+.ny-toast.error .ny-toast-icon { color: var(--danger); }
+.ny-toast.warning .ny-toast-icon { color: var(--warning); }
+.ny-toast.info .ny-toast-icon { color: var(--info); }
+
+@keyframes toastSlideIn {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Loading Skeleton */
+.skeleton {
+    background: linear-gradient(90deg, var(--bg-surface-secondary) 25%, var(--border-color) 50%, var(--bg-surface-secondary) 75%);
+    background-size: 200% 100%;
+    animation: skeletonLoading 1.5s infinite;
+    border-radius: var(--radius-sm);
+}
+
+@keyframes skeletonLoading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+/* Badge Styles */
+.badge-segment {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 8px;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.badge-vip {
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #d97706;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+}
+
+.badge-regular {
+    background-color: var(--primary-light);
+    color: var(--primary);
+    border: 1px solid rgba(79, 70, 229, 0.3);
+}
+
+.badge-new {
+    background-color: var(--accent-light);
+    color: var(--accent);
+    border: 1px solid rgba(16, 185, 129, 0.3);
+}
+
+.badge-at-risk {
+    background-color: var(--danger-light);
+    color: var(--danger);
+    border: 1px solid rgba(239, 68, 68, 0.3);
+}
+
+.badge-stock-in {
+    background-color: var(--accent-light);
+    color: var(--accent);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.badge-stock-low {
+    background-color: var(--warning-light);
+    color: var(--warning);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+.badge-stock-out {
+    background-color: var(--danger-light);
+    color: var(--danger);
+    padding: 2px 8px;
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 600;
+}
+
+/* ==========================================================================
+   Responsive Breakpoints
+   ========================================================================== */
+@media (max-width: 992px) {
+    .ny-footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+    .ny-search-wrapper {
+        max-width: 220px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ny-mobile-toggle {
+        display: block;
+    }
+    
+    .ny-nav-links {
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        background: var(--bg-surface);
+        flex-direction: column;
+        padding: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+        box-shadow: var(--shadow-lg);
+        display: none;
+    }
+    
+    .ny-nav-links.show {
+        display: flex;
+    }
+    
+    .ny-footer-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .ny-search-wrapper {
+        display: none;
+    }
+}
