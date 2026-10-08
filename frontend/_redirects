@@ -1,0 +1,9 @@
+/products        /products.html        200
+/product-details /product-details.html 200
+/cart            /cart.html            200
+/checkout        /checkout.html        200
+/dashboard       /dashboard.html       200
+/customers       /customers.html       200
+/analytics       /analytics.html       200
+/login           /login.html           200
+/register        /register.html        200

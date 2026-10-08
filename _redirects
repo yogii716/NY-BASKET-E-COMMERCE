@@ -1,0 +1,10 @@
+/products        /frontend/products.html        200
+/product-details /frontend/product-details.html 200
+/cart            /frontend/cart.html            200
+/checkout        /frontend/checkout.html        200
+/dashboard       /frontend/dashboard.html       200
+/customers       /frontend/customers.html       200
+/analytics       /frontend/analytics.html       200
+/login           /frontend/login.html           200
+/register        /frontend/register.html        200
+/                /frontend/index.html           200

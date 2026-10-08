@@ -22,5 +22,8 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Logs
+# Logs & Runtime
 *.log
+node_modules/
+.netlify/
+

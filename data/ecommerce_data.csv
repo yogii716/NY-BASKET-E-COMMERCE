@@ -1,521 +1,535 @@
 OrderID,OrderDate,CustomerID,CustomerName,ProductID,ProductName,Category,Quantity,UnitPrice,CostPrice,Revenue,Profit,City,State,Region,PaymentMethod,OrderStatus,CustomerType
-1,2026-02-01 03:19:07,2,Diya Patel,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Pune,Maharashtra,West,Cash on Delivery,Completed,At Risk
-1,2026-02-01 03:19:07,2,Diya Patel,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999.0,2300.0,4999.0,2699.0,Pune,Maharashtra,West,Cash on Delivery,Completed,At Risk
-2,2026-01-30 22:21:07,29,Tarun Bansal,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,Jaipur,Rajasthan,North,Debit Card,Processing,VIP Customer
-2,2026-01-30 22:21:07,29,Tarun Bansal,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,2,329.0,110.0,658.0,438.0,Jaipur,Rajasthan,North,Debit Card,Processing,VIP Customer
-2,2026-01-30 22:21:07,29,Tarun Bansal,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,Jaipur,Rajasthan,North,Debit Card,Processing,VIP Customer
-3,2026-07-10 23:38:07,27,Meera Nambiar,86,CoreSlider Fitness Ab Roller Wheel,Sports,1,799.0,260.0,799.0,539.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-3,2026-07-10 23:38:07,27,Meera Nambiar,68,BioNourish Castor & Rosemary Lash Serum,Beauty,3,599.0,170.0,1797.0,1287.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-3,2026-07-10 23:38:07,27,Meera Nambiar,72,PureBotanics French Lavender Bath Salts 400g,Beauty,2,449.0,130.0,898.0,638.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-4,2026-06-14 02:33:07,35,Gaurav Chawla,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Mumbai,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-5,2026-08-21 00:29:07,41,Pranav Namboodiri,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-6,2026-02-15 01:00:07,15,Kavya Menon,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,1,1699.0,680.0,1699.0,1019.0,Ahmedabad,Gujarat,West,Cash on Delivery,Completed,VIP Customer
-7,2025-10-31 02:06:07,39,Mohit Pandey,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699.0,240.0,699.0,459.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-8,2025-10-09 09:36:07,41,Pranav Namboodiri,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299.0,1380.0,3299.0,1919.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-9,2026-05-01 04:27:07,19,Riya Mukherjee,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549.0,160.0,549.0,389.0,Bengaluru,Karnataka,South,Debit Card,Shipped,VIP Customer
-9,2026-05-01 04:27:07,19,Riya Mukherjee,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Bengaluru,Karnataka,South,Debit Card,Shipped,VIP Customer
-9,2026-05-01 04:27:07,19,Riya Mukherjee,35,Silk Touch Printed Square Scarf,Fashion,1,599.0,180.0,599.0,419.0,Bengaluru,Karnataka,South,Debit Card,Shipped,VIP Customer
-10,2026-04-24 06:50:07,38,Anushka Ghosh,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,Pune,Maharashtra,West,Cash on Delivery,Cancelled,VIP Customer
-10,2026-04-24 06:50:07,38,Anushka Ghosh,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,1,2899.0,1300.0,2899.0,1599.0,Pune,Maharashtra,West,Cash on Delivery,Cancelled,VIP Customer
-10,2026-04-24 06:50:07,38,Anushka Ghosh,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,1,2799.0,1150.0,2799.0,1649.0,Pune,Maharashtra,West,Cash on Delivery,Cancelled,VIP Customer
-10,2026-04-24 06:50:07,38,Anushka Ghosh,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799.0,260.0,799.0,539.0,Pune,Maharashtra,West,Cash on Delivery,Cancelled,VIP Customer
-11,2025-10-24 00:04:07,27,Meera Nambiar,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Lucknow,Uttar Pradesh,North,UPI,Completed,Regular Customer
-12,2026-05-02 00:33:07,51,Kritika Mathur,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-12,2026-05-02 00:33:07,51,Kritika Mathur,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-13,2025-10-13 22:52:07,36,Bhavna Shukla,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Pune,Maharashtra,West,Cash on Delivery,Completed,At Risk
-14,2026-01-18 03:24:07,31,Harsh Vardhan,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,1,549.0,195.0,549.0,354.0,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,Regular Customer
-14,2026-01-18 03:24:07,31,Harsh Vardhan,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,2,899.0,360.0,1798.0,1078.0,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,Regular Customer
-15,2025-11-23 04:41:07,51,Kritika Mathur,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Guwahati,Assam,East,Cash on Delivery,Completed,VIP Customer
-15,2025-11-23 04:41:07,51,Kritika Mathur,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,1,2799.0,1150.0,2799.0,1649.0,Guwahati,Assam,East,Cash on Delivery,Completed,VIP Customer
-15,2025-11-23 04:41:07,51,Kritika Mathur,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,2,899.0,360.0,1798.0,1078.0,Guwahati,Assam,East,Cash on Delivery,Completed,VIP Customer
-16,2026-03-02 09:23:07,13,Neha Kapoor,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499.0,580.0,1499.0,919.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-16,2026-03-02 09:23:07,13,Neha Kapoor,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-16,2026-03-02 09:23:07,13,Neha Kapoor,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-16,2026-03-02 09:23:07,13,Neha Kapoor,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-17,2026-06-05 21:07:07,22,Vikram Rathore,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199.0,45.0,199.0,154.0,Coimbatore,Tamil Nadu,South,Demo Payment,Completed,At Risk
-17,2026-06-05 21:07:07,22,Vikram Rathore,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199.0,890.0,2199.0,1309.0,Coimbatore,Tamil Nadu,South,Demo Payment,Completed,At Risk
-17,2026-06-05 21:07:07,22,Vikram Rathore,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199.0,880.0,2199.0,1319.0,Coimbatore,Tamil Nadu,South,Demo Payment,Completed,At Risk
-18,2026-07-01 08:10:07,35,Gaurav Chawla,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,2,4499.0,1950.0,8998.0,5098.0,Mumbai,Maharashtra,West,Credit Card,Shipped,VIP Customer
-18,2026-07-01 08:10:07,35,Gaurav Chawla,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699.0,640.0,1699.0,1059.0,Mumbai,Maharashtra,West,Credit Card,Shipped,VIP Customer
-19,2026-01-31 08:09:07,46,Payal Banerjee,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,2,649.0,190.0,1298.0,918.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-20,2026-01-15 01:31:07,10,Dhruv Sen,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399.0,510.0,1399.0,889.0,Lucknow,Uttar Pradesh,North,UPI,Completed,Regular Customer
-20,2026-01-15 01:31:07,10,Dhruv Sen,72,PureBotanics French Lavender Bath Salts 400g,Beauty,2,449.0,130.0,898.0,638.0,Lucknow,Uttar Pradesh,North,UPI,Completed,Regular Customer
-21,2026-04-25 03:15:07,4,Ananya Iyer,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549.0,160.0,549.0,389.0,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
-21,2026-04-25 03:15:07,4,Ananya Iyer,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799.0,240.0,799.0,559.0,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
-22,2026-09-17 22:59:07,13,Neha Kapoor,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,3,14999.0,8900.0,44997.0,18297.0,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
-22,2026-09-17 22:59:07,13,Neha Kapoor,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
-23,2026-05-18 23:59:07,18,Karan Malhotra,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,Kochi,Kerala,South,UPI,Completed,Regular Customer
-24,2026-09-16 21:52:07,51,Kritika Mathur,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249.0,70.0,249.0,179.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-24,2026-09-16 21:52:07,51,Kritika Mathur,68,BioNourish Castor & Rosemary Lash Serum,Beauty,3,599.0,170.0,1797.0,1287.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-25,2026-02-26 23:03:07,45,Rahul Trivedi,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,3,1399.0,510.0,4197.0,2667.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-25,2026-02-26 23:03:07,45,Rahul Trivedi,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499.0,580.0,1499.0,919.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-26,2025-12-02 06:35:07,39,Mohit Pandey,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,1,1899.0,710.0,1899.0,1189.0,Bhopal,Madhya Pradesh,Central,Debit Card,Completed,VIP Customer
-27,2025-12-31 19:56:07,24,Sameer Singhania,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,1,1399.0,520.0,1399.0,879.0,Hyderabad,Telangana,South,Cash on Delivery,Completed,At Risk
-27,2025-12-31 19:56:07,24,Sameer Singhania,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549.0,160.0,549.0,389.0,Hyderabad,Telangana,South,Cash on Delivery,Completed,At Risk
-27,2025-12-31 19:56:07,24,Sameer Singhania,10,SmartView 360 WiFi Security Camera,Electronics,1,2499.0,1100.0,2499.0,1399.0,Hyderabad,Telangana,South,Cash on Delivery,Completed,At Risk
-28,2026-03-02 20:55:07,44,Pallavi Hegde,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199.0,850.0,2199.0,1349.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-28,2026-03-02 20:55:07,44,Pallavi Hegde,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-29,2026-02-28 09:17:07,47,Amitesh Kumar,79,HydraTrail Lightweight Running Vest 5L,Sports,1,1899.0,720.0,1899.0,1179.0,Hyderabad,Telangana,South,Demo Payment,Completed,VIP Customer
-29,2026-02-28 09:17:07,47,Amitesh Kumar,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Hyderabad,Telangana,South,Demo Payment,Completed,VIP Customer
-30,2026-02-11 05:45:07,35,Gaurav Chawla,1,Aura Wireless Noise-Cancelling Headphones,Electronics,1,4999.0,2499.0,4999.0,2500.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-31,2026-05-26 23:42:07,39,Mohit Pandey,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699.0,210.0,699.0,489.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-31,2026-05-26 23:42:07,39,Mohit Pandey,10,SmartView 360 WiFi Security Camera,Electronics,2,2499.0,1100.0,4998.0,2798.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-32,2026-08-15 05:22:07,43,Varun Khurana,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Chennai,Tamil Nadu,South,Cash on Delivery,Completed,Regular Customer
-33,2025-12-09 20:43:07,47,Amitesh Kumar,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299.0,480.0,1299.0,819.0,Hyderabad,Telangana,South,UPI,Completed,VIP Customer
-33,2025-12-09 20:43:07,47,Amitesh Kumar,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,1,1899.0,710.0,1899.0,1189.0,Hyderabad,Telangana,South,UPI,Completed,VIP Customer
-34,2026-04-23 00:12:07,16,Manish Agarwal,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199.0,880.0,2199.0,1319.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-34,2026-04-23 00:12:07,16,Manish Agarwal,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-35,2026-09-09 09:35:07,5,Reyansh Reddy,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Chandigarh,Punjab,North,Credit Card,Returned,Regular Customer
-35,2026-09-09 09:35:07,5,Reyansh Reddy,35,Silk Touch Printed Square Scarf,Fashion,1,599.0,180.0,599.0,419.0,Chandigarh,Punjab,North,Credit Card,Returned,Regular Customer
-35,2026-09-09 09:35:07,5,Reyansh Reddy,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999.0,2300.0,4999.0,2699.0,Chandigarh,Punjab,North,Credit Card,Returned,Regular Customer
-35,2026-09-09 09:35:07,5,Reyansh Reddy,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499.0,580.0,1499.0,919.0,Chandigarh,Punjab,North,Credit Card,Returned,Regular Customer
-36,2026-04-26 01:00:07,27,Meera Nambiar,89,NutriCrunch California Jumbo Almonds 500g,Grocery,1,649.0,280.0,649.0,369.0,Lucknow,Uttar Pradesh,North,Debit Card,Processing,Regular Customer
-37,2026-04-22 09:28:07,37,Kunal Goswami,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499.0,1950.0,4499.0,2549.0,Kochi,Kerala,South,Credit Card,Completed,VIP Customer
-38,2026-06-19 08:40:07,41,Pranav Namboodiri,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799.0,260.0,799.0,539.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-38,2026-06-19 08:40:07,41,Pranav Namboodiri,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499.0,150.0,499.0,349.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-39,2025-10-24 22:57:07,35,Gaurav Chawla,90,Kashmir Valley Grade-A Mongra Saffron 1g,Grocery,1,499.0,180.0,499.0,319.0,Mumbai,Maharashtra,West,Credit Card,Cancelled,VIP Customer
-39,2025-10-24 22:57:07,35,Gaurav Chawla,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,3,549.0,160.0,1647.0,1167.0,Mumbai,Maharashtra,West,Credit Card,Cancelled,VIP Customer
-40,2026-01-29 06:50:07,35,Gaurav Chawla,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-40,2026-01-29 06:50:07,35,Gaurav Chawla,15,GlideTouch Precision Stylus Pen,Electronics,1,1599.0,620.0,1599.0,979.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-41,2026-06-11 10:25:07,45,Rahul Trivedi,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999.0,310.0,999.0,689.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-41,2026-06-11 10:25:07,45,Rahul Trivedi,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-42,2026-08-01 04:27:07,19,Riya Mukherjee,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699.0,240.0,699.0,459.0,Bengaluru,Karnataka,South,Cash on Delivery,Processing,VIP Customer
-43,2026-02-12 08:40:07,43,Varun Khurana,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,2,1799.0,680.0,3598.0,2238.0,Chennai,Tamil Nadu,South,UPI,Completed,Regular Customer
-43,2026-02-12 08:40:07,43,Varun Khurana,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549.0,160.0,549.0,389.0,Chennai,Tamil Nadu,South,UPI,Completed,Regular Customer
-44,2026-03-18 04:28:07,28,Aditya Saxena,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,3,799.0,260.0,2397.0,1617.0,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
-45,2026-04-12 23:34:07,13,Neha Kapoor,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199.0,45.0,199.0,154.0,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
-45,2026-04-12 23:34:07,13,Neha Kapoor,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
-46,2025-12-15 02:42:07,45,Rahul Trivedi,13,"ClarityView 27"" QHD IPS Monitor",Electronics,2,16999.0,11500.0,33998.0,10998.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-47,2026-05-19 20:26:07,30,Ritu Sethi,10,SmartView 360 WiFi Security Camera,Electronics,1,2499.0,1100.0,2499.0,1399.0,Gurugram,Haryana,North,UPI,Processing,VIP Customer
-47,2026-05-19 20:26:07,30,Ritu Sethi,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Gurugram,Haryana,North,UPI,Processing,VIP Customer
-47,2026-05-19 20:26:07,30,Ritu Sethi,34,Boho Embroidered Cotton Kurti,Fashion,1,1199.0,430.0,1199.0,769.0,Gurugram,Haryana,North,UPI,Processing,VIP Customer
-47,2026-05-19 20:26:07,30,Ritu Sethi,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Gurugram,Haryana,North,UPI,Processing,VIP Customer
-48,2026-06-29 02:00:07,38,Anushka Ghosh,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899.0,290.0,899.0,609.0,Pune,Maharashtra,West,Credit Card,Processing,VIP Customer
-48,2026-06-29 02:00:07,38,Anushka Ghosh,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999.0,850.0,1999.0,1149.0,Pune,Maharashtra,West,Credit Card,Processing,VIP Customer
-49,2026-02-22 23:27:07,38,Anushka Ghosh,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199.0,45.0,199.0,154.0,Pune,Maharashtra,West,UPI,Returned,VIP Customer
-49,2026-02-22 23:27:07,38,Anushka Ghosh,13,"ClarityView 27"" QHD IPS Monitor",Electronics,1,16999.0,11500.0,16999.0,5499.0,Pune,Maharashtra,West,UPI,Returned,VIP Customer
-49,2026-02-22 23:27:07,38,Anushka Ghosh,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Pune,Maharashtra,West,UPI,Returned,VIP Customer
-50,2026-04-27 05:23:07,13,Neha Kapoor,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
-51,2026-07-23 21:54:07,13,Neha Kapoor,2,Pulse Pro Smartwatch Series 7,Electronics,2,3499.0,1650.0,6998.0,3698.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-52,2026-02-23 06:14:07,27,Meera Nambiar,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799.0,260.0,799.0,539.0,Lucknow,Uttar Pradesh,North,UPI,Completed,Regular Customer
-53,2026-09-17 00:09:07,51,Kritika Mathur,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999.0,310.0,999.0,689.0,Guwahati,Assam,East,Cash on Delivery,Completed,VIP Customer
-54,2026-03-31 04:58:07,19,Riya Mukherjee,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799.0,680.0,1799.0,1119.0,Bengaluru,Karnataka,South,Demo Payment,Completed,VIP Customer
-54,2026-03-31 04:58:07,19,Riya Mukherjee,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,1,2799.0,1150.0,2799.0,1649.0,Bengaluru,Karnataka,South,Demo Payment,Completed,VIP Customer
-54,2026-03-31 04:58:07,19,Riya Mukherjee,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399.0,510.0,1399.0,889.0,Bengaluru,Karnataka,South,Demo Payment,Completed,VIP Customer
-54,2026-03-31 04:58:07,19,Riya Mukherjee,2,Pulse Pro Smartwatch Series 7,Electronics,1,3499.0,1650.0,3499.0,1849.0,Bengaluru,Karnataka,South,Demo Payment,Completed,VIP Customer
-55,2026-06-10 09:37:07,35,Gaurav Chawla,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299.0,1380.0,3299.0,1919.0,Mumbai,Maharashtra,West,Cash on Delivery,Shipped,VIP Customer
-56,2026-02-04 06:28:07,12,Rohan Mehta,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-56,2026-02-04 06:28:07,12,Rohan Mehta,13,"ClarityView 27"" QHD IPS Monitor",Electronics,1,16999.0,11500.0,16999.0,5499.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-56,2026-02-04 06:28:07,12,Rohan Mehta,83,GripFit Padded Weightlifting Gym Gloves,Sports,1,599.0,180.0,599.0,419.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-57,2025-12-04 21:38:07,18,Karan Malhotra,17,SoundBar Cinema 120W with Subwoofer,Electronics,1,6999.0,3600.0,6999.0,3399.0,Kochi,Kerala,South,UPI,Shipped,Regular Customer
-58,2026-04-04 04:12:07,46,Payal Banerjee,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,3,999.0,310.0,2997.0,2067.0,Bengaluru,Karnataka,South,Cash on Delivery,Shipped,VIP Customer
-59,2026-03-21 07:47:07,15,Kavya Menon,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Ahmedabad,Gujarat,West,Credit Card,Completed,VIP Customer
-59,2026-03-21 07:47:07,15,Kavya Menon,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Ahmedabad,Gujarat,West,Credit Card,Completed,VIP Customer
-59,2026-03-21 07:47:07,15,Kavya Menon,93,Organic Royal White Quinoa Grains 1kg,Grocery,2,449.0,150.0,898.0,598.0,Ahmedabad,Gujarat,West,Credit Card,Completed,VIP Customer
-60,2025-11-14 08:05:07,30,Ritu Sethi,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-60,2025-11-14 08:05:07,30,Ritu Sethi,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,1,549.0,195.0,549.0,354.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-61,2026-04-06 21:23:07,45,Rahul Trivedi,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449.0,130.0,449.0,319.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-61,2026-04-06 21:23:07,45,Rahul Trivedi,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499.0,1950.0,4499.0,2549.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-61,2026-04-06 21:23:07,45,Rahul Trivedi,79,HydraTrail Lightweight Running Vest 5L,Sports,2,1899.0,720.0,3798.0,2358.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-62,2026-03-02 06:06:07,47,Amitesh Kumar,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Hyderabad,Telangana,South,UPI,Completed,VIP Customer
-63,2026-06-30 22:04:07,13,Neha Kapoor,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899.0,290.0,899.0,609.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-63,2026-06-30 22:04:07,13,Neha Kapoor,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699.0,240.0,699.0,459.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-64,2026-08-29 21:33:07,46,Payal Banerjee,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999.0,850.0,1999.0,1149.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-64,2026-08-29 21:33:07,46,Payal Banerjee,89,NutriCrunch California Jumbo Almonds 500g,Grocery,3,649.0,280.0,1947.0,1107.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-64,2026-08-29 21:33:07,46,Payal Banerjee,48,ZenAroma Ultrasonic Essential Oil Diffuser,Home & Kitchen,2,1199.0,420.0,2398.0,1558.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-64,2026-08-29 21:33:07,46,Payal Banerjee,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899.0,720.0,1899.0,1179.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-65,2026-07-04 10:21:07,38,Anushka Ghosh,16,StreamDeck Multi-Key Macro Pad,Electronics,2,4999.0,2300.0,9998.0,5398.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-66,2025-11-14 05:53:07,45,Rahul Trivedi,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899.0,750.0,1899.0,1149.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-67,2026-07-14 22:44:07,7,Aditi Deshmukh,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799.0,680.0,1799.0,1119.0,Chandigarh,Punjab,North,Cash on Delivery,Completed,VIP Customer
-67,2026-07-14 22:44:07,7,Aditi Deshmukh,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899.0,750.0,1899.0,1149.0,Chandigarh,Punjab,North,Cash on Delivery,Completed,VIP Customer
-68,2026-02-17 08:49:07,34,Swati Nanda,15,GlideTouch Precision Stylus Pen,Electronics,1,1599.0,620.0,1599.0,979.0,Noida,Uttar Pradesh,North,Demo Payment,Completed,VIP Customer
-68,2026-02-17 08:49:07,34,Swati Nanda,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799.0,680.0,1799.0,1119.0,Noida,Uttar Pradesh,North,Demo Payment,Completed,VIP Customer
-68,2026-02-17 08:49:07,34,Swati Nanda,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,1,2899.0,1300.0,2899.0,1599.0,Noida,Uttar Pradesh,North,Demo Payment,Completed,VIP Customer
-69,2025-10-06 21:56:07,33,Abhishek Tiwari,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,1,549.0,195.0,549.0,354.0,Mumbai,Maharashtra,West,UPI,Shipped,At Risk
-69,2025-10-06 21:56:07,33,Abhishek Tiwari,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799.0,1250.0,2799.0,1549.0,Mumbai,Maharashtra,West,UPI,Shipped,At Risk
-70,2025-11-23 03:12:07,29,Tarun Bansal,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799.0,680.0,1799.0,1119.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-70,2025-11-23 03:12:07,29,Tarun Bansal,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499.0,150.0,499.0,349.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-71,2026-06-01 09:05:07,3,Vivaan Gupta,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,2,1499.0,560.0,2998.0,1878.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-71,2026-06-01 09:05:07,3,Vivaan Gupta,10,SmartView 360 WiFi Security Camera,Electronics,1,2499.0,1100.0,2499.0,1399.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-72,2025-12-02 00:19:07,7,Aditi Deshmukh,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499.0,150.0,499.0,349.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-73,2026-08-04 01:46:07,25,Priyanka Roy,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Lucknow,Uttar Pradesh,North,Debit Card,Completed,Regular Customer
-73,2026-08-04 01:46:07,25,Priyanka Roy,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399.0,110.0,399.0,289.0,Lucknow,Uttar Pradesh,North,Debit Card,Completed,Regular Customer
-74,2026-01-23 02:01:07,25,Priyanka Roy,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999.0,2200.0,4999.0,2799.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-74,2026-01-23 02:01:07,25,Priyanka Roy,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-75,2026-09-15 10:10:07,51,Kritika Mathur,13,"ClarityView 27"" QHD IPS Monitor",Electronics,1,16999.0,11500.0,16999.0,5499.0,Guwahati,Assam,East,UPI,Shipped,VIP Customer
-76,2025-12-04 03:43:07,19,Riya Mukherjee,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-77,2026-05-03 09:38:07,46,Payal Banerjee,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299.0,1380.0,3299.0,1919.0,Bengaluru,Karnataka,South,Debit Card,Returned,VIP Customer
-77,2026-05-03 09:38:07,46,Payal Banerjee,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,Bengaluru,Karnataka,South,Debit Card,Returned,VIP Customer
-78,2026-07-10 00:47:07,18,Karan Malhotra,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449.0,130.0,449.0,319.0,Kochi,Kerala,South,Debit Card,Completed,Regular Customer
-78,2026-07-10 00:47:07,18,Karan Malhotra,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Kochi,Kerala,South,Debit Card,Completed,Regular Customer
-78,2026-07-10 00:47:07,18,Karan Malhotra,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199.0,850.0,2199.0,1349.0,Kochi,Kerala,South,Debit Card,Completed,Regular Customer
-79,2026-09-18 23:41:07,49,Simran Gill,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Patna,Bihar,East,UPI,Completed,Regular Customer
-80,2025-12-11 05:22:07,10,Dhruv Sen,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,1,2899.0,1300.0,2899.0,1599.0,Lucknow,Uttar Pradesh,North,Credit Card,Completed,Regular Customer
-80,2025-12-11 05:22:07,10,Dhruv Sen,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899.0,790.0,1899.0,1109.0,Lucknow,Uttar Pradesh,North,Credit Card,Completed,Regular Customer
-81,2026-03-21 22:03:07,22,Vikram Rathore,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499.0,150.0,499.0,349.0,Coimbatore,Tamil Nadu,South,UPI,Completed,At Risk
-81,2026-03-21 22:03:07,22,Vikram Rathore,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999.0,1950.0,3999.0,2049.0,Coimbatore,Tamil Nadu,South,UPI,Completed,At Risk
-81,2026-03-21 22:03:07,22,Vikram Rathore,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299.0,520.0,1299.0,779.0,Coimbatore,Tamil Nadu,South,UPI,Completed,At Risk
-81,2026-03-21 22:03:07,22,Vikram Rathore,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199.0,890.0,2199.0,1309.0,Coimbatore,Tamil Nadu,South,UPI,Completed,At Risk
-82,2026-06-04 05:08:07,37,Kunal Goswami,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Kochi,Kerala,South,Credit Card,Completed,VIP Customer
-82,2026-06-04 05:08:07,37,Kunal Goswami,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199.0,880.0,2199.0,1319.0,Kochi,Kerala,South,Credit Card,Completed,VIP Customer
-83,2026-06-25 05:59:07,34,Swati Nanda,1,Aura Wireless Noise-Cancelling Headphones,Electronics,1,4999.0,2499.0,4999.0,2500.0,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
-83,2026-06-25 05:59:07,34,Swati Nanda,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999.0,780.0,1999.0,1219.0,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
-84,2026-02-06 00:00:07,7,Aditi Deshmukh,17,SoundBar Cinema 120W with Subwoofer,Electronics,1,6999.0,3600.0,6999.0,3399.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-84,2026-02-06 00:00:07,7,Aditi Deshmukh,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-85,2026-09-06 08:02:07,31,Harsh Vardhan,3,UltraVision 4K Action Camera Pro,Electronics,1,7999.0,4200.0,7999.0,3799.0,Visakhapatnam,Andhra Pradesh,South,UPI,Processing,Regular Customer
-86,2026-03-08 05:07:07,4,Ananya Iyer,15,GlideTouch Precision Stylus Pen,Electronics,1,1599.0,620.0,1599.0,979.0,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
-86,2026-03-08 05:07:07,4,Ananya Iyer,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,1,1399.0,520.0,1399.0,879.0,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
-87,2026-08-11 03:33:07,44,Pallavi Hegde,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-87,2026-08-11 03:33:07,44,Pallavi Hegde,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699.0,640.0,1699.0,1059.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-88,2026-03-06 07:01:07,4,Ananya Iyer,82,WildPeak 4-Person Waterproof Camping Tent,Sports,1,5499.0,2600.0,5499.0,2899.0,New Delhi,Delhi,North,UPI,Shipped,VIP Customer
-89,2026-03-26 01:26:07,29,Tarun Bansal,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,Jaipur,Rajasthan,North,Demo Payment,Completed,VIP Customer
-90,2026-08-02 22:28:07,12,Rohan Mehta,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-90,2026-08-02 22:28:07,12,Rohan Mehta,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-90,2026-08-02 22:28:07,12,Rohan Mehta,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,1,499.0,145.0,499.0,354.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-90,2026-08-02 22:28:07,12,Rohan Mehta,97,NutriHarvest Organic Chia Seeds 500g,Grocery,2,349.0,110.0,698.0,478.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-91,2026-08-14 01:35:07,35,Gaurav Chawla,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Mumbai,Maharashtra,West,Demo Payment,Completed,VIP Customer
-91,2026-08-14 01:35:07,35,Gaurav Chawla,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Mumbai,Maharashtra,West,Demo Payment,Completed,VIP Customer
-92,2026-03-28 03:44:07,33,Abhishek Tiwari,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,1,1899.0,710.0,1899.0,1189.0,Mumbai,Maharashtra,West,UPI,Completed,At Risk
-93,2025-11-14 05:18:07,46,Payal Banerjee,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-93,2025-11-14 05:18:07,46,Payal Banerjee,6,NovaPower 65W GaN Fast Charger,Electronics,2,1499.0,580.0,2998.0,1838.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-94,2026-03-12 05:10:07,36,Bhavna Shukla,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Pune,Maharashtra,West,Credit Card,Returned,At Risk
-94,2026-03-12 05:10:07,36,Bhavna Shukla,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899.0,360.0,899.0,539.0,Pune,Maharashtra,West,Credit Card,Returned,At Risk
-95,2026-06-24 04:19:07,53,Monika Rawat,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799.0,690.0,1799.0,1109.0,Kolkata,West Bengal,East,UPI,Completed,Regular Customer
-96,2025-10-25 08:20:07,38,Anushka Ghosh,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-97,2026-08-31 10:18:07,14,Arjun Bhatt,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999.0,4500.0,8999.0,4499.0,Noida,Uttar Pradesh,North,Cash on Delivery,Completed,VIP Customer
-97,2026-08-31 10:18:07,14,Arjun Bhatt,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Noida,Uttar Pradesh,North,Cash on Delivery,Completed,VIP Customer
-98,2025-12-04 05:25:07,37,Kunal Goswami,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,2,1899.0,750.0,3798.0,2298.0,Kochi,Kerala,South,Cash on Delivery,Completed,VIP Customer
-99,2026-09-14 10:13:07,37,Kunal Goswami,3,UltraVision 4K Action Camera Pro,Electronics,1,7999.0,4200.0,7999.0,3799.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-99,2026-09-14 10:13:07,37,Kunal Goswami,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,3,1299.0,480.0,3897.0,2457.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-100,2026-06-03 22:54:07,16,Manish Agarwal,13,"ClarityView 27"" QHD IPS Monitor",Electronics,1,16999.0,11500.0,16999.0,5499.0,Chennai,Tamil Nadu,South,Demo Payment,Completed,VIP Customer
-101,2026-06-24 20:22:07,30,Ritu Sethi,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-102,2026-09-18 08:19:07,10,Dhruv Sen,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799.0,690.0,1799.0,1109.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-102,2026-09-18 08:19:07,10,Dhruv Sen,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299.0,480.0,1299.0,819.0,Lucknow,Uttar Pradesh,North,Cash on Delivery,Completed,Regular Customer
-103,2026-02-21 08:27:07,24,Sameer Singhania,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,2,899.0,280.0,1798.0,1238.0,Hyderabad,Telangana,South,Debit Card,Completed,At Risk
-104,2026-09-11 05:08:07,12,Rohan Mehta,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599.0,170.0,599.0,429.0,Patna,Bihar,East,Credit Card,Completed,VIP Customer
-105,2026-01-09 08:18:07,9,Saanvi Rao,48,ZenAroma Ultrasonic Essential Oil Diffuser,Home & Kitchen,2,1199.0,420.0,2398.0,1558.0,Chennai,Tamil Nadu,South,UPI,Completed,VIP Customer
-105,2026-01-09 08:18:07,9,Saanvi Rao,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399.0,110.0,399.0,289.0,Chennai,Tamil Nadu,South,UPI,Completed,VIP Customer
-106,2025-11-30 23:45:07,30,Ritu Sethi,19,VisionGlass 1080p Smart Home Projector,Electronics,2,8999.0,4500.0,17998.0,8998.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-106,2025-11-30 23:45:07,30,Ritu Sethi,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199.0,880.0,2199.0,1319.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-106,2025-11-30 23:45:07,30,Ritu Sethi,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899.0,790.0,1899.0,1109.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-107,2025-10-12 01:43:07,18,Karan Malhotra,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999.0,1950.0,3999.0,2049.0,Kochi,Kerala,South,UPI,Completed,Regular Customer
-108,2025-11-18 09:25:07,2,Diya Patel,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,2,1899.0,710.0,3798.0,2378.0,Pune,Maharashtra,West,Credit Card,Shipped,At Risk
-109,2025-12-09 08:25:07,28,Aditya Saxena,3,UltraVision 4K Action Camera Pro,Electronics,2,7999.0,4200.0,15998.0,7598.0,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
-109,2025-12-09 08:25:07,28,Aditya Saxena,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299.0,490.0,1299.0,809.0,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
-109,2025-12-09 08:25:07,28,Aditya Saxena,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899.0,720.0,1899.0,1179.0,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
-110,2025-11-24 07:58:07,30,Ritu Sethi,82,WildPeak 4-Person Waterproof Camping Tent,Sports,1,5499.0,2600.0,5499.0,2899.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-111,2025-11-24 09:37:07,26,Siddharth Hegde,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999.0,2300.0,4999.0,2699.0,Guwahati,Assam,East,Credit Card,Completed,At Risk
-111,2025-11-24 09:37:07,26,Siddharth Hegde,31,SmartFlex Stretch Chino Trousers,Fashion,1,1499.0,580.0,1499.0,919.0,Guwahati,Assam,East,Credit Card,Completed,At Risk
-112,2026-03-27 23:16:07,1,Aarav Sharma,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299.0,480.0,1299.0,819.0,Raipur,Chhattisgarh,Central,Credit Card,Completed,At Risk
-113,2026-06-15 08:12:07,30,Ritu Sethi,82,WildPeak 4-Person Waterproof Camping Tent,Sports,3,5499.0,2600.0,16497.0,8697.0,Gurugram,Haryana,North,Credit Card,Completed,VIP Customer
-113,2026-06-15 08:12:07,30,Ritu Sethi,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,1,1699.0,680.0,1699.0,1019.0,Gurugram,Haryana,North,Credit Card,Completed,VIP Customer
-114,2025-11-02 00:55:07,1,Aarav Sharma,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Raipur,Chhattisgarh,Central,Debit Card,Completed,At Risk
-114,2025-11-02 00:55:07,1,Aarav Sharma,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349.0,110.0,349.0,239.0,Raipur,Chhattisgarh,Central,Debit Card,Completed,At Risk
-114,2025-11-02 00:55:07,1,Aarav Sharma,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899.0,750.0,1899.0,1149.0,Raipur,Chhattisgarh,Central,Debit Card,Completed,At Risk
-115,2026-09-14 03:24:07,35,Gaurav Chawla,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899.0,360.0,899.0,539.0,Mumbai,Maharashtra,West,Credit Card,Completed,VIP Customer
-116,2026-02-25 22:42:07,26,Siddharth Hegde,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999.0,1600.0,3999.0,2399.0,Guwahati,Assam,East,Debit Card,Processing,At Risk
-117,2026-07-04 02:56:07,53,Monika Rawat,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,1,329.0,110.0,329.0,219.0,Kolkata,West Bengal,East,UPI,Completed,Regular Customer
-118,2026-02-14 21:31:07,37,Kunal Goswami,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,3,1699.0,680.0,5097.0,3057.0,Kochi,Kerala,South,UPI,Processing,VIP Customer
-118,2026-02-14 21:31:07,37,Kunal Goswami,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Kochi,Kerala,South,UPI,Processing,VIP Customer
-119,2026-06-21 00:31:07,29,Tarun Bansal,24,Aviator Polarized Classic Sunglasses,Fashion,1,999.0,320.0,999.0,679.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-119,2026-06-21 00:31:07,29,Tarun Bansal,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899.0,290.0,899.0,609.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-120,2026-02-27 00:08:07,16,Manish Agarwal,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-120,2026-02-27 00:08:07,16,Manish Agarwal,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,2,799.0,240.0,1598.0,1118.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-121,2026-05-09 00:20:07,18,Karan Malhotra,82,WildPeak 4-Person Waterproof Camping Tent,Sports,1,5499.0,2600.0,5499.0,2899.0,Kochi,Kerala,South,Demo Payment,Cancelled,Regular Customer
-122,2026-09-10 21:41:07,29,Tarun Bansal,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999.0,850.0,1999.0,1149.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-122,2026-09-10 21:41:07,29,Tarun Bansal,17,SoundBar Cinema 120W with Subwoofer,Electronics,1,6999.0,3600.0,6999.0,3399.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-122,2026-09-10 21:41:07,29,Tarun Bansal,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799.0,1250.0,2799.0,1549.0,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
-123,2025-10-15 04:49:07,51,Kritika Mathur,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249.0,70.0,249.0,179.0,Guwahati,Assam,East,Debit Card,Cancelled,VIP Customer
-124,2026-04-04 02:00:07,7,Aditi Deshmukh,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-125,2026-07-12 20:56:07,30,Ritu Sethi,79,HydraTrail Lightweight Running Vest 5L,Sports,1,1899.0,720.0,1899.0,1179.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-126,2026-06-06 22:47:07,47,Amitesh Kumar,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899.0,360.0,899.0,539.0,Hyderabad,Telangana,South,UPI,Completed,VIP Customer
-127,2026-09-13 09:00:07,5,Reyansh Reddy,38,Classic Leather Dress Belt Reversible,Fashion,2,699.0,220.0,1398.0,958.0,Chandigarh,Punjab,North,Debit Card,Completed,Regular Customer
-127,2026-09-13 09:00:07,5,Reyansh Reddy,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Chandigarh,Punjab,North,Debit Card,Completed,Regular Customer
-128,2026-08-20 22:30:07,49,Simran Gill,18,AeroCool Laptop Cooling Pad RGB,Electronics,1,1299.0,480.0,1299.0,819.0,Patna,Bihar,East,UPI,Completed,Regular Customer
-128,2026-08-20 22:30:07,49,Simran Gill,31,SmartFlex Stretch Chino Trousers,Fashion,1,1499.0,580.0,1499.0,919.0,Patna,Bihar,East,UPI,Completed,Regular Customer
-128,2026-08-20 22:30:07,49,Simran Gill,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Patna,Bihar,East,UPI,Completed,Regular Customer
-128,2026-08-20 22:30:07,49,Simran Gill,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,3,2899.0,1300.0,8697.0,4797.0,Patna,Bihar,East,UPI,Completed,Regular Customer
-129,2025-11-11 20:59:07,7,Aditi Deshmukh,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799.0,690.0,1799.0,1109.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-129,2025-11-11 20:59:07,7,Aditi Deshmukh,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-130,2026-03-10 05:44:07,7,Aditi Deshmukh,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,1,329.0,110.0,329.0,219.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-131,2025-12-04 02:12:07,33,Abhishek Tiwari,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199.0,890.0,2199.0,1309.0,Mumbai,Maharashtra,West,Cash on Delivery,Completed,At Risk
-132,2026-01-22 01:13:07,9,Saanvi Rao,82,WildPeak 4-Person Waterproof Camping Tent,Sports,3,5499.0,2600.0,16497.0,8697.0,Chennai,Tamil Nadu,South,Cash on Delivery,Processing,VIP Customer
-133,2026-08-15 00:19:07,15,Kavya Menon,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899.0,310.0,899.0,589.0,Ahmedabad,Gujarat,West,Credit Card,Completed,VIP Customer
-134,2026-08-04 01:33:07,37,Kunal Goswami,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999.0,1950.0,3999.0,2049.0,Kochi,Kerala,South,Cash on Delivery,Completed,VIP Customer
-134,2026-08-04 01:33:07,37,Kunal Goswami,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499.0,580.0,1499.0,919.0,Kochi,Kerala,South,Cash on Delivery,Completed,VIP Customer
-134,2026-08-04 01:33:07,37,Kunal Goswami,83,GripFit Padded Weightlifting Gym Gloves,Sports,1,599.0,180.0,599.0,419.0,Kochi,Kerala,South,Cash on Delivery,Completed,VIP Customer
-135,2026-08-11 05:41:07,32,Deepika Kaul,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
-136,2026-09-14 01:59:07,44,Pallavi Hegde,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699.0,240.0,699.0,459.0,Gurugram,Haryana,North,Credit Card,Completed,VIP Customer
-137,2026-08-04 22:00:07,13,Neha Kapoor,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-137,2026-08-04 22:00:07,13,Neha Kapoor,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,1,1399.0,520.0,1399.0,879.0,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-137,2026-08-04 22:00:07,13,Neha Kapoor,17,SoundBar Cinema 120W with Subwoofer,Electronics,1,6999.0,3600.0,6999.0,3399.0,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-137,2026-08-04 22:00:07,13,Neha Kapoor,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249.0,70.0,249.0,179.0,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-138,2026-02-01 21:46:07,15,Kavya Menon,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,2,699.0,240.0,1398.0,918.0,Ahmedabad,Gujarat,West,UPI,Cancelled,VIP Customer
-138,2026-02-01 21:46:07,15,Kavya Menon,32,ThermalLite Puffer Quilted Vest,Fashion,2,1699.0,640.0,3398.0,2118.0,Ahmedabad,Gujarat,West,UPI,Cancelled,VIP Customer
-138,2026-02-01 21:46:07,15,Kavya Menon,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299.0,520.0,1299.0,779.0,Ahmedabad,Gujarat,West,UPI,Cancelled,VIP Customer
-139,2025-12-19 03:12:07,12,Rohan Mehta,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899.0,790.0,1899.0,1109.0,Patna,Bihar,East,Credit Card,Processing,VIP Customer
-139,2025-12-19 03:12:07,12,Rohan Mehta,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,3,2799.0,1150.0,8397.0,4947.0,Patna,Bihar,East,Credit Card,Processing,VIP Customer
-140,2026-03-27 19:43:07,13,Neha Kapoor,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-140,2026-03-27 19:43:07,13,Neha Kapoor,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,2,899.0,280.0,1798.0,1238.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-140,2026-03-27 19:43:07,13,Neha Kapoor,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,1,1899.0,710.0,1899.0,1189.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-141,2026-04-04 08:05:07,46,Payal Banerjee,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799.0,260.0,799.0,539.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-141,2026-04-04 08:05:07,46,Payal Banerjee,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299.0,480.0,1299.0,819.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-142,2026-07-07 00:32:07,29,Tarun Bansal,13,"ClarityView 27"" QHD IPS Monitor",Electronics,1,16999.0,11500.0,16999.0,5499.0,Jaipur,Rajasthan,North,Demo Payment,Completed,VIP Customer
-143,2026-03-21 04:03:07,44,Pallavi Hegde,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599.0,175.0,599.0,424.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-143,2026-03-21 04:03:07,44,Pallavi Hegde,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499.0,580.0,1499.0,919.0,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
-144,2026-05-29 04:09:07,16,Manish Agarwal,79,HydraTrail Lightweight Running Vest 5L,Sports,1,1899.0,720.0,1899.0,1179.0,Chennai,Tamil Nadu,South,UPI,Processing,VIP Customer
-145,2026-08-10 07:33:07,20,Nikhil Pillai,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-145,2026-08-10 07:33:07,20,Nikhil Pillai,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549.0,160.0,549.0,389.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-145,2026-08-10 07:33:07,20,Nikhil Pillai,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199.0,45.0,199.0,154.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-146,2025-11-24 02:17:07,16,Manish Agarwal,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Chennai,Tamil Nadu,South,UPI,Processing,VIP Customer
-146,2025-11-24 02:17:07,16,Manish Agarwal,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,3,2899.0,1300.0,8697.0,4797.0,Chennai,Tamil Nadu,South,UPI,Processing,VIP Customer
-146,2025-11-24 02:17:07,16,Manish Agarwal,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499.0,150.0,499.0,349.0,Chennai,Tamil Nadu,South,UPI,Processing,VIP Customer
-147,2026-07-20 23:26:07,41,Pranav Namboodiri,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449.0,150.0,449.0,299.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-147,2026-07-20 23:26:07,41,Pranav Namboodiri,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199.0,850.0,2199.0,1349.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-148,2026-01-30 20:16:07,45,Rahul Trivedi,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999.0,2200.0,4999.0,2799.0,Chandigarh,Punjab,North,Cash on Delivery,Completed,VIP Customer
-149,2026-01-11 02:12:07,22,Vikram Rathore,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Coimbatore,Tamil Nadu,South,Debit Card,Cancelled,At Risk
-149,2026-01-11 02:12:07,22,Vikram Rathore,94,ZenCeremonial Grade Japanese Matcha Green Tea 50g,Grocery,1,999.0,380.0,999.0,619.0,Coimbatore,Tamil Nadu,South,Debit Card,Cancelled,At Risk
-149,2026-01-11 02:12:07,22,Vikram Rathore,8,SonicBuds Pro TWS Earbuds,Electronics,1,2299.0,980.0,2299.0,1319.0,Coimbatore,Tamil Nadu,South,Debit Card,Cancelled,At Risk
-150,2026-05-31 04:04:07,55,Shalini George,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Guwahati,Assam,East,UPI,Completed,At Risk
-150,2026-05-31 04:04:07,55,Shalini George,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,2,899.0,290.0,1798.0,1218.0,Guwahati,Assam,East,UPI,Completed,At Risk
-150,2026-05-31 04:04:07,55,Shalini George,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299.0,1380.0,3299.0,1919.0,Guwahati,Assam,East,UPI,Completed,At Risk
-151,2026-02-11 05:10:07,44,Pallavi Hegde,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-151,2026-02-11 05:10:07,44,Pallavi Hegde,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-152,2026-06-06 01:10:07,39,Mohit Pandey,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399.0,510.0,1399.0,889.0,Bhopal,Madhya Pradesh,Central,UPI,Cancelled,VIP Customer
-152,2026-06-06 01:10:07,39,Mohit Pandey,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,1,1899.0,710.0,1899.0,1189.0,Bhopal,Madhya Pradesh,Central,UPI,Cancelled,VIP Customer
-152,2026-06-06 01:10:07,39,Mohit Pandey,16,StreamDeck Multi-Key Macro Pad,Electronics,2,4999.0,2300.0,9998.0,5398.0,Bhopal,Madhya Pradesh,Central,UPI,Cancelled,VIP Customer
-153,2026-03-24 08:31:07,20,Nikhil Pillai,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999.0,1950.0,3999.0,2049.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-153,2026-03-24 08:31:07,20,Nikhil Pillai,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999.0,8900.0,14999.0,6099.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-153,2026-03-24 08:31:07,20,Nikhil Pillai,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-153,2026-03-24 08:31:07,20,Nikhil Pillai,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999.0,1200.0,2999.0,1799.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-154,2026-02-14 21:46:07,50,Devendra Chauhan,86,CoreSlider Fitness Ab Roller Wheel,Sports,2,799.0,260.0,1598.0,1078.0,Kochi,Kerala,South,Credit Card,Completed,At Risk
-155,2026-01-25 19:46:07,13,Neha Kapoor,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-156,2025-12-18 02:21:07,51,Kritika Mathur,26,ProFit Athletic Training Joggers,Fashion,3,1199.0,450.0,3597.0,2247.0,Guwahati,Assam,East,Cash on Delivery,Processing,VIP Customer
-156,2025-12-18 02:21:07,51,Kritika Mathur,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349.0,110.0,349.0,239.0,Guwahati,Assam,East,Cash on Delivery,Processing,VIP Customer
-157,2025-11-13 06:16:07,35,Gaurav Chawla,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,2,1999.0,850.0,3998.0,2298.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-157,2025-11-13 06:16:07,35,Gaurav Chawla,23,AeroStride Breathable Running Shoes,Fashion,1,2999.0,1250.0,2999.0,1749.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-157,2025-11-13 06:16:07,35,Gaurav Chawla,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,2,699.0,240.0,1398.0,918.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-158,2026-04-20 08:11:07,55,Shalini George,38,Classic Leather Dress Belt Reversible,Fashion,1,699.0,220.0,699.0,479.0,Guwahati,Assam,East,UPI,Shipped,At Risk
-158,2026-04-20 08:11:07,55,Shalini George,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999.0,850.0,1999.0,1149.0,Guwahati,Assam,East,UPI,Shipped,At Risk
-158,2026-04-20 08:11:07,55,Shalini George,2,Pulse Pro Smartwatch Series 7,Electronics,2,3499.0,1650.0,6998.0,3698.0,Guwahati,Assam,East,UPI,Shipped,At Risk
-159,2026-05-19 06:14:07,16,Manish Agarwal,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599.0,175.0,599.0,424.0,Chennai,Tamil Nadu,South,Credit Card,Processing,VIP Customer
-160,2025-11-25 00:50:07,12,Rohan Mehta,2,Pulse Pro Smartwatch Series 7,Electronics,1,3499.0,1650.0,3499.0,1849.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-160,2025-11-25 00:50:07,12,Rohan Mehta,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Patna,Bihar,East,Debit Card,Completed,VIP Customer
-161,2026-01-04 22:19:07,38,Anushka Ghosh,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849.0,260.0,849.0,589.0,Pune,Maharashtra,West,Cash on Delivery,Processing,VIP Customer
-161,2026-01-04 22:19:07,38,Anushka Ghosh,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499.0,1950.0,4499.0,2549.0,Pune,Maharashtra,West,Cash on Delivery,Processing,VIP Customer
-161,2026-01-04 22:19:07,38,Anushka Ghosh,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,3,1899.0,790.0,5697.0,3327.0,Pune,Maharashtra,West,Cash on Delivery,Processing,VIP Customer
-162,2026-02-02 19:56:07,28,Aditya Saxena,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899.0,750.0,1899.0,1149.0,Surat,Gujarat,West,UPI,Completed,VIP Customer
-163,2025-10-04 00:21:07,39,Mohit Pandey,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,1,499.0,145.0,499.0,354.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-163,2025-10-04 00:21:07,39,Mohit Pandey,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999.0,1600.0,3999.0,2399.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-164,2026-03-07 06:47:07,48,Jaspreet Kaur,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299.0,890.0,2299.0,1409.0,Bengaluru,Karnataka,South,Credit Card,Cancelled,At Risk
-165,2025-12-16 03:27:07,7,Aditi Deshmukh,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Chandigarh,Punjab,North,Demo Payment,Completed,VIP Customer
-165,2025-12-16 03:27:07,7,Aditi Deshmukh,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349.0,110.0,349.0,239.0,Chandigarh,Punjab,North,Demo Payment,Completed,VIP Customer
-166,2026-02-02 06:28:07,13,Neha Kapoor,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599.0,170.0,599.0,429.0,Pune,Maharashtra,West,Credit Card,Shipped,VIP Customer
-166,2026-02-02 06:28:07,13,Neha Kapoor,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,2,199.0,45.0,398.0,308.0,Pune,Maharashtra,West,Credit Card,Shipped,VIP Customer
-167,2026-07-06 10:12:07,7,Aditi Deshmukh,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499.0,150.0,499.0,349.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-168,2026-07-24 02:45:07,38,Anushka Ghosh,17,SoundBar Cinema 120W with Subwoofer,Electronics,1,6999.0,3600.0,6999.0,3399.0,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-169,2025-10-28 04:09:07,26,Siddharth Hegde,33,Everyday Canvas Slip-On Sneakers,Fashion,2,1299.0,490.0,2598.0,1618.0,Guwahati,Assam,East,Debit Card,Completed,At Risk
-170,2026-07-21 20:42:07,41,Pranav Namboodiri,8,SonicBuds Pro TWS Earbuds,Electronics,3,2299.0,980.0,6897.0,3957.0,Kochi,Kerala,South,Credit Card,Completed,VIP Customer
-170,2026-07-21 20:42:07,41,Pranav Namboodiri,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799.0,1250.0,2799.0,1549.0,Kochi,Kerala,South,Credit Card,Completed,VIP Customer
-171,2025-12-30 07:48:07,15,Kavya Menon,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,3,699.0,240.0,2097.0,1377.0,Ahmedabad,Gujarat,West,Debit Card,Returned,VIP Customer
-171,2025-12-30 07:48:07,15,Kavya Menon,48,ZenAroma Ultrasonic Essential Oil Diffuser,Home & Kitchen,2,1199.0,420.0,2398.0,1558.0,Ahmedabad,Gujarat,West,Debit Card,Returned,VIP Customer
-172,2026-09-02 09:14:07,4,Ananya Iyer,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,New Delhi,Delhi,North,UPI,Processing,VIP Customer
-173,2026-01-21 08:40:07,7,Aditi Deshmukh,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449.0,150.0,449.0,299.0,Chandigarh,Punjab,North,Debit Card,Returned,VIP Customer
-173,2026-01-21 08:40:07,7,Aditi Deshmukh,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899.0,290.0,899.0,609.0,Chandigarh,Punjab,North,Debit Card,Returned,VIP Customer
-174,2025-11-24 20:31:07,15,Kavya Menon,3,UltraVision 4K Action Camera Pro,Electronics,1,7999.0,4200.0,7999.0,3799.0,Ahmedabad,Gujarat,West,Debit Card,Completed,VIP Customer
-174,2025-11-24 20:31:07,15,Kavya Menon,31,SmartFlex Stretch Chino Trousers,Fashion,1,1499.0,580.0,1499.0,919.0,Ahmedabad,Gujarat,West,Debit Card,Completed,VIP Customer
-174,2025-11-24 20:31:07,15,Kavya Menon,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999.0,780.0,1999.0,1219.0,Ahmedabad,Gujarat,West,Debit Card,Completed,VIP Customer
-174,2025-11-24 20:31:07,15,Kavya Menon,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799.0,1250.0,2799.0,1549.0,Ahmedabad,Gujarat,West,Debit Card,Completed,VIP Customer
-175,2025-10-21 02:08:07,3,Vivaan Gupta,8,SonicBuds Pro TWS Earbuds,Electronics,3,2299.0,980.0,6897.0,3957.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-175,2025-10-21 02:08:07,3,Vivaan Gupta,18,AeroCool Laptop Cooling Pad RGB,Electronics,1,1299.0,480.0,1299.0,819.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-175,2025-10-21 02:08:07,3,Vivaan Gupta,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,2,599.0,175.0,1198.0,848.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-176,2026-07-21 05:29:07,32,Deepika Kaul,19,VisionGlass 1080p Smart Home Projector,Electronics,3,8999.0,4500.0,26997.0,13497.0,Indore,Madhya Pradesh,Central,Debit Card,Completed,VIP Customer
-177,2026-04-27 23:57:07,30,Ritu Sethi,23,AeroStride Breathable Running Shoes,Fashion,1,2999.0,1250.0,2999.0,1749.0,Gurugram,Haryana,North,UPI,Cancelled,VIP Customer
-177,2026-04-27 23:57:07,30,Ritu Sethi,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Gurugram,Haryana,North,UPI,Cancelled,VIP Customer
-177,2026-04-27 23:57:07,30,Ritu Sethi,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,3,1199.0,520.0,3597.0,2037.0,Gurugram,Haryana,North,UPI,Cancelled,VIP Customer
-178,2026-09-07 02:30:07,51,Kritika Mathur,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Guwahati,Assam,East,Credit Card,Completed,VIP Customer
-178,2026-09-07 02:30:07,51,Kritika Mathur,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,Guwahati,Assam,East,Credit Card,Completed,VIP Customer
-179,2026-01-22 00:34:07,13,Neha Kapoor,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449.0,130.0,449.0,319.0,Pune,Maharashtra,West,Debit Card,Shipped,VIP Customer
-179,2026-01-22 00:34:07,13,Neha Kapoor,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799.0,690.0,1799.0,1109.0,Pune,Maharashtra,West,Debit Card,Shipped,VIP Customer
-179,2026-01-22 00:34:07,13,Neha Kapoor,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699.0,240.0,699.0,459.0,Pune,Maharashtra,West,Debit Card,Shipped,VIP Customer
-180,2026-08-25 21:39:07,13,Neha Kapoor,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799.0,260.0,799.0,539.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-180,2026-08-25 21:39:07,13,Neha Kapoor,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299.0,520.0,1299.0,779.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-181,2025-11-04 23:31:07,34,Swati Nanda,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,2,999.0,310.0,1998.0,1378.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-181,2025-11-04 23:31:07,34,Swati Nanda,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999.0,780.0,1999.0,1219.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-182,2025-10-05 23:39:07,51,Kritika Mathur,97,NutriHarvest Organic Chia Seeds 500g,Grocery,2,349.0,110.0,698.0,478.0,Guwahati,Assam,East,UPI,Shipped,VIP Customer
-182,2025-10-05 23:39:07,51,Kritika Mathur,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999.0,310.0,999.0,689.0,Guwahati,Assam,East,UPI,Shipped,VIP Customer
-183,2026-04-20 09:55:07,39,Mohit Pandey,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,Bhopal,Madhya Pradesh,Central,Credit Card,Shipped,VIP Customer
-184,2026-04-01 04:36:07,16,Manish Agarwal,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-184,2026-04-01 04:36:07,16,Manish Agarwal,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249.0,70.0,249.0,179.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-184,2026-04-01 04:36:07,16,Manish Agarwal,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999.0,2200.0,4999.0,2799.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-184,2026-04-01 04:36:07,16,Manish Agarwal,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999.0,780.0,1999.0,1219.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-185,2026-02-09 04:39:07,7,Aditi Deshmukh,26,ProFit Athletic Training Joggers,Fashion,1,1199.0,450.0,1199.0,749.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-186,2026-02-01 03:15:07,19,Riya Mukherjee,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,3,549.0,160.0,1647.0,1167.0,Bengaluru,Karnataka,South,Debit Card,Completed,VIP Customer
-187,2026-06-07 02:50:07,35,Gaurav Chawla,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899.0,290.0,899.0,609.0,Mumbai,Maharashtra,West,Debit Card,Completed,VIP Customer
-188,2026-07-03 05:43:07,47,Amitesh Kumar,86,CoreSlider Fitness Ab Roller Wheel,Sports,1,799.0,260.0,799.0,539.0,Hyderabad,Telangana,South,Credit Card,Shipped,VIP Customer
-189,2025-12-08 09:20:07,1,Aarav Sharma,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599.0,175.0,599.0,424.0,Raipur,Chhattisgarh,Central,UPI,Completed,At Risk
-190,2026-08-21 06:39:07,3,Vivaan Gupta,1,Aura Wireless Noise-Cancelling Headphones,Electronics,1,4999.0,2499.0,4999.0,2500.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-190,2026-08-21 06:39:07,3,Vivaan Gupta,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-191,2026-02-16 03:58:07,30,Ritu Sethi,23,AeroStride Breathable Running Shoes,Fashion,2,2999.0,1250.0,5998.0,3498.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-191,2026-02-16 03:58:07,30,Ritu Sethi,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-192,2026-08-12 03:56:07,13,Neha Kapoor,48,ZenAroma Ultrasonic Essential Oil Diffuser,Home & Kitchen,3,1199.0,420.0,3597.0,2337.0,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-193,2026-01-31 06:54:07,26,Siddharth Hegde,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999.0,1200.0,2999.0,1799.0,Guwahati,Assam,East,UPI,Shipped,At Risk
-194,2026-04-11 02:15:07,5,Reyansh Reddy,11,AirFlow Dual Band WiFi 6 Router,Electronics,2,3999.0,1950.0,7998.0,4098.0,Chandigarh,Punjab,North,Credit Card,Completed,Regular Customer
-194,2026-04-11 02:15:07,5,Reyansh Reddy,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Chandigarh,Punjab,North,Credit Card,Completed,Regular Customer
-195,2025-11-16 10:13:07,16,Manish Agarwal,89,NutriCrunch California Jumbo Almonds 500g,Grocery,1,649.0,280.0,649.0,369.0,Chennai,Tamil Nadu,South,Cash on Delivery,Completed,VIP Customer
-195,2025-11-16 10:13:07,16,Manish Agarwal,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,2,1299.0,480.0,2598.0,1638.0,Chennai,Tamil Nadu,South,Cash on Delivery,Completed,VIP Customer
-195,2025-11-16 10:13:07,16,Manish Agarwal,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899.0,280.0,899.0,619.0,Chennai,Tamil Nadu,South,Cash on Delivery,Completed,VIP Customer
-196,2026-07-04 05:22:07,15,Kavya Menon,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999.0,780.0,1999.0,1219.0,Ahmedabad,Gujarat,West,UPI,Cancelled,VIP Customer
-197,2026-04-20 09:44:07,41,Pranav Namboodiri,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,2,1699.0,680.0,3398.0,2038.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-197,2026-04-20 09:44:07,41,Pranav Namboodiri,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-198,2025-12-09 08:24:07,41,Pranav Namboodiri,7,ErgoGrip Wireless Vertical Mouse,Electronics,2,1299.0,520.0,2598.0,1558.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-198,2025-12-09 08:24:07,41,Pranav Namboodiri,13,"ClarityView 27"" QHD IPS Monitor",Electronics,1,16999.0,11500.0,16999.0,5499.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-198,2025-12-09 08:24:07,41,Pranav Namboodiri,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199.0,880.0,2199.0,1319.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-198,2025-12-09 08:24:07,41,Pranav Namboodiri,30,Botanical Printed Summer Maxi Dress,Fashion,3,1799.0,680.0,5397.0,3357.0,Kochi,Kerala,South,Debit Card,Completed,VIP Customer
-199,2026-03-14 20:20:07,20,Nikhil Pillai,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,2,3299.0,1380.0,6598.0,3838.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-199,2026-03-14 20:20:07,20,Nikhil Pillai,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399.0,110.0,399.0,289.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-200,2026-08-11 00:31:07,4,Ananya Iyer,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999.0,360.0,999.0,639.0,New Delhi,Delhi,North,UPI,Completed,VIP Customer
-201,2026-04-16 01:03:07,35,Gaurav Chawla,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299.0,480.0,1299.0,819.0,Mumbai,Maharashtra,West,UPI,Completed,VIP Customer
-202,2025-11-11 22:07:07,6,Ishaan Verma,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,1,2899.0,1300.0,2899.0,1599.0,Pune,Maharashtra,West,Credit Card,Completed,At Risk
-202,2025-11-11 22:07:07,6,Ishaan Verma,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899.0,790.0,1899.0,1109.0,Pune,Maharashtra,West,Credit Card,Completed,At Risk
-203,2026-03-14 09:04:07,34,Swati Nanda,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449.0,150.0,449.0,299.0,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
-203,2026-03-14 09:04:07,34,Swati Nanda,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449.0,130.0,449.0,319.0,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
-203,2026-03-14 09:04:07,34,Swati Nanda,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699.0,640.0,1699.0,1059.0,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
-204,2026-03-02 00:11:07,7,Aditi Deshmukh,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-205,2026-02-03 23:26:07,4,Ananya Iyer,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
-206,2026-04-19 01:33:07,1,Aarav Sharma,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899.0,750.0,1899.0,1149.0,Raipur,Chhattisgarh,Central,Credit Card,Shipped,At Risk
-207,2026-08-28 04:48:07,45,Rahul Trivedi,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999.0,310.0,999.0,689.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-207,2026-08-28 04:48:07,45,Rahul Trivedi,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999.0,2200.0,4999.0,2799.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-208,2026-09-19 06:11:07,16,Manish Agarwal,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,2,1399.0,510.0,2798.0,1778.0,Chennai,Tamil Nadu,South,Demo Payment,Shipped,VIP Customer
-209,2025-11-26 10:16:07,20,Nikhil Pillai,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-210,2026-01-14 03:31:07,51,Kritika Mathur,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799.0,690.0,1799.0,1109.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-210,2026-01-14 03:31:07,51,Kritika Mathur,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-210,2026-01-14 03:31:07,51,Kritika Mathur,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Guwahati,Assam,East,UPI,Completed,VIP Customer
-211,2026-05-03 08:04:07,8,Kabir Nair,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,1,1399.0,520.0,1399.0,879.0,Gurugram,Haryana,North,UPI,Returned,At Risk
-211,2026-05-03 08:04:07,8,Kabir Nair,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699.0,215.0,699.0,484.0,Gurugram,Haryana,North,UPI,Returned,At Risk
-212,2026-06-30 05:20:07,46,Payal Banerjee,86,CoreSlider Fitness Ab Roller Wheel,Sports,1,799.0,260.0,799.0,539.0,Bengaluru,Karnataka,South,Cash on Delivery,Completed,VIP Customer
-213,2025-10-21 05:21:07,35,Gaurav Chawla,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199.0,880.0,2199.0,1319.0,Mumbai,Maharashtra,West,Debit Card,Completed,VIP Customer
-213,2025-10-21 05:21:07,35,Gaurav Chawla,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499.0,1450.0,3499.0,2049.0,Mumbai,Maharashtra,West,Debit Card,Completed,VIP Customer
-213,2025-10-21 05:21:07,35,Gaurav Chawla,2,Pulse Pro Smartwatch Series 7,Electronics,1,3499.0,1650.0,3499.0,1849.0,Mumbai,Maharashtra,West,Debit Card,Completed,VIP Customer
-214,2026-09-16 04:54:07,31,Harsh Vardhan,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799.0,260.0,799.0,539.0,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,Regular Customer
-214,2026-09-16 04:54:07,31,Harsh Vardhan,89,NutriCrunch California Jumbo Almonds 500g,Grocery,3,649.0,280.0,1947.0,1107.0,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,Regular Customer
-214,2026-09-16 04:54:07,31,Harsh Vardhan,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599.0,175.0,599.0,424.0,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,Regular Customer
-215,2025-11-10 21:33:07,15,Kavya Menon,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699.0,210.0,699.0,489.0,Ahmedabad,Gujarat,West,Cash on Delivery,Completed,VIP Customer
-216,2026-03-26 02:46:07,30,Ritu Sethi,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Gurugram,Haryana,North,Credit Card,Completed,VIP Customer
-217,2025-10-10 09:01:07,39,Mohit Pandey,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399.0,130.0,399.0,269.0,Bhopal,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
-218,2025-12-19 01:15:07,9,Saanvi Rao,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-218,2025-12-19 01:15:07,9,Saanvi Rao,24,Aviator Polarized Classic Sunglasses,Fashion,1,999.0,320.0,999.0,679.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-218,2025-12-19 01:15:07,9,Saanvi Rao,82,WildPeak 4-Person Waterproof Camping Tent,Sports,1,5499.0,2600.0,5499.0,2899.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-219,2026-05-17 05:07:07,46,Payal Banerjee,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349.0,110.0,349.0,239.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-220,2026-07-20 21:31:07,44,Pallavi Hegde,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699.0,210.0,699.0,489.0,Gurugram,Haryana,North,Cash on Delivery,Completed,VIP Customer
-221,2026-06-06 04:20:07,37,Kunal Goswami,15,GlideTouch Precision Stylus Pen,Electronics,1,1599.0,620.0,1599.0,979.0,Kochi,Kerala,South,UPI,Completed,VIP Customer
-222,2026-08-10 22:32:07,45,Rahul Trivedi,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799.0,260.0,799.0,539.0,Chandigarh,Punjab,North,Debit Card,Shipped,VIP Customer
-222,2026-08-10 22:32:07,45,Rahul Trivedi,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999.0,1950.0,3999.0,2049.0,Chandigarh,Punjab,North,Debit Card,Shipped,VIP Customer
-222,2026-08-10 22:32:07,45,Rahul Trivedi,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199.0,520.0,1199.0,679.0,Chandigarh,Punjab,North,Debit Card,Shipped,VIP Customer
-223,2026-09-18 22:12:07,10,Dhruv Sen,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,Lucknow,Uttar Pradesh,North,UPI,Completed,Regular Customer
-223,2026-09-18 22:12:07,10,Dhruv Sen,24,Aviator Polarized Classic Sunglasses,Fashion,1,999.0,320.0,999.0,679.0,Lucknow,Uttar Pradesh,North,UPI,Completed,Regular Customer
-224,2025-12-26 03:50:07,48,Jaspreet Kaur,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799.0,240.0,799.0,559.0,Bengaluru,Karnataka,South,Credit Card,Completed,At Risk
-225,2025-10-03 02:48:07,46,Payal Banerjee,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999.0,1200.0,2999.0,1799.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-225,2025-10-03 02:48:07,46,Payal Banerjee,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-226,2026-05-14 02:50:07,39,Mohit Pandey,38,Classic Leather Dress Belt Reversible,Fashion,1,699.0,220.0,699.0,479.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-226,2026-05-14 02:50:07,39,Mohit Pandey,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999.0,850.0,1999.0,1149.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-226,2026-05-14 02:50:07,39,Mohit Pandey,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399.0,510.0,1399.0,889.0,Bhopal,Madhya Pradesh,Central,UPI,Completed,VIP Customer
-227,2026-06-09 04:12:07,31,Harsh Vardhan,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299.0,480.0,1299.0,819.0,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,Regular Customer
-227,2026-06-09 04:12:07,31,Harsh Vardhan,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899.0,290.0,899.0,609.0,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,Regular Customer
-227,2026-06-09 04:12:07,31,Harsh Vardhan,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349.0,110.0,349.0,239.0,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,Regular Customer
-228,2025-11-20 07:33:07,53,Monika Rawat,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999.0,850.0,1999.0,1149.0,Kolkata,West Bengal,East,Debit Card,Completed,Regular Customer
-228,2025-11-20 07:33:07,53,Monika Rawat,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,2,799.0,240.0,1598.0,1118.0,Kolkata,West Bengal,East,Debit Card,Completed,Regular Customer
-228,2025-11-20 07:33:07,53,Monika Rawat,34,Boho Embroidered Cotton Kurti,Fashion,1,1199.0,430.0,1199.0,769.0,Kolkata,West Bengal,East,Debit Card,Completed,Regular Customer
-229,2026-01-27 23:31:07,54,Chirag Parekh,79,HydraTrail Lightweight Running Vest 5L,Sports,1,1899.0,720.0,1899.0,1179.0,Hyderabad,Telangana,South,Debit Card,Completed,At Risk
-229,2026-01-27 23:31:07,54,Chirag Parekh,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Hyderabad,Telangana,South,Debit Card,Completed,At Risk
-229,2026-01-27 23:31:07,54,Chirag Parekh,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,Hyderabad,Telangana,South,Debit Card,Completed,At Risk
-230,2025-10-29 05:02:07,13,Neha Kapoor,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199.0,45.0,199.0,154.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-231,2026-06-19 10:23:07,32,Deepika Kaul,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,2,1799.0,690.0,3598.0,2218.0,Indore,Madhya Pradesh,Central,Cash on Delivery,Completed,VIP Customer
-231,2026-06-19 10:23:07,32,Deepika Kaul,8,SonicBuds Pro TWS Earbuds,Electronics,1,2299.0,980.0,2299.0,1319.0,Indore,Madhya Pradesh,Central,Cash on Delivery,Completed,VIP Customer
-231,2026-06-19 10:23:07,32,Deepika Kaul,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,2,1399.0,510.0,2798.0,1778.0,Indore,Madhya Pradesh,Central,Cash on Delivery,Completed,VIP Customer
-232,2026-03-12 08:55:07,14,Arjun Bhatt,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999.0,2300.0,4999.0,2699.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-232,2026-03-12 08:55:07,14,Arjun Bhatt,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-233,2026-08-19 08:36:07,25,Priyanka Roy,89,NutriCrunch California Jumbo Almonds 500g,Grocery,1,649.0,280.0,649.0,369.0,Lucknow,Uttar Pradesh,North,Debit Card,Completed,Regular Customer
-233,2026-08-19 08:36:07,25,Priyanka Roy,48,ZenAroma Ultrasonic Essential Oil Diffuser,Home & Kitchen,1,1199.0,420.0,1199.0,779.0,Lucknow,Uttar Pradesh,North,Debit Card,Completed,Regular Customer
-234,2025-11-15 07:09:07,33,Abhishek Tiwari,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,3,699.0,215.0,2097.0,1452.0,Mumbai,Maharashtra,West,Credit Card,Completed,At Risk
-234,2025-11-15 07:09:07,33,Abhishek Tiwari,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,2,2799.0,1150.0,5598.0,3298.0,Mumbai,Maharashtra,West,Credit Card,Completed,At Risk
-234,2025-11-15 07:09:07,33,Abhishek Tiwari,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899.0,720.0,1899.0,1179.0,Mumbai,Maharashtra,West,Credit Card,Completed,At Risk
-235,2026-02-21 01:15:07,16,Manish Agarwal,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499.0,560.0,1499.0,939.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-235,2026-02-21 01:15:07,16,Manish Agarwal,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599.0,210.0,599.0,389.0,Chennai,Tamil Nadu,South,Credit Card,Completed,VIP Customer
-236,2026-05-21 19:47:07,35,Gaurav Chawla,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,3,1299.0,470.0,3897.0,2487.0,Mumbai,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-236,2026-05-21 19:47:07,35,Gaurav Chawla,26,ProFit Athletic Training Joggers,Fashion,2,1199.0,450.0,2398.0,1498.0,Mumbai,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
-237,2026-03-01 22:35:07,46,Payal Banerjee,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299.0,490.0,1299.0,809.0,Bengaluru,Karnataka,South,Cash on Delivery,Completed,VIP Customer
-237,2026-03-01 22:35:07,46,Payal Banerjee,11,AirFlow Dual Band WiFi 6 Router,Electronics,2,3999.0,1950.0,7998.0,4098.0,Bengaluru,Karnataka,South,Cash on Delivery,Completed,VIP Customer
-238,2026-04-19 05:59:07,9,Saanvi Rao,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899.0,790.0,1899.0,1109.0,Chennai,Tamil Nadu,South,Debit Card,Shipped,VIP Customer
-238,2026-04-19 05:59:07,9,Saanvi Rao,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199.0,45.0,199.0,154.0,Chennai,Tamil Nadu,South,Debit Card,Shipped,VIP Customer
-239,2026-07-28 23:13:07,4,Ananya Iyer,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
-239,2026-07-28 23:13:07,4,Ananya Iyer,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299.0,470.0,1299.0,829.0,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
-240,2025-11-13 07:31:07,13,Neha Kapoor,18,AeroCool Laptop Cooling Pad RGB,Electronics,2,1299.0,480.0,2598.0,1638.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-240,2025-11-13 07:31:07,13,Neha Kapoor,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,2,999.0,360.0,1998.0,1278.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-240,2025-11-13 07:31:07,13,Neha Kapoor,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,1,329.0,110.0,329.0,219.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-241,2025-11-03 04:16:07,38,Anushka Ghosh,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449.0,150.0,449.0,299.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-241,2025-11-03 04:16:07,38,Anushka Ghosh,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899.0,720.0,1899.0,1179.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-242,2026-09-15 03:35:07,21,Tanvi Choudhury,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,Coimbatore,Tamil Nadu,South,UPI,Processing,New Customer
-243,2026-05-06 01:30:07,19,Riya Mukherjee,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399.0,110.0,399.0,289.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-244,2026-02-21 08:24:07,39,Mohit Pandey,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999.0,780.0,1999.0,1219.0,Bhopal,Madhya Pradesh,Central,UPI,Processing,VIP Customer
-244,2026-02-21 08:24:07,39,Mohit Pandey,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499.0,150.0,499.0,349.0,Bhopal,Madhya Pradesh,Central,UPI,Processing,VIP Customer
-244,2026-02-21 08:24:07,39,Mohit Pandey,78,PulseRelief Deep Tissue Massage Gun,Sports,1,3499.0,1450.0,3499.0,2049.0,Bhopal,Madhya Pradesh,Central,UPI,Processing,VIP Customer
-245,2026-01-29 03:04:07,3,Vivaan Gupta,68,BioNourish Castor & Rosemary Lash Serum,Beauty,3,599.0,170.0,1797.0,1287.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-245,2026-01-29 03:04:07,3,Vivaan Gupta,2,Pulse Pro Smartwatch Series 7,Electronics,2,3499.0,1650.0,6998.0,3698.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-246,2026-07-17 02:03:07,7,Aditi Deshmukh,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-246,2026-07-17 02:03:07,7,Aditi Deshmukh,10,SmartView 360 WiFi Security Camera,Electronics,1,2499.0,1100.0,2499.0,1399.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-247,2025-10-19 09:43:07,15,Kavya Menon,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899.0,360.0,899.0,539.0,Ahmedabad,Gujarat,West,Cash on Delivery,Completed,VIP Customer
-248,2026-04-21 21:20:07,22,Vikram Rathore,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999.0,1600.0,3999.0,2399.0,Coimbatore,Tamil Nadu,South,Credit Card,Completed,At Risk
-249,2025-12-17 04:00:07,48,Jaspreet Kaur,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599.0,210.0,599.0,389.0,Bengaluru,Karnataka,South,UPI,Completed,At Risk
-249,2025-12-17 04:00:07,48,Jaspreet Kaur,83,GripFit Padded Weightlifting Gym Gloves,Sports,1,599.0,180.0,599.0,419.0,Bengaluru,Karnataka,South,UPI,Completed,At Risk
-249,2025-12-17 04:00:07,48,Jaspreet Kaur,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,3,2799.0,1250.0,8397.0,4647.0,Bengaluru,Karnataka,South,UPI,Completed,At Risk
-250,2026-01-31 21:39:07,13,Neha Kapoor,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999.0,1600.0,3999.0,2399.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-250,2026-01-31 21:39:07,13,Neha Kapoor,86,CoreSlider Fitness Ab Roller Wheel,Sports,1,799.0,260.0,799.0,539.0,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
-251,2025-12-08 06:40:07,7,Aditi Deshmukh,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449.0,150.0,449.0,299.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-251,2025-12-08 06:40:07,7,Aditi Deshmukh,34,Boho Embroidered Cotton Kurti,Fashion,1,1199.0,430.0,1199.0,769.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-252,2025-10-14 01:31:07,46,Payal Banerjee,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999.0,2300.0,4999.0,2699.0,Bengaluru,Karnataka,South,Credit Card,Completed,VIP Customer
-253,2026-06-17 00:43:07,29,Tarun Bansal,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299.0,490.0,1299.0,809.0,Jaipur,Rajasthan,North,Credit Card,Completed,VIP Customer
-254,2026-09-09 06:47:07,46,Payal Banerjee,2,Pulse Pro Smartwatch Series 7,Electronics,1,3499.0,1650.0,3499.0,1849.0,Bengaluru,Karnataka,South,UPI,Completed,VIP Customer
-255,2026-04-13 09:49:07,27,Meera Nambiar,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899.0,360.0,899.0,539.0,Lucknow,Uttar Pradesh,North,UPI,Returned,Regular Customer
-256,2026-04-30 10:26:07,16,Manish Agarwal,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,Chennai,Tamil Nadu,South,UPI,Shipped,VIP Customer
-256,2026-04-30 10:26:07,16,Manish Agarwal,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599.0,175.0,599.0,424.0,Chennai,Tamil Nadu,South,UPI,Shipped,VIP Customer
-257,2026-06-19 20:05:07,13,Neha Kapoor,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999.0,1600.0,3999.0,2399.0,Pune,Maharashtra,West,UPI,Completed,VIP Customer
-258,2025-10-03 00:52:07,30,Ritu Sethi,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699.0,640.0,1699.0,1059.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-258,2025-10-03 00:52:07,30,Ritu Sethi,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,3,499.0,145.0,1497.0,1062.0,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
-259,2026-01-07 07:37:07,55,Shalini George,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799.0,690.0,1799.0,1109.0,Guwahati,Assam,East,Credit Card,Shipped,At Risk
-260,2026-08-20 09:24:07,30,Ritu Sethi,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799.0,680.0,1799.0,1119.0,Gurugram,Haryana,North,Cash on Delivery,Returned,VIP Customer
-261,2026-01-12 03:55:07,16,Manish Agarwal,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999.0,4500.0,8999.0,4499.0,Chennai,Tamil Nadu,South,Credit Card,Returned,VIP Customer
-261,2026-01-12 03:55:07,16,Manish Agarwal,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899.0,360.0,899.0,539.0,Chennai,Tamil Nadu,South,Credit Card,Returned,VIP Customer
-261,2026-01-12 03:55:07,16,Manish Agarwal,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,3,1399.0,510.0,4197.0,2667.0,Chennai,Tamil Nadu,South,Credit Card,Returned,VIP Customer
-261,2026-01-12 03:55:07,16,Manish Agarwal,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899.0,790.0,1899.0,1109.0,Chennai,Tamil Nadu,South,Credit Card,Returned,VIP Customer
-262,2025-11-06 05:16:07,45,Rahul Trivedi,38,Classic Leather Dress Belt Reversible,Fashion,1,699.0,220.0,699.0,479.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-263,2026-04-18 07:33:07,16,Manish Agarwal,10,SmartView 360 WiFi Security Camera,Electronics,2,2499.0,1100.0,4998.0,2798.0,Chennai,Tamil Nadu,South,Debit Card,Completed,VIP Customer
-264,2026-07-24 20:49:07,7,Aditi Deshmukh,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
-265,2026-01-13 02:59:07,51,Kritika Mathur,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599.0,210.0,599.0,389.0,Guwahati,Assam,East,Credit Card,Processing,VIP Customer
-266,2026-08-02 19:53:07,39,Mohit Pandey,32,ThermalLite Puffer Quilted Vest,Fashion,3,1699.0,640.0,5097.0,3177.0,Bhopal,Madhya Pradesh,Central,Cash on Delivery,Completed,VIP Customer
-267,2025-10-24 05:59:07,20,Nikhil Pillai,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,2,1399.0,520.0,2798.0,1758.0,Chandigarh,Punjab,North,UPI,Returned,VIP Customer
-268,2025-11-16 02:46:07,30,Ritu Sethi,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,3,329.0,110.0,987.0,657.0,Gurugram,Haryana,North,Cash on Delivery,Completed,VIP Customer
-269,2026-04-22 01:23:07,7,Aditi Deshmukh,34,Boho Embroidered Cotton Kurti,Fashion,1,1199.0,430.0,1199.0,769.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-269,2026-04-22 01:23:07,7,Aditi Deshmukh,10,SmartView 360 WiFi Security Camera,Electronics,1,2499.0,1100.0,2499.0,1399.0,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
-270,2026-05-14 07:48:07,47,Amitesh Kumar,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999.0,2300.0,4999.0,2699.0,Hyderabad,Telangana,South,UPI,Processing,VIP Customer
-270,2026-05-14 07:48:07,47,Amitesh Kumar,6,NovaPower 65W GaN Fast Charger,Electronics,2,1499.0,580.0,2998.0,1838.0,Hyderabad,Telangana,South,UPI,Processing,VIP Customer
-270,2026-05-14 07:48:07,47,Amitesh Kumar,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,1,499.0,145.0,499.0,354.0,Hyderabad,Telangana,South,UPI,Processing,VIP Customer
-271,2026-06-09 20:04:07,39,Mohit Pandey,24,Aviator Polarized Classic Sunglasses,Fashion,1,999.0,320.0,999.0,679.0,Bhopal,Madhya Pradesh,Central,Debit Card,Completed,VIP Customer
-272,2025-12-13 20:19:07,24,Sameer Singhania,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,2,1799.0,690.0,3598.0,2218.0,Hyderabad,Telangana,South,Credit Card,Completed,At Risk
-273,2025-11-12 00:04:07,28,Aditya Saxena,68,BioNourish Castor & Rosemary Lash Serum,Beauty,3,599.0,170.0,1797.0,1287.0,Surat,Gujarat,West,UPI,Completed,VIP Customer
-273,2025-11-12 00:04:07,28,Aditya Saxena,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699.0,640.0,1699.0,1059.0,Surat,Gujarat,West,UPI,Completed,VIP Customer
-273,2025-11-12 00:04:07,28,Aditya Saxena,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699.0,220.0,699.0,479.0,Surat,Gujarat,West,UPI,Completed,VIP Customer
-274,2026-03-31 03:14:07,19,Riya Mukherjee,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499.0,1950.0,4499.0,2549.0,Bengaluru,Karnataka,South,Debit Card,Completed,VIP Customer
-274,2026-03-31 03:14:07,19,Riya Mukherjee,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,1,1699.0,680.0,1699.0,1019.0,Bengaluru,Karnataka,South,Debit Card,Completed,VIP Customer
-275,2025-10-14 10:31:07,34,Swati Nanda,68,BioNourish Castor & Rosemary Lash Serum,Beauty,3,599.0,170.0,1797.0,1287.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-275,2025-10-14 10:31:07,34,Swati Nanda,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,3,3299.0,1380.0,9897.0,5757.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-275,2025-10-14 10:31:07,34,Swati Nanda,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699.0,280.0,699.0,419.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-275,2025-10-14 10:31:07,34,Swati Nanda,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899.0,310.0,899.0,589.0,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
-276,2025-10-27 07:54:07,15,Kavya Menon,23,AeroStride Breathable Running Shoes,Fashion,1,2999.0,1250.0,2999.0,1749.0,Ahmedabad,Gujarat,West,Credit Card,Returned,VIP Customer
-277,2026-03-31 10:17:07,44,Pallavi Hegde,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299.0,480.0,1299.0,819.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-277,2026-03-31 10:17:07,44,Pallavi Hegde,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999.0,4500.0,8999.0,4499.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-277,2026-03-31 10:17:07,44,Pallavi Hegde,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799.0,260.0,799.0,539.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-277,2026-03-31 10:17:07,44,Pallavi Hegde,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649.0,190.0,649.0,459.0,Gurugram,Haryana,North,UPI,Completed,VIP Customer
-278,2025-10-09 04:10:07,34,Swati Nanda,17,SoundBar Cinema 120W with Subwoofer,Electronics,1,6999.0,3600.0,6999.0,3399.0,Noida,Uttar Pradesh,North,UPI,Cancelled,VIP Customer
-279,2026-03-12 19:41:07,9,Saanvi Rao,15,GlideTouch Precision Stylus Pen,Electronics,2,1599.0,620.0,3198.0,1958.0,Chennai,Tamil Nadu,South,UPI,Completed,VIP Customer
-280,2025-11-05 01:25:07,46,Payal Banerjee,39,Merino Wool Blend Thermal Beanie,Fashion,1,499.0,160.0,499.0,339.0,Bengaluru,Karnataka,South,Cash on Delivery,Completed,VIP Customer
+1,2025-12-22 23:16:51,36,Bhavna Shukla,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Kolkata,West Bengal,East,Credit Card,Completed,At Risk
+1,2025-12-22 23:16:51,36,Bhavna Shukla,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999,1950,3999,2049,Kolkata,West Bengal,East,Credit Card,Completed,At Risk
+1,2025-12-22 23:16:51,36,Bhavna Shukla,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299,480,1299,819,Kolkata,West Bengal,East,Credit Card,Completed,At Risk
+1,2025-12-22 23:16:51,36,Bhavna Shukla,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,2,899,310,1798,1178,Kolkata,West Bengal,East,Credit Card,Completed,At Risk
+2,2026-09-21 17:25:51,42,Shikha Srivastava,35,Silk Touch Printed Square Scarf,Fashion,1,599,180,599,419,Patna,Bihar,East,Cash on Delivery,Completed,VIP Customer
+3,2025-12-25 22:54:51,26,Siddharth Hegde,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399,110,399,289,New Delhi,Delhi,North,Cash on Delivery,Completed,VIP Customer
+3,2025-12-25 22:54:51,26,Siddharth Hegde,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,New Delhi,Delhi,North,Cash on Delivery,Completed,VIP Customer
+4,2026-06-13 15:53:51,4,Ananya Iyer,8,SonicBuds Pro TWS Earbuds,Electronics,1,2299,980,2299,1319,Pune,Maharashtra,West,UPI,Completed,VIP Customer
+4,2026-06-13 15:53:51,4,Ananya Iyer,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999,2200,4999,2799,Pune,Maharashtra,West,UPI,Completed,VIP Customer
+4,2026-06-13 15:53:51,4,Ananya Iyer,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699,640,1699,1059,Pune,Maharashtra,West,UPI,Completed,VIP Customer
+5,2025-12-15 02:39:51,7,Aditi Deshmukh,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+5,2025-12-15 02:39:51,7,Aditi Deshmukh,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999,2300,4999,2699,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+6,2026-05-12 17:12:51,38,Anushka Ghosh,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,New Delhi,Delhi,North,Debit Card,Completed,Regular Customer
+6,2026-05-12 17:12:51,38,Anushka Ghosh,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,2,699,215,1398,968,New Delhi,Delhi,North,Debit Card,Completed,Regular Customer
+7,2026-03-17 17:23:51,42,Shikha Srivastava,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,1,499,145,499,354,Patna,Bihar,East,Cash on Delivery,Completed,VIP Customer
+8,2026-06-09 00:47:51,24,Sameer Singhania,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499,150,499,349,Chennai,Tamil Nadu,South,Cash on Delivery,Processing,Regular Customer
+8,2026-06-09 00:47:51,24,Sameer Singhania,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699,640,1699,1059,Chennai,Tamil Nadu,South,Cash on Delivery,Processing,Regular Customer
+9,2026-06-07 20:47:51,3,Vivaan Gupta,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499,560,1499,939,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+9,2026-06-07 20:47:51,3,Vivaan Gupta,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799,680,1799,1119,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+9,2026-06-07 20:47:51,3,Vivaan Gupta,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,3,899,310,2697,1767,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+10,2026-05-18 00:14:51,28,Aditya Saxena,86,CoreSlider Fitness Ab Roller Wheel,Sports,1,799,260,799,539,Gurugram,Haryana,North,UPI,Completed,Regular Customer
+10,2026-05-18 00:14:51,28,Aditya Saxena,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849,260,849,589,Gurugram,Haryana,North,UPI,Completed,Regular Customer
+10,2026-05-18 00:14:51,28,Aditya Saxena,15,GlideTouch Precision Stylus Pen,Electronics,1,1599,620,1599,979,Gurugram,Haryana,North,UPI,Completed,Regular Customer
+11,2026-06-13 23:17:51,3,Vivaan Gupta,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549,160,549,389,Noida,Uttar Pradesh,North,Credit Card,Completed,VIP Customer
+11,2026-06-13 23:17:51,3,Vivaan Gupta,6,NovaPower 65W GaN Fast Charger,Electronics,2,1499,580,2998,1838,Noida,Uttar Pradesh,North,Credit Card,Completed,VIP Customer
+12,2026-09-29 23:07:51,33,Abhishek Tiwari,7,ErgoGrip Wireless Vertical Mouse,Electronics,2,1299,520,2598,1558,Guwahati,Assam,East,Demo Payment,Completed,VIP Customer
+12,2026-09-29 23:07:51,33,Abhishek Tiwari,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Guwahati,Assam,East,Demo Payment,Completed,VIP Customer
+12,2026-09-29 23:07:51,33,Abhishek Tiwari,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799,690,1799,1109,Guwahati,Assam,East,Demo Payment,Completed,VIP Customer
+12,2026-09-29 23:07:51,33,Abhishek Tiwari,79,HydraTrail Lightweight Running Vest 5L,Sports,3,1899,720,5697,3537,Guwahati,Assam,East,Demo Payment,Completed,VIP Customer
+13,2025-10-22 14:49:51,35,Gaurav Chawla,78,PulseRelief Deep Tissue Massage Gun,Sports,2,3499,1450,6998,4098,Surat,Gujarat,West,UPI,Returned,VIP Customer
+14,2026-09-02 22:04:51,16,Manish Agarwal,78,PulseRelief Deep Tissue Massage Gun,Sports,1,3499,1450,3499,2049,Nagpur,Maharashtra,Central,Credit Card,Shipped,VIP Customer
+14,2026-09-02 22:04:51,16,Manish Agarwal,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,1,329,110,329,219,Nagpur,Maharashtra,Central,Credit Card,Shipped,VIP Customer
+15,2026-02-10 13:53:51,20,Nikhil Pillai,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199,850,2199,1349,Gurugram,Haryana,North,UPI,Completed,VIP Customer
+16,2026-04-20 17:53:51,42,Shikha Srivastava,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449,150,449,299,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+17,2026-01-26 20:53:51,28,Aditya Saxena,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299,890,2299,1409,Gurugram,Haryana,North,UPI,Completed,Regular Customer
+17,2026-01-26 20:53:51,28,Aditya Saxena,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Gurugram,Haryana,North,UPI,Completed,Regular Customer
+18,2026-01-18 15:14:51,20,Nikhil Pillai,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999,310,999,689,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
+18,2026-01-18 15:14:51,20,Nikhil Pillai,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499,560,1499,939,Gurugram,Haryana,North,UPI,Shipped,VIP Customer
+19,2026-03-07 02:10:51,17,Sneha Kulkarni,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549,160,549,389,Surat,Gujarat,West,UPI,Processing,VIP Customer
+19,2026-03-07 02:10:51,17,Sneha Kulkarni,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999,360,999,639,Surat,Gujarat,West,UPI,Processing,VIP Customer
+20,2026-07-16 21:09:51,3,Vivaan Gupta,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299,520,1299,779,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+20,2026-07-16 21:09:51,3,Vivaan Gupta,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449,130,449,319,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+21,2026-04-05 21:07:51,9,Saanvi Rao,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699,240,699,459,Mumbai,Maharashtra,West,Credit Card,Completed,Regular Customer
+22,2026-07-31 17:41:51,29,Tarun Bansal,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,2,2799,1150,5598,3298,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+23,2026-02-01 23:13:51,50,Devendra Chauhan,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Surat,Gujarat,West,Cash on Delivery,Shipped,At Risk
+23,2026-02-01 23:13:51,50,Devendra Chauhan,27,StormShield Lightweight Windbreaker Jacket,Fashion,3,1999,780,5997,3657,Surat,Gujarat,West,Cash on Delivery,Shipped,At Risk
+24,2026-07-28 18:09:51,7,Aditi Deshmukh,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399,110,399,289,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+25,2026-02-11 15:50:51,47,Amitesh Kumar,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+25,2026-02-11 15:50:51,47,Amitesh Kumar,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+25,2026-02-11 15:50:51,47,Amitesh Kumar,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,1,1399,520,1399,879,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+25,2026-02-11 15:50:51,47,Amitesh Kumar,35,Silk Touch Printed Square Scarf,Fashion,1,599,180,599,419,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+26,2026-03-27 02:59:51,22,Vikram Rathore,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449,150,449,299,Surat,Gujarat,West,Demo Payment,Completed,VIP Customer
+27,2026-09-04 15:34:51,44,Pallavi Hegde,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+28,2026-08-22 18:28:51,7,Aditi Deshmukh,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899,310,899,589,Jaipur,Rajasthan,North,Debit Card,Processing,VIP Customer
+28,2026-08-22 18:28:51,7,Aditi Deshmukh,86,CoreSlider Fitness Ab Roller Wheel,Sports,2,799,260,1598,1078,Jaipur,Rajasthan,North,Debit Card,Processing,VIP Customer
+29,2026-01-01 13:51:51,7,Aditi Deshmukh,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699,280,699,419,Jaipur,Rajasthan,North,Debit Card,Returned,VIP Customer
+29,2026-01-01 13:51:51,7,Aditi Deshmukh,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999,2200,4999,2799,Jaipur,Rajasthan,North,Debit Card,Returned,VIP Customer
+30,2026-09-12 18:43:51,4,Ananya Iyer,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899,280,899,619,Pune,Maharashtra,West,Demo Payment,Completed,VIP Customer
+31,2026-02-23 00:56:51,36,Bhavna Shukla,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699,640,1699,1059,Kolkata,West Bengal,East,UPI,Completed,At Risk
+32,2026-01-07 16:17:51,16,Manish Agarwal,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499,580,1499,919,Nagpur,Maharashtra,Central,Credit Card,Completed,VIP Customer
+32,2026-01-07 16:17:51,16,Manish Agarwal,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Nagpur,Maharashtra,Central,Credit Card,Completed,VIP Customer
+33,2026-07-26 18:42:51,7,Aditi Deshmukh,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449,130,449,319,Jaipur,Rajasthan,North,Debit Card,Completed,VIP Customer
+34,2026-08-07 15:53:51,8,Kabir Nair,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,Kochi,Kerala,South,Credit Card,Processing,New Customer
+35,2025-11-12 16:48:51,7,Aditi Deshmukh,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+36,2025-10-27 23:16:51,37,Kunal Goswami,23,AeroStride Breathable Running Shoes,Fashion,1,2999,1250,2999,1749,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,VIP Customer
+37,2026-01-06 01:20:51,3,Vivaan Gupta,39,Merino Wool Blend Thermal Beanie,Fashion,1,499,160,499,339,Noida,Uttar Pradesh,North,Debit Card,Returned,VIP Customer
+37,2026-01-06 01:20:51,3,Vivaan Gupta,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199,880,2199,1319,Noida,Uttar Pradesh,North,Debit Card,Returned,VIP Customer
+38,2026-04-19 22:54:51,42,Shikha Srivastava,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449,150,449,299,Patna,Bihar,East,UPI,Completed,VIP Customer
+38,2026-04-19 22:54:51,42,Shikha Srivastava,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899,310,899,589,Patna,Bihar,East,UPI,Completed,VIP Customer
+38,2026-04-19 22:54:51,42,Shikha Srivastava,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,Patna,Bihar,East,UPI,Completed,VIP Customer
+39,2026-07-08 20:14:51,16,Manish Agarwal,13,ClarityView 27" QHD IPS Monitor,Electronics,1,16999,11500,16999,5499,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+40,2026-03-14 18:18:51,3,Vivaan Gupta,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,Noida,Uttar Pradesh,North,UPI,Cancelled,VIP Customer
+41,2026-07-22 22:58:51,16,Manish Agarwal,24,Aviator Polarized Classic Sunglasses,Fashion,1,999,320,999,679,Nagpur,Maharashtra,Central,Credit Card,Returned,VIP Customer
+41,2026-07-22 22:58:51,16,Manish Agarwal,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199,850,2199,1349,Nagpur,Maharashtra,Central,Credit Card,Returned,VIP Customer
+42,2026-08-26 22:18:51,27,Meera Nambiar,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249,70,249,179,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+42,2026-08-26 22:18:51,27,Meera Nambiar,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449,150,449,299,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+43,2026-09-26 15:18:51,26,Siddharth Hegde,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+43,2026-09-26 15:18:51,26,Siddharth Hegde,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299,470,1299,829,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+43,2026-09-26 15:18:51,26,Siddharth Hegde,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299,520,1299,779,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+44,2026-08-08 15:06:51,16,Manish Agarwal,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+45,2026-08-12 14:11:51,3,Vivaan Gupta,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,Noida,Uttar Pradesh,North,Credit Card,Completed,VIP Customer
+46,2026-05-06 00:00:51,50,Devendra Chauhan,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,2,499,145,998,708,Surat,Gujarat,West,Credit Card,Completed,At Risk
+46,2026-05-06 00:00:51,50,Devendra Chauhan,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999,2200,4999,2799,Surat,Gujarat,West,Credit Card,Completed,At Risk
+47,2026-09-16 18:49:51,38,Anushka Ghosh,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,New Delhi,Delhi,North,Credit Card,Cancelled,Regular Customer
+47,2026-09-16 18:49:51,38,Anushka Ghosh,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449,150,449,299,New Delhi,Delhi,North,Credit Card,Cancelled,Regular Customer
+48,2026-07-16 16:50:51,26,Siddharth Hegde,1,Aura Wireless Noise-Cancelling Headphones,Electronics,1,4999,2499,4999,2500,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+49,2026-08-15 15:07:51,19,Riya Mukherjee,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,Patna,Bihar,East,Cash on Delivery,Completed,VIP Customer
+49,2026-08-15 15:07:51,19,Riya Mukherjee,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Patna,Bihar,East,Cash on Delivery,Completed,VIP Customer
+49,2026-08-15 15:07:51,19,Riya Mukherjee,8,SonicBuds Pro TWS Earbuds,Electronics,1,2299,980,2299,1319,Patna,Bihar,East,Cash on Delivery,Completed,VIP Customer
+50,2026-09-07 15:27:51,54,Chirag Parekh,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+50,2026-09-07 15:27:51,54,Chirag Parekh,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+50,2026-09-07 15:27:51,54,Chirag Parekh,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699,210,699,489,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+51,2026-03-16 01:57:51,53,Monika Rawat,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999,2200,4999,2799,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+51,2026-03-16 01:57:51,53,Monika Rawat,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899,310,899,589,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+51,2026-03-16 01:57:51,53,Monika Rawat,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899,280,899,619,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+51,2026-03-16 01:57:51,53,Monika Rawat,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+52,2026-02-08 19:09:51,16,Manish Agarwal,67,Arabica Coffee Exfoliating Body Scrub,Beauty,2,499,150,998,698,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+53,2025-12-01 18:52:51,7,Aditi Deshmukh,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,2,899,360,1798,1078,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+54,2026-09-22 17:11:51,28,Aditya Saxena,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Gurugram,Haryana,North,UPI,Completed,Regular Customer
+55,2026-09-28 02:47:51,44,Pallavi Hegde,90,Kashmir Valley Grade-A Mongra Saffron 1g,Grocery,1,499,180,499,319,Chandigarh,Punjab,North,Debit Card,Returned,VIP Customer
+56,2026-07-21 17:07:51,20,Nikhil Pillai,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699,210,699,489,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+56,2026-07-21 17:07:51,20,Nikhil Pillai,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,1,1699,680,1699,1019,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+56,2026-07-21 17:07:51,20,Nikhil Pillai,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,2,1799,690,3598,2218,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+57,2026-03-06 03:19:51,42,Shikha Srivastava,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Patna,Bihar,East,Debit Card,Cancelled,VIP Customer
+57,2026-03-06 03:19:51,42,Shikha Srivastava,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Patna,Bihar,East,Debit Card,Cancelled,VIP Customer
+57,2026-03-06 03:19:51,42,Shikha Srivastava,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499,560,1499,939,Patna,Bihar,East,Debit Card,Cancelled,VIP Customer
+58,2026-05-17 20:31:51,3,Vivaan Gupta,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199,850,2199,1349,Noida,Uttar Pradesh,North,UPI,Returned,VIP Customer
+59,2026-01-17 22:24:51,19,Riya Mukherjee,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Patna,Bihar,East,Credit Card,Completed,VIP Customer
+59,2026-01-17 22:24:51,19,Riya Mukherjee,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199,880,2199,1319,Patna,Bihar,East,Credit Card,Completed,VIP Customer
+59,2026-01-17 22:24:51,19,Riya Mukherjee,29,Minimalist Chronograph Mesh Watch,Fashion,3,2299,890,6897,4227,Patna,Bihar,East,Credit Card,Completed,VIP Customer
+60,2026-04-15 21:46:51,19,Riya Mukherjee,30,Botanical Printed Summer Maxi Dress,Fashion,2,1799,680,3598,2238,Patna,Bihar,East,UPI,Completed,VIP Customer
+60,2026-04-15 21:46:51,19,Riya Mukherjee,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299,480,1299,819,Patna,Bihar,East,UPI,Completed,VIP Customer
+60,2026-04-15 21:46:51,19,Riya Mukherjee,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,Patna,Bihar,East,UPI,Completed,VIP Customer
+61,2026-06-03 02:19:51,54,Chirag Parekh,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199,880,2199,1319,Raipur,Chhattisgarh,Central,Cash on Delivery,Cancelled,VIP Customer
+61,2026-06-03 02:19:51,54,Chirag Parekh,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499,150,499,349,Raipur,Chhattisgarh,Central,Cash on Delivery,Cancelled,VIP Customer
+62,2026-03-13 15:10:51,16,Manish Agarwal,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+62,2026-03-13 15:10:51,16,Manish Agarwal,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+62,2026-03-13 15:10:51,16,Manish Agarwal,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999,850,1999,1149,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+63,2026-05-01 14:36:51,22,Vikram Rathore,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499,560,1499,939,Surat,Gujarat,West,UPI,Completed,VIP Customer
+63,2026-05-01 14:36:51,22,Vikram Rathore,82,WildPeak 4-Person Waterproof Camping Tent,Sports,2,5499,2600,10998,5798,Surat,Gujarat,West,UPI,Completed,VIP Customer
+63,2026-05-01 14:36:51,22,Vikram Rathore,10,SmartView 360 WiFi Security Camera,Electronics,1,2499,1100,2499,1399,Surat,Gujarat,West,UPI,Completed,VIP Customer
+63,2026-05-01 14:36:51,22,Vikram Rathore,35,Silk Touch Printed Square Scarf,Fashion,1,599,180,599,419,Surat,Gujarat,West,UPI,Completed,VIP Customer
+64,2026-08-22 15:15:51,3,Vivaan Gupta,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,2,2999,1200,5998,3598,Noida,Uttar Pradesh,North,Debit Card,Returned,VIP Customer
+64,2026-08-22 15:15:51,3,Vivaan Gupta,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299,520,1299,779,Noida,Uttar Pradesh,North,Debit Card,Returned,VIP Customer
+65,2026-01-02 17:22:51,26,Siddharth Hegde,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799,260,799,539,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+65,2026-01-02 17:22:51,26,Siddharth Hegde,16,StreamDeck Multi-Key Macro Pad,Electronics,2,4999,2300,9998,5398,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+65,2026-01-02 17:22:51,26,Siddharth Hegde,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,3,1399,520,4197,2637,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+66,2026-01-13 22:55:51,7,Aditi Deshmukh,90,Kashmir Valley Grade-A Mongra Saffron 1g,Grocery,1,499,180,499,319,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+66,2026-01-13 22:55:51,7,Aditi Deshmukh,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999,2300,4999,2699,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+67,2026-07-07 17:44:51,26,Siddharth Hegde,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699,640,1699,1059,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+68,2025-12-06 20:56:51,5,Reyansh Reddy,24,Aviator Polarized Classic Sunglasses,Fashion,1,999,320,999,679,Noida,Uttar Pradesh,North,UPI,Returned,At Risk
+69,2026-04-27 01:28:51,22,Vikram Rathore,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199,850,2199,1349,Surat,Gujarat,West,UPI,Completed,VIP Customer
+70,2026-04-26 18:59:51,16,Manish Agarwal,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,1,329,110,329,219,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+70,2026-04-26 18:59:51,16,Manish Agarwal,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349,110,349,239,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+71,2026-02-17 17:35:51,27,Meera Nambiar,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799,240,799,559,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+72,2026-05-01 21:06:51,31,Harsh Vardhan,35,Silk Touch Printed Square Scarf,Fashion,2,599,180,1198,838,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+72,2026-05-01 21:06:51,31,Harsh Vardhan,1,Aura Wireless Noise-Cancelling Headphones,Electronics,1,4999,2499,4999,2500,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+72,2026-05-01 21:06:51,31,Harsh Vardhan,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,2,1999,850,3998,2298,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+72,2026-05-01 21:06:51,31,Harsh Vardhan,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,2,2799,1150,5598,3298,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+73,2026-01-11 01:43:51,7,Aditi Deshmukh,81,ProKnee Compression Support Sleeves (Pair),Sports,1,699,220,699,479,Jaipur,Rajasthan,North,Credit Card,Completed,VIP Customer
+73,2026-01-11 01:43:51,7,Aditi Deshmukh,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799,680,1799,1119,Jaipur,Rajasthan,North,Credit Card,Completed,VIP Customer
+73,2026-01-11 01:43:51,7,Aditi Deshmukh,79,HydraTrail Lightweight Running Vest 5L,Sports,1,1899,720,1899,1179,Jaipur,Rajasthan,North,Credit Card,Completed,VIP Customer
+74,2025-10-18 16:27:51,26,Siddharth Hegde,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,2,399,110,798,578,New Delhi,Delhi,North,Cash on Delivery,Processing,VIP Customer
+74,2025-10-18 16:27:51,26,Siddharth Hegde,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,New Delhi,Delhi,North,Cash on Delivery,Processing,VIP Customer
+75,2026-04-30 23:27:51,29,Tarun Bansal,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
+75,2026-04-30 23:27:51,29,Tarun Bansal,94,ZenCeremonial Grade Japanese Matcha Green Tea 50g,Grocery,3,999,380,2997,1857,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
+76,2026-06-08 15:08:51,37,Kunal Goswami,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899,290,899,609,Visakhapatnam,Andhra Pradesh,South,UPI,Cancelled,VIP Customer
+76,2026-06-08 15:08:51,37,Kunal Goswami,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199,880,2199,1319,Visakhapatnam,Andhra Pradesh,South,UPI,Cancelled,VIP Customer
+77,2025-11-07 17:20:51,48,Jaspreet Kaur,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599,210,599,389,Pune,Maharashtra,West,Demo Payment,Cancelled,New Customer
+77,2025-11-07 17:20:51,48,Jaspreet Kaur,22,Vintage Distressed Denim Jacket,Fashion,2,2499,1050,4998,2898,Pune,Maharashtra,West,Demo Payment,Cancelled,New Customer
+78,2026-08-15 15:35:51,49,Simran Gill,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899,280,899,619,New Delhi,Delhi,North,Credit Card,Processing,VIP Customer
+78,2026-08-15 15:35:51,49,Simran Gill,86,CoreSlider Fitness Ab Roller Wheel,Sports,1,799,260,799,539,New Delhi,Delhi,North,Credit Card,Processing,VIP Customer
+78,2026-08-15 15:35:51,49,Simran Gill,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,New Delhi,Delhi,North,Credit Card,Processing,VIP Customer
+79,2026-08-23 16:03:51,9,Saanvi Rao,8,SonicBuds Pro TWS Earbuds,Electronics,2,2299,980,4598,2638,Mumbai,Maharashtra,West,UPI,Completed,Regular Customer
+80,2026-09-19 16:12:51,38,Anushka Ghosh,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299,490,1299,809,New Delhi,Delhi,North,Credit Card,Completed,Regular Customer
+81,2026-05-18 20:43:51,33,Abhishek Tiwari,39,Merino Wool Blend Thermal Beanie,Fashion,1,499,160,499,339,Guwahati,Assam,East,Credit Card,Completed,VIP Customer
+82,2026-07-09 20:57:51,3,Vivaan Gupta,18,AeroCool Laptop Cooling Pad RGB,Electronics,1,1299,480,1299,819,Noida,Uttar Pradesh,North,Debit Card,Cancelled,VIP Customer
+82,2026-07-09 20:57:51,3,Vivaan Gupta,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499,560,1499,939,Noida,Uttar Pradesh,North,Debit Card,Cancelled,VIP Customer
+83,2026-01-13 17:01:51,1,Aarav Sharma,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Nagpur,Maharashtra,Central,UPI,Returned,VIP Customer
+84,2026-07-28 22:45:51,3,Vivaan Gupta,79,HydraTrail Lightweight Running Vest 5L,Sports,1,1899,720,1899,1179,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+84,2026-07-28 22:45:51,3,Vivaan Gupta,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999,310,999,689,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+84,2026-07-28 22:45:51,3,Vivaan Gupta,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+84,2026-07-28 22:45:51,3,Vivaan Gupta,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849,260,849,589,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+85,2026-01-14 00:33:51,44,Pallavi Hegde,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,3,1799,680,5397,3357,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
+86,2025-11-26 03:34:51,46,Payal Banerjee,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899,310,899,589,Chandigarh,Punjab,North,Debit Card,Completed,Regular Customer
+87,2025-11-24 19:37:51,42,Shikha Srivastava,3,UltraVision 4K Action Camera Pro,Electronics,1,7999,4200,7999,3799,Patna,Bihar,East,Cash on Delivery,Completed,VIP Customer
+88,2026-08-25 14:46:51,24,Sameer Singhania,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Chennai,Tamil Nadu,South,Cash on Delivery,Processing,Regular Customer
+88,2026-08-25 14:46:51,24,Sameer Singhania,94,ZenCeremonial Grade Japanese Matcha Green Tea 50g,Grocery,1,999,380,999,619,Chennai,Tamil Nadu,South,Cash on Delivery,Processing,Regular Customer
+89,2026-01-23 01:25:51,4,Ananya Iyer,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499,150,499,349,Pune,Maharashtra,West,UPI,Completed,VIP Customer
+89,2026-01-23 01:25:51,4,Ananya Iyer,68,BioNourish Castor & Rosemary Lash Serum,Beauty,2,599,170,1198,858,Pune,Maharashtra,West,UPI,Completed,VIP Customer
+90,2026-02-21 15:28:51,16,Manish Agarwal,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799,260,799,539,Nagpur,Maharashtra,Central,Cash on Delivery,Completed,VIP Customer
+90,2026-02-21 15:28:51,16,Manish Agarwal,37,Urban Streetwear Oversized Graphic Hoodie,Fashion,1,1899,710,1899,1189,Nagpur,Maharashtra,Central,Cash on Delivery,Completed,VIP Customer
+90,2026-02-21 15:28:51,16,Manish Agarwal,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699,280,699,419,Nagpur,Maharashtra,Central,Cash on Delivery,Completed,VIP Customer
+91,2025-12-26 01:52:51,24,Sameer Singhania,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,2,4499,1950,8998,5098,Chennai,Tamil Nadu,South,UPI,Shipped,Regular Customer
+92,2026-08-08 02:37:51,48,Jaspreet Kaur,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799,240,799,559,Pune,Maharashtra,West,Cash on Delivery,Returned,New Customer
+92,2026-08-08 02:37:51,48,Jaspreet Kaur,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699,640,1699,1059,Pune,Maharashtra,West,Cash on Delivery,Returned,New Customer
+92,2026-08-08 02:37:51,48,Jaspreet Kaur,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849,260,849,589,Pune,Maharashtra,West,Cash on Delivery,Returned,New Customer
+93,2026-01-02 19:46:51,41,Pranav Namboodiri,97,NutriHarvest Organic Chia Seeds 500g,Grocery,3,349,110,1047,717,New Delhi,Delhi,North,Cash on Delivery,Processing,VIP Customer
+94,2026-04-20 19:34:51,7,Aditi Deshmukh,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,1,499,145,499,354,Jaipur,Rajasthan,North,Debit Card,Completed,VIP Customer
+95,2025-11-09 21:25:51,37,Kunal Goswami,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999,1950,3999,2049,Visakhapatnam,Andhra Pradesh,South,UPI,Shipped,VIP Customer
+96,2026-02-10 03:40:51,43,Varun Khurana,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+96,2026-02-10 03:40:51,43,Varun Khurana,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199,890,2199,1309,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+96,2026-02-10 03:40:51,43,Varun Khurana,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+96,2026-02-10 03:40:51,43,Varun Khurana,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599,210,599,389,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+97,2026-08-31 00:49:51,4,Ananya Iyer,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,2,199,45,398,308,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
+97,2026-08-31 00:49:51,4,Ananya Iyer,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599,170,599,429,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
+97,2026-08-31 00:49:51,4,Ananya Iyer,10,SmartView 360 WiFi Security Camera,Electronics,1,2499,1100,2499,1399,Pune,Maharashtra,West,Debit Card,Completed,VIP Customer
+98,2026-09-02 19:38:51,3,Vivaan Gupta,32,ThermalLite Puffer Quilted Vest,Fashion,2,1699,640,3398,2118,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
+99,2025-11-11 17:17:51,3,Vivaan Gupta,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899,280,899,619,Noida,Uttar Pradesh,North,Demo Payment,Shipped,VIP Customer
+100,2026-09-02 15:29:51,37,Kunal Goswami,26,ProFit Athletic Training Joggers,Fashion,1,1199,450,1199,749,Visakhapatnam,Andhra Pradesh,South,Cash on Delivery,Cancelled,VIP Customer
+100,2026-09-02 15:29:51,37,Kunal Goswami,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Visakhapatnam,Andhra Pradesh,South,Cash on Delivery,Cancelled,VIP Customer
+100,2026-09-02 15:29:51,37,Kunal Goswami,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199,520,1199,679,Visakhapatnam,Andhra Pradesh,South,Cash on Delivery,Cancelled,VIP Customer
+101,2026-05-21 01:52:51,41,Pranav Namboodiri,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+102,2026-04-17 19:33:51,29,Tarun Bansal,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299,490,1299,809,Noida,Uttar Pradesh,North,Credit Card,Processing,VIP Customer
+103,2026-01-21 02:35:51,17,Sneha Kulkarni,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499,580,1499,919,Surat,Gujarat,West,Cash on Delivery,Cancelled,VIP Customer
+104,2026-01-08 14:32:51,15,Kavya Menon,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799,240,799,559,Raipur,Chhattisgarh,Central,Cash on Delivery,Completed,At Risk
+104,2026-01-08 14:32:51,15,Kavya Menon,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,2,2799,1250,5598,3098,Raipur,Chhattisgarh,Central,Cash on Delivery,Completed,At Risk
+105,2026-03-28 23:14:51,42,Shikha Srivastava,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+105,2026-03-28 23:14:51,42,Shikha Srivastava,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+106,2026-05-29 19:54:51,54,Chirag Parekh,11,AirFlow Dual Band WiFi 6 Router,Electronics,3,3999,1950,11997,6147,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+106,2026-05-29 19:54:51,54,Chirag Parekh,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899,360,899,539,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+107,2026-01-02 20:19:51,31,Harsh Vardhan,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Bhubaneswar,Odisha,East,Cash on Delivery,Completed,VIP Customer
+108,2025-11-01 18:39:51,43,Varun Khurana,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,2,899,360,1798,1078,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+108,2025-11-01 18:39:51,43,Varun Khurana,83,GripFit Padded Weightlifting Gym Gloves,Sports,1,599,180,599,419,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+108,2025-11-01 18:39:51,43,Varun Khurana,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,2,699,215,1398,968,Lucknow,Uttar Pradesh,North,Credit Card,Completed,At Risk
+109,2026-03-26 15:30:51,49,Simran Gill,89,NutriCrunch California Jumbo Almonds 500g,Grocery,2,649,280,1298,738,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+109,2026-03-26 15:30:51,49,Simran Gill,31,SmartFlex Stretch Chino Trousers,Fashion,1,1499,580,1499,919,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+110,2026-04-15 03:42:51,22,Vikram Rathore,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699,280,699,419,Surat,Gujarat,West,Credit Card,Cancelled,VIP Customer
+110,2026-04-15 03:42:51,22,Vikram Rathore,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,2,799,240,1598,1118,Surat,Gujarat,West,Credit Card,Cancelled,VIP Customer
+111,2026-01-25 18:25:51,44,Pallavi Hegde,38,Classic Leather Dress Belt Reversible,Fashion,1,699,220,699,479,Chandigarh,Punjab,North,UPI,Shipped,VIP Customer
+111,2026-01-25 18:25:51,44,Pallavi Hegde,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699,280,699,419,Chandigarh,Punjab,North,UPI,Shipped,VIP Customer
+112,2026-09-23 14:34:51,27,Meera Nambiar,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+112,2026-09-23 14:34:51,27,Meera Nambiar,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+113,2026-06-04 22:26:51,16,Manish Agarwal,18,AeroCool Laptop Cooling Pad RGB,Electronics,1,1299,480,1299,819,Nagpur,Maharashtra,Central,Debit Card,Completed,VIP Customer
+114,2026-06-02 02:32:51,24,Sameer Singhania,1,Aura Wireless Noise-Cancelling Headphones,Electronics,2,4999,2499,9998,5000,Chennai,Tamil Nadu,South,UPI,Cancelled,Regular Customer
+114,2026-06-02 02:32:51,24,Sameer Singhania,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Chennai,Tamil Nadu,South,UPI,Cancelled,Regular Customer
+115,2025-10-27 18:12:51,31,Harsh Vardhan,22,Vintage Distressed Denim Jacket,Fashion,2,2499,1050,4998,2898,Bhubaneswar,Odisha,East,UPI,Shipped,VIP Customer
+115,2025-10-27 18:12:51,31,Harsh Vardhan,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Bhubaneswar,Odisha,East,UPI,Shipped,VIP Customer
+115,2025-10-27 18:12:51,31,Harsh Vardhan,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,2,999,360,1998,1278,Bhubaneswar,Odisha,East,UPI,Shipped,VIP Customer
+116,2025-10-26 14:13:51,37,Kunal Goswami,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Visakhapatnam,Andhra Pradesh,South,Cash on Delivery,Completed,VIP Customer
+116,2025-10-26 14:13:51,37,Kunal Goswami,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799,690,1799,1109,Visakhapatnam,Andhra Pradesh,South,Cash on Delivery,Completed,VIP Customer
+116,2025-10-26 14:13:51,37,Kunal Goswami,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,2,899,280,1798,1238,Visakhapatnam,Andhra Pradesh,South,Cash on Delivery,Completed,VIP Customer
+117,2026-01-16 22:52:51,42,Shikha Srivastava,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Patna,Bihar,East,UPI,Processing,VIP Customer
+117,2026-01-16 22:52:51,42,Shikha Srivastava,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999,850,1999,1149,Patna,Bihar,East,UPI,Processing,VIP Customer
+118,2026-05-06 15:23:51,22,Vikram Rathore,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+119,2026-05-05 13:53:51,42,Shikha Srivastava,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299,490,1299,809,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+119,2026-05-05 13:53:51,42,Shikha Srivastava,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899,280,899,619,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+119,2026-05-05 13:53:51,42,Shikha Srivastava,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699,215,699,484,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+120,2026-02-20 01:32:51,46,Payal Banerjee,83,GripFit Padded Weightlifting Gym Gloves,Sports,1,599,180,599,419,Chandigarh,Punjab,North,Credit Card,Cancelled,Regular Customer
+121,2026-04-07 21:18:51,35,Gaurav Chawla,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,1,549,195,549,354,Surat,Gujarat,West,Cash on Delivery,Completed,VIP Customer
+121,2026-04-07 21:18:51,35,Gaurav Chawla,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799,240,799,559,Surat,Gujarat,West,Cash on Delivery,Completed,VIP Customer
+121,2026-04-07 21:18:51,35,Gaurav Chawla,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Surat,Gujarat,West,Cash on Delivery,Completed,VIP Customer
+122,2026-07-12 21:07:51,34,Swati Nanda,26,ProFit Athletic Training Joggers,Fashion,2,1199,450,2398,1498,Kochi,Kerala,South,Credit Card,Completed,Regular Customer
+122,2026-07-12 21:07:51,34,Swati Nanda,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499,560,1499,939,Kochi,Kerala,South,Credit Card,Completed,Regular Customer
+123,2026-03-29 13:58:51,3,Vivaan Gupta,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,2,1299,480,2598,1638,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+123,2026-03-29 13:58:51,3,Vivaan Gupta,79,HydraTrail Lightweight Running Vest 5L,Sports,3,1899,720,5697,3537,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+124,2026-08-18 15:21:51,34,Swati Nanda,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Kochi,Kerala,South,UPI,Completed,Regular Customer
+125,2026-07-14 03:02:51,7,Aditi Deshmukh,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,2,1999,850,3998,2298,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+126,2026-09-16 16:26:51,16,Manish Agarwal,13,ClarityView 27" QHD IPS Monitor,Electronics,1,16999,11500,16999,5499,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+127,2025-12-31 22:15:51,35,Gaurav Chawla,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+127,2025-12-31 22:15:51,35,Gaurav Chawla,90,Kashmir Valley Grade-A Mongra Saffron 1g,Grocery,1,499,180,499,319,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+128,2026-08-12 21:34:51,10,Dhruv Sen,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,1,2899,1300,2899,1599,Bhopal,Madhya Pradesh,Central,Cash on Delivery,Completed,Regular Customer
+129,2026-07-07 17:00:51,42,Shikha Srivastava,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899,290,899,609,Patna,Bihar,East,Credit Card,Processing,VIP Customer
+130,2026-06-22 21:08:51,31,Harsh Vardhan,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899,310,899,589,Bhubaneswar,Odisha,East,Credit Card,Completed,VIP Customer
+131,2026-08-23 02:47:51,44,Pallavi Hegde,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+131,2026-08-23 02:47:51,44,Pallavi Hegde,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+131,2026-08-23 02:47:51,44,Pallavi Hegde,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549,160,549,389,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+132,2026-06-03 03:42:51,50,Devendra Chauhan,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799,1250,2799,1549,Surat,Gujarat,West,UPI,Completed,At Risk
+133,2026-08-11 23:37:51,52,Sanjay Vishwakarma,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,2,14999,8900,29998,12198,New Delhi,Delhi,North,Cash on Delivery,Processing,VIP Customer
+134,2026-08-17 01:55:51,31,Harsh Vardhan,80,ApexTrek Carbon Fiber Trekking Poles,Sports,1,2199,850,2199,1349,Bhubaneswar,Odisha,East,Credit Card,Shipped,VIP Customer
+134,2026-08-17 01:55:51,31,Harsh Vardhan,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999,2300,4999,2699,Bhubaneswar,Odisha,East,Credit Card,Shipped,VIP Customer
+135,2026-06-26 02:25:51,41,Pranav Namboodiri,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999,360,999,639,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+135,2026-06-26 02:25:51,41,Pranav Namboodiri,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599,170,599,429,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+136,2026-09-05 17:43:51,52,Sanjay Vishwakarma,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,1,2799,1150,2799,1649,New Delhi,Delhi,North,Debit Card,Shipped,VIP Customer
+136,2026-09-05 17:43:51,52,Sanjay Vishwakarma,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,New Delhi,Delhi,North,Debit Card,Shipped,VIP Customer
+137,2025-12-14 20:23:51,44,Pallavi Hegde,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+137,2025-12-14 20:23:51,44,Pallavi Hegde,89,NutriCrunch California Jumbo Almonds 500g,Grocery,1,649,280,649,369,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+138,2025-11-06 20:29:51,29,Tarun Bansal,34,Boho Embroidered Cotton Kurti,Fashion,2,1199,430,2398,1538,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+138,2025-11-06 20:29:51,29,Tarun Bansal,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+138,2025-11-06 20:29:51,29,Tarun Bansal,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+139,2025-12-27 21:34:51,6,Ishaan Verma,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249,70,249,179,Chennai,Tamil Nadu,South,UPI,Completed,At Risk
+140,2026-07-31 20:55:51,4,Ananya Iyer,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799,260,799,539,Pune,Maharashtra,West,Credit Card,Completed,VIP Customer
+141,2026-09-08 21:12:51,54,Chirag Parekh,16,StreamDeck Multi-Key Macro Pad,Electronics,1,4999,2300,4999,2699,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+141,2026-09-08 21:12:51,54,Chirag Parekh,23,AeroStride Breathable Running Shoes,Fashion,2,2999,1250,5998,3498,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+142,2026-04-24 15:15:51,44,Pallavi Hegde,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249,70,249,179,Chandigarh,Punjab,North,Debit Card,Completed,VIP Customer
+143,2025-10-31 20:32:51,42,Shikha Srivastava,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999,2200,4999,2799,Patna,Bihar,East,Credit Card,Shipped,VIP Customer
+143,2025-10-31 20:32:51,42,Shikha Srivastava,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599,170,599,429,Patna,Bihar,East,Credit Card,Shipped,VIP Customer
+143,2025-10-31 20:32:51,42,Shikha Srivastava,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,2,499,145,998,708,Patna,Bihar,East,Credit Card,Shipped,VIP Customer
+144,2026-09-27 16:24:51,44,Pallavi Hegde,89,NutriCrunch California Jumbo Almonds 500g,Grocery,1,649,280,649,369,Chandigarh,Punjab,North,UPI,Completed,VIP Customer
+145,2026-04-01 23:58:51,1,Aarav Sharma,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,2,549,195,1098,708,Nagpur,Maharashtra,Central,Credit Card,Shipped,VIP Customer
+145,2026-04-01 23:58:51,1,Aarav Sharma,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Nagpur,Maharashtra,Central,Credit Card,Shipped,VIP Customer
+145,2026-04-01 23:58:51,1,Aarav Sharma,94,ZenCeremonial Grade Japanese Matcha Green Tea 50g,Grocery,2,999,380,1998,1238,Nagpur,Maharashtra,Central,Credit Card,Shipped,VIP Customer
+146,2026-08-01 01:19:51,10,Dhruv Sen,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699,280,699,419,Bhopal,Madhya Pradesh,Central,Credit Card,Completed,Regular Customer
+146,2026-08-01 01:19:51,10,Dhruv Sen,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299,490,1299,809,Bhopal,Madhya Pradesh,Central,Credit Card,Completed,Regular Customer
+147,2026-03-27 19:00:51,16,Manish Agarwal,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Nagpur,Maharashtra,Central,Cash on Delivery,Returned,VIP Customer
+147,2026-03-27 19:00:51,16,Manish Agarwal,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599,170,599,429,Nagpur,Maharashtra,Central,Cash on Delivery,Returned,VIP Customer
+147,2026-03-27 19:00:51,16,Manish Agarwal,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899,720,1899,1179,Nagpur,Maharashtra,Central,Cash on Delivery,Returned,VIP Customer
+148,2026-09-10 00:10:51,45,Rahul Trivedi,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199,890,2199,1309,Surat,Gujarat,West,UPI,Completed,New Customer
+148,2026-09-10 00:10:51,45,Rahul Trivedi,86,CoreSlider Fitness Ab Roller Wheel,Sports,2,799,260,1598,1078,Surat,Gujarat,West,UPI,Completed,New Customer
+149,2026-04-19 01:28:51,17,Sneha Kulkarni,3,UltraVision 4K Action Camera Pro,Electronics,2,7999,4200,15998,7598,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
+149,2026-04-19 01:28:51,17,Sneha Kulkarni,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
+150,2026-06-08 15:09:51,54,Chirag Parekh,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,1,549,195,549,354,Raipur,Chhattisgarh,Central,Credit Card,Completed,VIP Customer
+151,2026-07-28 17:48:51,34,Swati Nanda,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,Kochi,Kerala,South,Credit Card,Completed,Regular Customer
+152,2025-11-21 01:12:51,35,Gaurav Chawla,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,Surat,Gujarat,West,UPI,Processing,VIP Customer
+153,2025-12-19 21:18:51,37,Kunal Goswami,49,EcoBamboo Organic Cutting Board 3-Piece,Home & Kitchen,1,999,360,999,639,Visakhapatnam,Andhra Pradesh,South,UPI,Completed,VIP Customer
+154,2026-01-13 00:51:51,22,Vikram Rathore,79,HydraTrail Lightweight Running Vest 5L,Sports,2,1899,720,3798,2358,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+154,2026-01-13 00:51:51,22,Vikram Rathore,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999,2300,4999,2699,Surat,Gujarat,West,Debit Card,Completed,VIP Customer
+155,2025-11-23 20:36:51,41,Pranav Namboodiri,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349,110,349,239,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+155,2025-11-23 20:36:51,41,Pranav Namboodiri,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499,1450,3499,2049,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+156,2026-05-09 20:10:51,7,Aditi Deshmukh,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599,170,599,429,Jaipur,Rajasthan,North,Cash on Delivery,Completed,VIP Customer
+157,2026-09-03 17:21:51,54,Chirag Parekh,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,2,2199,890,4398,2618,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+157,2026-09-03 17:21:51,54,Chirag Parekh,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+157,2026-09-03 17:21:51,54,Chirag Parekh,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499,150,499,349,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+157,2026-09-03 17:21:51,54,Chirag Parekh,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199,880,2199,1319,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+158,2025-11-29 14:08:51,13,Neha Kapoor,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549,160,549,389,Patna,Bihar,East,UPI,Returned,At Risk
+159,2026-01-03 00:27:51,37,Kunal Goswami,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,2,249,70,498,358,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,VIP Customer
+159,2026-01-03 00:27:51,37,Kunal Goswami,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,VIP Customer
+159,2026-01-03 00:27:51,37,Kunal Goswami,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699,240,699,459,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,VIP Customer
+160,2026-05-10 22:57:51,16,Manish Agarwal,3,UltraVision 4K Action Camera Pro,Electronics,1,7999,4200,7999,3799,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+161,2025-11-15 15:04:51,10,Dhruv Sen,67,Arabica Coffee Exfoliating Body Scrub,Beauty,2,499,150,998,698,Bhopal,Madhya Pradesh,Central,UPI,Completed,Regular Customer
+161,2025-11-15 15:04:51,10,Dhruv Sen,8,SonicBuds Pro TWS Earbuds,Electronics,1,2299,980,2299,1319,Bhopal,Madhya Pradesh,Central,UPI,Completed,Regular Customer
+161,2025-11-15 15:04:51,10,Dhruv Sen,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499,580,1499,919,Bhopal,Madhya Pradesh,Central,UPI,Completed,Regular Customer
+162,2026-09-23 20:37:51,31,Harsh Vardhan,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,1,329,110,329,219,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+163,2026-09-21 00:40:51,42,Shikha Srivastava,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799,1250,2799,1549,Patna,Bihar,East,UPI,Completed,VIP Customer
+164,2026-06-29 17:54:51,53,Monika Rawat,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Surat,Gujarat,West,Debit Card,Shipped,VIP Customer
+164,2026-06-29 17:54:51,53,Monika Rawat,72,PureBotanics French Lavender Bath Salts 400g,Beauty,1,449,130,449,319,Surat,Gujarat,West,Debit Card,Shipped,VIP Customer
+164,2026-06-29 17:54:51,53,Monika Rawat,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Surat,Gujarat,West,Debit Card,Shipped,VIP Customer
+165,2026-01-20 21:25:51,3,Vivaan Gupta,54,AromaBake Silicone Non-Stick Baking Mat Set,Home & Kitchen,1,699,240,699,459,Noida,Uttar Pradesh,North,Cash on Delivery,Returned,VIP Customer
+166,2026-01-12 16:34:51,52,Sanjay Vishwakarma,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999,1950,3999,2049,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+167,2025-11-02 23:25:51,13,Neha Kapoor,83,GripFit Padded Weightlifting Gym Gloves,Sports,2,599,180,1198,838,Patna,Bihar,East,Debit Card,Completed,At Risk
+168,2026-07-17 02:35:51,52,Sanjay Vishwakarma,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999,1600,3999,2399,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+169,2026-03-11 03:18:51,19,Riya Mukherjee,31,SmartFlex Stretch Chino Trousers,Fashion,1,1499,580,1499,919,Patna,Bihar,East,UPI,Completed,VIP Customer
+170,2026-09-19 23:41:51,35,Gaurav Chawla,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,1,799,240,799,559,Surat,Gujarat,West,UPI,Completed,VIP Customer
+170,2026-09-19 23:41:51,35,Gaurav Chawla,68,BioNourish Castor & Rosemary Lash Serum,Beauty,1,599,170,599,429,Surat,Gujarat,West,UPI,Completed,VIP Customer
+171,2025-12-11 19:18:51,40,Divya Sundaram,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,2,2799,1250,5598,3098,Patna,Bihar,East,UPI,Completed,At Risk
+171,2025-12-11 19:18:51,40,Divya Sundaram,35,Silk Touch Printed Square Scarf,Fashion,1,599,180,599,419,Patna,Bihar,East,UPI,Completed,At Risk
+172,2025-12-15 03:43:51,7,Aditi Deshmukh,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+172,2025-12-15 03:43:51,7,Aditi Deshmukh,38,Classic Leather Dress Belt Reversible,Fashion,1,699,220,699,479,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+172,2025-12-15 03:43:51,7,Aditi Deshmukh,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299,480,1299,819,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+173,2026-05-25 19:57:51,53,Monika Rawat,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,3,599,210,1797,1167,Surat,Gujarat,West,UPI,Completed,VIP Customer
+174,2026-08-29 01:08:51,29,Tarun Bansal,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,2,799,240,1598,1118,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+174,2026-08-29 01:08:51,29,Tarun Bansal,35,Silk Touch Printed Square Scarf,Fashion,2,599,180,1198,838,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+175,2025-10-21 16:16:51,33,Abhishek Tiwari,97,NutriHarvest Organic Chia Seeds 500g,Grocery,1,349,110,349,239,Guwahati,Assam,East,UPI,Completed,VIP Customer
+175,2025-10-21 16:16:51,33,Abhishek Tiwari,83,GripFit Padded Weightlifting Gym Gloves,Sports,1,599,180,599,419,Guwahati,Assam,East,UPI,Completed,VIP Customer
+175,2025-10-21 16:16:51,33,Abhishek Tiwari,8,SonicBuds Pro TWS Earbuds,Electronics,2,2299,980,4598,2638,Guwahati,Assam,East,UPI,Completed,VIP Customer
+175,2025-10-21 16:16:51,33,Abhishek Tiwari,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499,560,1499,939,Guwahati,Assam,East,UPI,Completed,VIP Customer
+176,2026-06-01 01:41:51,42,Shikha Srivastava,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199,890,2199,1309,Patna,Bihar,East,UPI,Cancelled,VIP Customer
+177,2026-04-15 23:10:51,7,Aditi Deshmukh,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,1,4999,2200,4999,2799,Jaipur,Rajasthan,North,Credit Card,Shipped,VIP Customer
+178,2026-07-04 18:51:51,3,Vivaan Gupta,86,CoreSlider Fitness Ab Roller Wheel,Sports,2,799,260,1598,1078,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
+178,2026-07-04 18:51:51,3,Vivaan Gupta,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799,690,1799,1109,Noida,Uttar Pradesh,North,Debit Card,Completed,VIP Customer
+179,2026-02-26 19:15:51,3,Vivaan Gupta,38,Classic Leather Dress Belt Reversible,Fashion,1,699,220,699,479,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+180,2026-04-11 21:23:51,37,Kunal Goswami,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Visakhapatnam,Andhra Pradesh,South,UPI,Returned,VIP Customer
+180,2026-04-11 21:23:51,37,Kunal Goswami,34,Boho Embroidered Cotton Kurti,Fashion,2,1199,430,2398,1538,Visakhapatnam,Andhra Pradesh,South,UPI,Returned,VIP Customer
+180,2026-04-11 21:23:51,37,Kunal Goswami,18,AeroCool Laptop Cooling Pad RGB,Electronics,1,1299,480,1299,819,Visakhapatnam,Andhra Pradesh,South,UPI,Returned,VIP Customer
+181,2025-12-31 19:23:51,49,Simran Gill,3,UltraVision 4K Action Camera Pro,Electronics,2,7999,4200,15998,7598,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+181,2025-12-31 19:23:51,49,Simran Gill,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299,480,1299,819,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+182,2026-03-21 14:40:51,26,Siddharth Hegde,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,3,2799,1150,8397,4947,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+183,2025-11-09 03:35:51,26,Siddharth Hegde,63,RoseDew Organic Bulgarian Rose Mist Toner,Beauty,1,549,160,549,389,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+184,2026-01-03 23:15:51,33,Abhishek Tiwari,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799,680,1799,1119,Guwahati,Assam,East,UPI,Completed,VIP Customer
+184,2026-01-03 23:15:51,33,Abhishek Tiwari,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,Guwahati,Assam,East,UPI,Completed,VIP Customer
+185,2025-11-30 01:23:51,20,Nikhil Pillai,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,2,549,195,1098,708,Gurugram,Haryana,North,UPI,Completed,VIP Customer
+185,2025-11-30 01:23:51,20,Nikhil Pillai,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999,850,1999,1149,Gurugram,Haryana,North,UPI,Completed,VIP Customer
+185,2025-11-30 01:23:51,20,Nikhil Pillai,99,RoyalCrown Organic Medjool Dates 500g,Grocery,1,699,280,699,419,Gurugram,Haryana,North,UPI,Completed,VIP Customer
+185,2025-11-30 01:23:51,20,Nikhil Pillai,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Gurugram,Haryana,North,UPI,Completed,VIP Customer
+186,2026-01-07 19:39:51,47,Amitesh Kumar,77,SpeedJump Pro Weighted Skipping Rope,Sports,2,499,150,998,698,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+186,2026-01-07 19:39:51,47,Amitesh Kumar,52,CastIron Pre-Seasoned Skillet 10.5 Inch,Home & Kitchen,1,1399,520,1399,879,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+187,2026-05-22 02:24:51,11,Pooja Joshi,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Mumbai,Maharashtra,West,Credit Card,Processing,At Risk
+187,2026-05-22 02:24:51,11,Pooja Joshi,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,3,1899,720,5697,3537,Mumbai,Maharashtra,West,Credit Card,Processing,At Risk
+187,2026-05-22 02:24:51,11,Pooja Joshi,38,Classic Leather Dress Belt Reversible,Fashion,1,699,220,699,479,Mumbai,Maharashtra,West,Credit Card,Processing,At Risk
+188,2026-04-21 22:47:51,17,Sneha Kulkarni,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Surat,Gujarat,West,UPI,Completed,VIP Customer
+189,2025-11-06 15:55:51,46,Payal Banerjee,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Chandigarh,Punjab,North,Demo Payment,Completed,Regular Customer
+190,2025-12-18 15:45:51,24,Sameer Singhania,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849,260,849,589,Chennai,Tamil Nadu,South,Debit Card,Completed,Regular Customer
+191,2025-12-09 20:53:51,53,Monika Rawat,1,Aura Wireless Noise-Cancelling Headphones,Electronics,2,4999,2499,9998,5000,Surat,Gujarat,West,UPI,Returned,VIP Customer
+191,2025-12-09 20:53:51,53,Monika Rawat,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Surat,Gujarat,West,UPI,Returned,VIP Customer
+192,2026-06-26 21:45:51,42,Shikha Srivastava,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Patna,Bihar,East,UPI,Completed,VIP Customer
+192,2026-06-26 21:45:51,42,Shikha Srivastava,13,ClarityView 27" QHD IPS Monitor,Electronics,1,16999,11500,16999,5499,Patna,Bihar,East,UPI,Completed,VIP Customer
+193,2025-10-21 14:46:51,7,Aditi Deshmukh,86,CoreSlider Fitness Ab Roller Wheel,Sports,2,799,260,1598,1078,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+193,2025-10-21 14:46:51,7,Aditi Deshmukh,15,GlideTouch Precision Stylus Pen,Electronics,1,1599,620,1599,979,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+193,2025-10-21 14:46:51,7,Aditi Deshmukh,61,VelvetMatte Long-Lasting Liquid Lipstick Set,Beauty,1,899,280,899,619,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+194,2026-08-05 22:56:51,42,Shikha Srivastava,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499,150,499,349,Patna,Bihar,East,UPI,Returned,VIP Customer
+194,2026-08-05 22:56:51,42,Shikha Srivastava,89,NutriCrunch California Jumbo Almonds 500g,Grocery,1,649,280,649,369,Patna,Bihar,East,UPI,Returned,VIP Customer
+194,2026-08-05 22:56:51,42,Shikha Srivastava,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799,690,1799,1109,Patna,Bihar,East,UPI,Returned,VIP Customer
+195,2025-11-04 22:57:51,3,Vivaan Gupta,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Noida,Uttar Pradesh,North,UPI,Processing,VIP Customer
+196,2026-04-10 15:14:51,3,Vivaan Gupta,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999,1950,3999,2049,Noida,Uttar Pradesh,North,UPI,Shipped,VIP Customer
+196,2026-04-10 15:14:51,3,Vivaan Gupta,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599,210,599,389,Noida,Uttar Pradesh,North,UPI,Shipped,VIP Customer
+196,2026-04-10 15:14:51,3,Vivaan Gupta,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199,520,1199,679,Noida,Uttar Pradesh,North,UPI,Shipped,VIP Customer
+197,2026-07-09 01:17:51,21,Tanvi Choudhury,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Noida,Uttar Pradesh,North,Debit Card,Completed,At Risk
+198,2026-06-06 02:24:51,29,Tarun Bansal,62,Moroccan Argan Liquid Gold Hair Serum,Beauty,1,999,310,999,689,Noida,Uttar Pradesh,North,Debit Card,Shipped,VIP Customer
+199,2026-03-03 03:27:51,31,Harsh Vardhan,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+200,2026-03-09 20:26:51,6,Ishaan Verma,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,Chennai,Tamil Nadu,South,UPI,Completed,At Risk
+200,2026-03-09 20:26:51,6,Ishaan Verma,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999,1600,3999,2399,Chennai,Tamil Nadu,South,UPI,Completed,At Risk
+200,2026-03-09 20:26:51,6,Ishaan Verma,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,1,2899,1300,2899,1599,Chennai,Tamil Nadu,South,UPI,Completed,At Risk
+201,2026-08-02 19:44:51,4,Ananya Iyer,38,Classic Leather Dress Belt Reversible,Fashion,1,699,220,699,479,Pune,Maharashtra,West,Cash on Delivery,Shipped,VIP Customer
+202,2026-06-06 16:45:51,16,Manish Agarwal,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999,1950,3999,2049,Nagpur,Maharashtra,Central,Credit Card,Completed,VIP Customer
+202,2026-06-06 16:45:51,16,Manish Agarwal,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299,470,1299,829,Nagpur,Maharashtra,Central,Credit Card,Completed,VIP Customer
+203,2026-09-16 00:26:51,10,Dhruv Sen,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299,520,1299,779,Bhopal,Madhya Pradesh,Central,Credit Card,Completed,Regular Customer
+203,2026-09-16 00:26:51,10,Dhruv Sen,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,2,1299,520,2598,1558,Bhopal,Madhya Pradesh,Central,Credit Card,Completed,Regular Customer
+203,2026-09-16 00:26:51,10,Dhruv Sen,11,AirFlow Dual Band WiFi 6 Router,Electronics,1,3999,1950,3999,2049,Bhopal,Madhya Pradesh,Central,Credit Card,Completed,Regular Customer
+204,2026-05-21 00:46:51,42,Shikha Srivastava,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Patna,Bihar,East,Debit Card,Processing,VIP Customer
+204,2026-05-21 00:46:51,42,Shikha Srivastava,60,ClearPore Gentle Salicylic Acid Cleanser,Beauty,1,499,145,499,354,Patna,Bihar,East,Debit Card,Processing,VIP Customer
+205,2026-06-23 18:03:51,22,Vikram Rathore,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Surat,Gujarat,West,UPI,Completed,VIP Customer
+206,2026-03-28 14:01:51,47,Amitesh Kumar,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,Coimbatore,Tamil Nadu,South,Credit Card,Cancelled,VIP Customer
+207,2026-08-19 18:22:51,4,Ananya Iyer,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849,260,849,589,Pune,Maharashtra,West,Cash on Delivery,Completed,VIP Customer
+208,2025-11-02 02:49:51,4,Ananya Iyer,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249,70,249,179,Pune,Maharashtra,West,Demo Payment,Completed,VIP Customer
+208,2025-11-02 02:49:51,4,Ananya Iyer,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299,480,1299,819,Pune,Maharashtra,West,Demo Payment,Completed,VIP Customer
+208,2025-11-02 02:49:51,4,Ananya Iyer,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,1,2799,1150,2799,1649,Pune,Maharashtra,West,Demo Payment,Completed,VIP Customer
+209,2026-03-07 19:44:51,31,Harsh Vardhan,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799,260,799,539,Bhubaneswar,Odisha,East,Credit Card,Completed,VIP Customer
+209,2026-03-07 19:44:51,31,Harsh Vardhan,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Bhubaneswar,Odisha,East,Credit Card,Completed,VIP Customer
+210,2025-10-21 21:40:51,49,Simran Gill,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899,290,899,609,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+211,2025-12-31 15:03:51,52,Sanjay Vishwakarma,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499,580,1499,919,New Delhi,Delhi,North,Debit Card,Shipped,VIP Customer
+211,2025-12-31 15:03:51,52,Sanjay Vishwakarma,21,Oxford Slim-Fit Pure Cotton Shirt,Fashion,1,1299,520,1299,779,New Delhi,Delhi,North,Debit Card,Shipped,VIP Customer
+212,2026-04-01 18:38:51,42,Shikha Srivastava,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,2,2199,890,4398,2618,Patna,Bihar,East,Credit Card,Completed,VIP Customer
+212,2026-04-01 18:38:51,42,Shikha Srivastava,34,Boho Embroidered Cotton Kurti,Fashion,2,1199,430,2398,1538,Patna,Bihar,East,Credit Card,Completed,VIP Customer
+212,2026-04-01 18:38:51,42,Shikha Srivastava,4,MechStrike RGB Mechanical Gaming Keyboard,Electronics,2,2899,1300,5798,3198,Patna,Bihar,East,Credit Card,Completed,VIP Customer
+213,2026-04-17 01:36:51,44,Pallavi Hegde,71,NourishGlow Tinted Lip Oil with Vitamin E,Beauty,1,399,110,399,289,Chandigarh,Punjab,North,UPI,Shipped,VIP Customer
+213,2026-04-17 01:36:51,44,Pallavi Hegde,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Chandigarh,Punjab,North,UPI,Shipped,VIP Customer
+213,2026-04-17 01:36:51,44,Pallavi Hegde,29,Minimalist Chronograph Mesh Watch,Fashion,2,2299,890,4598,2818,Chandigarh,Punjab,North,UPI,Shipped,VIP Customer
+214,2026-03-02 03:45:51,47,Amitesh Kumar,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,2,549,195,1098,708,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+214,2026-03-02 03:45:51,47,Amitesh Kumar,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+214,2026-03-02 03:45:51,47,Amitesh Kumar,18,AeroCool Laptop Cooling Pad RGB,Electronics,3,1299,480,3897,2457,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+215,2026-06-08 17:44:51,26,Siddharth Hegde,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,3,699,215,2097,1452,New Delhi,Delhi,North,Demo Payment,Completed,VIP Customer
+216,2026-09-28 14:45:51,16,Manish Agarwal,68,BioNourish Castor & Rosemary Lash Serum,Beauty,2,599,170,1198,858,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+216,2026-09-28 14:45:51,16,Manish Agarwal,75,PowerBand Pro 5-Level Resistance Tube Set,Sports,1,899,310,899,589,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+217,2025-11-04 18:07:51,41,Pranav Namboodiri,6,NovaPower 65W GaN Fast Charger,Electronics,1,1499,580,1499,919,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+218,2026-08-04 02:32:51,22,Vikram Rathore,18,AeroCool Laptop Cooling Pad RGB,Electronics,2,1299,480,2598,1638,Surat,Gujarat,West,UPI,Shipped,VIP Customer
+218,2026-08-04 02:32:51,22,Vikram Rathore,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,3,2199,880,6597,3957,Surat,Gujarat,West,UPI,Shipped,VIP Customer
+218,2026-08-04 02:32:51,22,Vikram Rathore,33,Everyday Canvas Slip-On Sneakers,Fashion,2,1299,490,2598,1618,Surat,Gujarat,West,UPI,Shipped,VIP Customer
+219,2026-02-20 21:54:51,41,Pranav Namboodiri,32,ThermalLite Puffer Quilted Vest,Fashion,1,1699,640,1699,1059,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+219,2026-02-20 21:54:51,41,Pranav Namboodiri,14,VocalMaster USB Condenser Studio Mic,Electronics,1,3499,1450,3499,2049,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+219,2026-02-20 21:54:51,41,Pranav Namboodiri,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,2,1699,680,3398,2038,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+220,2025-12-15 16:54:51,26,Siddharth Hegde,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,1,1699,680,1699,1019,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+220,2025-12-15 16:54:51,26,Siddharth Hegde,51,AeroBlend High-Speed Nutri Blender 900W,Home & Kitchen,1,2799,1150,2799,1649,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+220,2025-12-15 16:54:51,26,Siddharth Hegde,13,ClarityView 27" QHD IPS Monitor,Electronics,1,16999,11500,16999,5499,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+220,2025-12-15 16:54:51,26,Siddharth Hegde,69,Botanical Therapy Anti-Dandruff Scalp Tonic,Beauty,1,699,215,699,484,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+221,2026-03-16 22:57:51,35,Gaurav Chawla,38,Classic Leather Dress Belt Reversible,Fashion,1,699,220,699,479,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
+221,2026-03-16 22:57:51,35,Gaurav Chawla,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
+222,2026-01-25 23:10:51,20,Nikhil Pillai,41,CrispAir Digital Smart Air Fryer 5.5L,Home & Kitchen,2,4999,2200,9998,5598,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+222,2026-01-25 23:10:51,20,Nikhil Pillai,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,2,3299,1380,6598,3838,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+222,2026-01-25 23:10:51,20,Nikhil Pillai,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+222,2026-01-25 23:10:51,20,Nikhil Pillai,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699,210,699,489,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+223,2025-12-20 19:51:51,44,Pallavi Hegde,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,2,1199,520,2398,1358,Chandigarh,Punjab,North,Credit Card,Completed,VIP Customer
+224,2026-05-30 20:58:51,27,Meera Nambiar,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299,480,1299,819,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+224,2026-05-30 20:58:51,27,Meera Nambiar,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599,210,599,389,Indore,Madhya Pradesh,Central,Credit Card,Completed,VIP Customer
+225,2025-11-22 15:36:51,3,Vivaan Gupta,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,2,1699,680,3398,2038,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+225,2025-11-22 15:36:51,3,Vivaan Gupta,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+226,2025-11-23 17:19:51,37,Kunal Goswami,96,Artisan Noir 85% Dark Single-Origin Chocolate (Pack of 3),Grocery,1,549,195,549,354,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,VIP Customer
+227,2026-04-11 01:29:51,31,Harsh Vardhan,78,PulseRelief Deep Tissue Massage Gun,Sports,1,3499,1450,3499,2049,Bhubaneswar,Odisha,East,Credit Card,Completed,VIP Customer
+227,2026-04-11 01:29:51,31,Harsh Vardhan,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Bhubaneswar,Odisha,East,Credit Card,Completed,VIP Customer
+228,2026-09-04 19:55:51,37,Kunal Goswami,7,ErgoGrip Wireless Vertical Mouse,Electronics,3,1299,520,3897,2337,Visakhapatnam,Andhra Pradesh,South,Credit Card,Completed,VIP Customer
+229,2026-04-01 02:42:51,31,Harsh Vardhan,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299,480,1299,819,Bhubaneswar,Odisha,East,UPI,Processing,VIP Customer
+230,2026-08-26 22:29:51,16,Manish Agarwal,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Nagpur,Maharashtra,Central,Demo Payment,Completed,VIP Customer
+231,2026-09-15 17:15:51,1,Aarav Sharma,50,FreshLock 8-Piece Borosilicate Glass Containers,Home & Kitchen,2,1699,680,3398,2038,Nagpur,Maharashtra,Central,UPI,Processing,VIP Customer
+231,2026-09-15 17:15:51,1,Aarav Sharma,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,Nagpur,Maharashtra,Central,UPI,Processing,VIP Customer
+232,2025-11-22 02:37:51,7,Aditi Deshmukh,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,Jaipur,Rajasthan,North,Debit Card,Completed,VIP Customer
+233,2026-03-01 19:17:51,3,Vivaan Gupta,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,Noida,Uttar Pradesh,North,Credit Card,Completed,VIP Customer
+233,2026-03-01 19:17:51,3,Vivaan Gupta,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,2,2199,880,4398,2638,Noida,Uttar Pradesh,North,Credit Card,Completed,VIP Customer
+234,2025-12-24 15:37:51,42,Shikha Srivastava,81,ProKnee Compression Support Sleeves (Pair),Sports,2,699,220,1398,958,Patna,Bihar,East,Debit Card,Completed,VIP Customer
+235,2026-03-19 23:08:51,31,Harsh Vardhan,35,Silk Touch Printed Square Scarf,Fashion,1,599,180,599,419,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+235,2026-03-19 23:08:51,31,Harsh Vardhan,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799,260,799,539,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+235,2026-03-19 23:08:51,31,Harsh Vardhan,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999,850,1999,1149,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+236,2025-12-10 00:28:51,16,Manish Agarwal,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,2,1799,680,3598,2238,Nagpur,Maharashtra,Central,Credit Card,Completed,VIP Customer
+236,2025-12-10 00:28:51,16,Manish Agarwal,22,Vintage Distressed Denim Jacket,Fashion,1,2499,1050,2499,1449,Nagpur,Maharashtra,Central,Credit Card,Completed,VIP Customer
+237,2026-02-25 14:45:51,54,Chirag Parekh,19,VisionGlass 1080p Smart Home Projector,Electronics,1,8999,4500,8999,4499,Raipur,Chhattisgarh,Central,Cash on Delivery,Completed,VIP Customer
+237,2026-02-25 14:45:51,54,Chirag Parekh,5,BoomSound 360 Portable Bluetooth Speaker,Electronics,1,1999,850,1999,1149,Raipur,Chhattisgarh,Central,Cash on Delivery,Completed,VIP Customer
+238,2026-01-31 20:20:51,12,Rohan Mehta,85,AeroSpike Badminton Racket Set with Shuttlecocks,Sports,1,1799,680,1799,1119,Kochi,Kerala,South,Debit Card,Shipped,At Risk
+239,2026-06-23 16:33:51,53,Monika Rawat,70,LuxeSilk Overnight Collagen Sleeping Mask,Beauty,1,899,290,899,609,Surat,Gujarat,West,UPI,Completed,VIP Customer
+240,2025-11-11 19:40:51,42,Shikha Srivastava,39,Merino Wool Blend Thermal Beanie,Fashion,1,499,160,499,339,Patna,Bihar,East,UPI,Completed,VIP Customer
+240,2025-11-11 19:40:51,42,Shikha Srivastava,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Patna,Bihar,East,UPI,Completed,VIP Customer
+241,2025-10-24 14:54:51,16,Manish Agarwal,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499,150,499,349,Nagpur,Maharashtra,Central,Cash on Delivery,Completed,VIP Customer
+242,2025-12-03 14:56:51,18,Karan Malhotra,48,ZenAroma Ultrasonic Essential Oil Diffuser,Home & Kitchen,1,1199,420,1199,779,Bengaluru,Karnataka,South,Credit Card,Completed,At Risk
+243,2025-11-05 20:03:51,31,Harsh Vardhan,8,SonicBuds Pro TWS Earbuds,Electronics,2,2299,980,4598,2638,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+243,2025-11-05 20:03:51,31,Harsh Vardhan,64,SunDefend Invisible Fluid Sunscreen SPF 50+,Beauty,1,649,190,649,459,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+243,2025-11-05 20:03:51,31,Harsh Vardhan,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+243,2025-11-05 20:03:51,31,Harsh Vardhan,44,TheraSnooze Memory Foam Orthopedic Pillow,Home & Kitchen,1,1499,560,1499,939,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+244,2026-07-14 17:24:51,42,Shikha Srivastava,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,Patna,Bihar,East,UPI,Completed,VIP Customer
+244,2026-07-14 17:24:51,42,Shikha Srivastava,99,RoyalCrown Organic Medjool Dates 500g,Grocery,2,699,280,1398,838,Patna,Bihar,East,UPI,Completed,VIP Customer
+245,2026-05-19 02:10:51,42,Shikha Srivastava,45,RoboClean AI Robot Vacuum & Mop,Home & Kitchen,1,14999,8900,14999,6099,Patna,Bihar,East,UPI,Completed,VIP Customer
+245,2026-05-19 02:10:51,42,Shikha Srivastava,58,GlowMatrix 20% Vitamin C + Ferulic Serum,Beauty,2,799,240,1598,1118,Patna,Bihar,East,UPI,Completed,VIP Customer
+245,2026-05-19 02:10:51,42,Shikha Srivastava,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899,720,1899,1179,Patna,Bihar,East,UPI,Completed,VIP Customer
+246,2026-05-18 17:39:51,20,Nikhil Pillai,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499,150,499,349,Gurugram,Haryana,North,Debit Card,Completed,VIP Customer
+247,2026-06-03 02:12:51,37,Kunal Goswami,2,Pulse Pro Smartwatch Series 7,Electronics,1,3499,1650,3499,1849,Visakhapatnam,Andhra Pradesh,South,Debit Card,Completed,VIP Customer
+247,2026-06-03 02:12:51,37,Kunal Goswami,81,ProKnee Compression Support Sleeves (Pair),Sports,2,699,220,1398,958,Visakhapatnam,Andhra Pradesh,South,Debit Card,Completed,VIP Customer
+248,2026-05-31 00:27:51,31,Harsh Vardhan,40,GrandMaster 6-Piece Japanese Chef Knife Set,Home & Kitchen,1,3999,1600,3999,2399,Bhubaneswar,Odisha,East,UPI,Completed,VIP Customer
+249,2026-06-03 21:43:51,47,Amitesh Kumar,14,VocalMaster USB Condenser Studio Mic,Electronics,2,3499,1450,6998,4098,Coimbatore,Tamil Nadu,South,UPI,Completed,VIP Customer
+250,2026-02-20 20:19:51,47,Amitesh Kumar,31,SmartFlex Stretch Chino Trousers,Fashion,1,1499,580,1499,919,Coimbatore,Tamil Nadu,South,Debit Card,Completed,VIP Customer
+250,2026-02-20 20:19:51,47,Amitesh Kumar,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799,1250,2799,1549,Coimbatore,Tamil Nadu,South,Debit Card,Completed,VIP Customer
+250,2026-02-20 20:19:51,47,Amitesh Kumar,39,Merino Wool Blend Thermal Beanie,Fashion,1,499,160,499,339,Coimbatore,Tamil Nadu,South,Debit Card,Completed,VIP Customer
+251,2026-07-24 00:03:51,41,Pranav Namboodiri,1,Aura Wireless Noise-Cancelling Headphones,Electronics,1,4999,2499,4999,2500,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+251,2026-07-24 00:03:51,41,Pranav Namboodiri,87,Tuscan Gold Extra Virgin Olive Oil 1L,Grocery,1,1199,520,1199,679,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+252,2026-09-01 14:53:51,1,Aarav Sharma,53,LuxeVelvet Blackout Window Curtains (Pair),Home & Kitchen,1,1799,690,1799,1109,Nagpur,Maharashtra,Central,Cash on Delivery,Completed,VIP Customer
+252,2026-09-01 14:53:51,1,Aarav Sharma,100,GoldenGrain Rolled Gluten-Free Oats 1kg,Grocery,2,329,110,658,438,Nagpur,Maharashtra,Central,Cash on Delivery,Completed,VIP Customer
+253,2025-12-13 18:47:51,29,Tarun Bansal,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,3,4499,1950,13497,7647,Noida,Uttar Pradesh,North,Cash on Delivery,Processing,VIP Customer
+253,2025-12-13 18:47:51,29,Tarun Bansal,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,1,4999,2300,4999,2699,Noida,Uttar Pradesh,North,Cash on Delivery,Processing,VIP Customer
+254,2026-05-21 15:00:51,41,Pranav Namboodiri,42,GraniteStone 5-Piece Ceramic Cookware Set,Home & Kitchen,1,4499,1950,4499,2549,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+254,2026-05-21 15:00:51,41,Pranav Namboodiri,20,ChargeStand 3-in-1 Wireless Charging Station,Electronics,1,2199,890,2199,1309,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+254,2026-05-21 15:00:51,41,Pranav Namboodiri,55,PureDrop Multi-Stage Faucet Water Filter,Home & Kitchen,1,1299,470,1299,829,New Delhi,Delhi,North,Credit Card,Completed,VIP Customer
+255,2025-10-14 14:51:51,35,Gaurav Chawla,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,1,1499,560,1499,939,Surat,Gujarat,West,UPI,Completed,VIP Customer
+255,2025-10-14 14:51:51,35,Gaurav Chawla,73,AeroGrip Pro Non-Slip TPE Yoga Mat 6mm,Sports,1,1299,480,1299,819,Surat,Gujarat,West,UPI,Completed,VIP Customer
+256,2026-05-27 03:28:51,13,Neha Kapoor,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249,70,249,179,Patna,Bihar,East,UPI,Completed,At Risk
+256,2026-05-27 03:28:51,13,Neha Kapoor,36,Classic Heavyweight Crewneck Sweatshirt,Fashion,1,1399,510,1399,889,Patna,Bihar,East,UPI,Completed,At Risk
+257,2026-08-03 03:20:51,49,Simran Gill,28,UrbanExplorer Waterproof Canvas Backpack,Fashion,1,1899,720,1899,1179,New Delhi,Delhi,North,Debit Card,Returned,VIP Customer
+258,2026-06-02 16:56:51,10,Dhruv Sen,34,Boho Embroidered Cotton Kurti,Fashion,1,1199,430,1199,769,Bhopal,Madhya Pradesh,Central,UPI,Completed,Regular Customer
+258,2026-06-02 16:56:51,10,Dhruv Sen,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299,480,1299,819,Bhopal,Madhya Pradesh,Central,UPI,Completed,Regular Customer
+258,2026-06-02 16:56:51,10,Dhruv Sen,7,ErgoGrip Wireless Vertical Mouse,Electronics,1,1299,520,1299,779,Bhopal,Madhya Pradesh,Central,UPI,Completed,Regular Customer
+259,2025-12-08 23:32:51,24,Sameer Singhania,29,Minimalist Chronograph Mesh Watch,Fashion,1,2299,890,2299,1409,Chennai,Tamil Nadu,South,Credit Card,Completed,Regular Customer
+260,2026-01-31 18:43:51,16,Manish Agarwal,23,AeroStride Breathable Running Shoes,Fashion,1,2999,1250,2999,1749,Nagpur,Maharashtra,Central,UPI,Processing,VIP Customer
+260,2026-01-31 18:43:51,16,Manish Agarwal,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Nagpur,Maharashtra,Central,UPI,Processing,VIP Customer
+260,2026-01-31 18:43:51,16,Manish Agarwal,93,Organic Royal White Quinoa Grains 1kg,Grocery,1,449,150,449,299,Nagpur,Maharashtra,Central,UPI,Processing,VIP Customer
+261,2026-07-04 03:16:51,23,Shreya Das,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Mumbai,Maharashtra,West,UPI,Completed,At Risk
+261,2026-07-04 03:16:51,23,Shreya Das,79,HydraTrail Lightweight Running Vest 5L,Sports,2,1899,720,3798,2358,Mumbai,Maharashtra,West,UPI,Completed,At Risk
+262,2026-07-29 01:01:51,46,Payal Banerjee,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Chandigarh,Punjab,North,Debit Card,Completed,Regular Customer
+262,2026-07-29 01:01:51,46,Payal Banerjee,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899,360,899,539,Chandigarh,Punjab,North,Debit Card,Completed,Regular Customer
+263,2026-05-26 15:23:51,49,Simran Gill,84,EverStrike Pro Punching Bag & Mitts Kit,Sports,1,2999,1200,2999,1799,New Delhi,Delhi,North,Debit Card,Completed,VIP Customer
+264,2026-03-08 23:04:51,49,Simran Gill,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,New Delhi,Delhi,North,UPI,Completed,VIP Customer
+265,2026-01-09 18:15:51,34,Swati Nanda,77,SpeedJump Pro Weighted Skipping Rope,Sports,1,499,150,499,349,Kochi,Kerala,South,Cash on Delivery,Processing,Regular Customer
+266,2025-11-05 14:54:51,42,Shikha Srivastava,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Patna,Bihar,East,Credit Card,Returned,VIP Customer
+266,2025-11-05 14:54:51,42,Shikha Srivastava,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Patna,Bihar,East,Credit Card,Returned,VIP Customer
+267,2026-02-03 01:41:51,33,Abhishek Tiwari,3,UltraVision 4K Action Camera Pro,Electronics,1,7999,4200,7999,3799,Guwahati,Assam,East,UPI,Completed,VIP Customer
+268,2026-03-19 22:42:51,54,Chirag Parekh,74,IronFlex Quick-Adjustable Dumbbells (Pair),Sports,3,4999,2300,14997,8097,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+268,2026-03-19 22:42:51,54,Chirag Parekh,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599,210,599,389,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+268,2026-03-19 22:42:51,54,Chirag Parekh,30,Botanical Printed Summer Maxi Dress,Fashion,1,1799,680,1799,1119,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+268,2026-03-19 22:42:51,54,Chirag Parekh,17,SoundBar Cinema 120W with Subwoofer,Electronics,2,6999,3600,13998,6798,Raipur,Chhattisgarh,Central,UPI,Completed,VIP Customer
+269,2026-06-18 23:08:51,3,Vivaan Gupta,76,ThermoSteel Insulated Protein Shaker 750ml,Sports,1,799,260,799,539,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+269,2026-06-18 23:08:51,3,Vivaan Gupta,16,StreamDeck Multi-Key Macro Pad,Electronics,2,4999,2300,9998,5398,Noida,Uttar Pradesh,North,UPI,Completed,VIP Customer
+270,2025-11-18 02:19:51,19,Riya Mukherjee,88,Himalayan Wild Forest Raw Organic Honey 500g,Grocery,1,599,210,599,389,Patna,Bihar,East,UPI,Shipped,VIP Customer
+270,2025-11-18 02:19:51,19,Riya Mukherjee,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,Patna,Bihar,East,UPI,Shipped,VIP Customer
+271,2026-03-31 15:58:51,27,Meera Nambiar,65,DetoxCharcoal Bamboo Face & Body Clay Mask,Beauty,1,599,175,599,424,Indore,Madhya Pradesh,Central,UPI,Completed,VIP Customer
+271,2026-03-31 15:58:51,27,Meera Nambiar,26,ProFit Athletic Training Joggers,Fashion,1,1199,450,1199,749,Indore,Madhya Pradesh,Central,UPI,Completed,VIP Customer
+271,2026-03-31 15:58:51,27,Meera Nambiar,31,SmartFlex Stretch Chino Trousers,Fashion,2,1499,580,2998,1838,Indore,Madhya Pradesh,Central,UPI,Completed,VIP Customer
+271,2026-03-31 15:58:51,27,Meera Nambiar,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,2,1899,750,3798,2298,Indore,Madhya Pradesh,Central,UPI,Completed,VIP Customer
+272,2025-11-02 17:53:51,47,Amitesh Kumar,13,ClarityView 27" QHD IPS Monitor,Electronics,1,16999,11500,16999,5499,Coimbatore,Tamil Nadu,South,UPI,Cancelled,VIP Customer
+272,2025-11-02 17:53:51,47,Amitesh Kumar,3,UltraVision 4K Action Camera Pro,Electronics,1,7999,4200,7999,3799,Coimbatore,Tamil Nadu,South,UPI,Cancelled,VIP Customer
+272,2025-11-02 17:53:51,47,Amitesh Kumar,9,HyperHub 9-in-1 USB-C Docking Hub,Electronics,1,2799,1250,2799,1549,Coimbatore,Tamil Nadu,South,UPI,Cancelled,VIP Customer
+272,2025-11-02 17:53:51,47,Amitesh Kumar,15,GlideTouch Precision Stylus Pen,Electronics,1,1599,620,1599,979,Coimbatore,Tamil Nadu,South,UPI,Cancelled,VIP Customer
+273,2025-12-16 23:23:51,27,Meera Nambiar,12,"Titanium PowerBank 20,000mAh 22.5W",Electronics,1,1899,790,1899,1109,Indore,Madhya Pradesh,Central,Debit Card,Completed,VIP Customer
+273,2025-12-16 23:23:51,27,Meera Nambiar,92,BlueMountain Single-Origin Whole Coffee Beans 500g,Grocery,1,899,360,899,539,Indore,Madhya Pradesh,Central,Debit Card,Completed,VIP Customer
+274,2026-04-21 22:40:51,27,Meera Nambiar,46,RoyalPorcelain 16-Piece Dinnerware Set,Home & Kitchen,1,3299,1380,3299,1919,Indore,Madhya Pradesh,Central,UPI,Completed,VIP Customer
+274,2026-04-21 22:40:51,27,Meera Nambiar,91,PureOrigin Pink Himalayan Rock Salt 1kg,Grocery,1,199,45,199,154,Indore,Madhya Pradesh,Central,UPI,Completed,VIP Customer
+275,2026-07-01 14:35:51,7,Aditi Deshmukh,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+275,2026-07-01 14:35:51,7,Aditi Deshmukh,67,Arabica Coffee Exfoliating Body Scrub,Beauty,1,499,150,499,349,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+275,2026-07-01 14:35:51,7,Aditi Deshmukh,66,PeptideFirm Collagen Eye Repair Gel,Beauty,1,849,260,849,589,Jaipur,Rajasthan,North,UPI,Completed,VIP Customer
+276,2025-11-13 16:09:51,32,Deepika Kaul,56,SmartSensor Automatic Trash Can 12L,Home & Kitchen,1,2199,880,2199,1319,Chandigarh,Punjab,North,UPI,Completed,At Risk
+276,2025-11-13 16:09:51,32,Deepika Kaul,57,Handcrafted Jute Round Area Rug 4ft,Home & Kitchen,2,1499,560,2998,1878,Chandigarh,Punjab,North,UPI,Completed,At Risk
+276,2025-11-13 16:09:51,32,Deepika Kaul,98,GoldenShield Pure Turmeric Curcumin Powder 500g,Grocery,1,249,70,249,179,Chandigarh,Punjab,North,UPI,Completed,At Risk
+276,2025-11-13 16:09:51,32,Deepika Kaul,95,CocoPure Cold-Pressed Virgin Coconut Oil 500ml,Grocery,1,399,130,399,269,Chandigarh,Punjab,North,UPI,Completed,At Risk
+277,2026-09-13 17:00:51,16,Manish Agarwal,59,HydroBoost 2% Multi-Molecular Hyaluronic Cream,Beauty,1,699,210,699,489,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+277,2026-09-13 17:00:51,16,Manish Agarwal,43,PrecisionTemp Stainless Steel Electric Kettle,Home & Kitchen,1,1899,750,1899,1149,Nagpur,Maharashtra,Central,UPI,Completed,VIP Customer
+278,2026-03-21 03:14:51,38,Anushka Ghosh,79,HydraTrail Lightweight Running Vest 5L,Sports,2,1899,720,3798,2358,New Delhi,Delhi,North,Cash on Delivery,Completed,Regular Customer
+278,2026-03-21 03:14:51,38,Anushka Ghosh,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,New Delhi,Delhi,North,Cash on Delivery,Completed,Regular Customer
+279,2025-12-11 20:07:51,22,Vikram Rathore,27,StormShield Lightweight Windbreaker Jacket,Fashion,1,1999,780,1999,1219,Surat,Gujarat,West,Credit Card,Completed,VIP Customer
+280,2026-01-17 00:54:51,26,Siddharth Hegde,25,Heritage Top-Grain Leather Bifold Wallet,Fashion,1,799,260,799,539,New Delhi,Delhi,North,Credit Card,Shipped,VIP Customer
+280,2026-01-17 00:54:51,26,Siddharth Hegde,33,Everyday Canvas Slip-On Sneakers,Fashion,1,1299,490,1299,809,New Delhi,Delhi,North,Credit Card,Shipped,VIP Customer
+280,2026-01-17 00:54:51,26,Siddharth Hegde,8,SonicBuds Pro TWS Earbuds,Electronics,1,2299,980,2299,1319,New Delhi,Delhi,North,Credit Card,Shipped,VIP Customer
+280,2026-01-17 00:54:51,26,Siddharth Hegde,47,Artisan Cold Brew Iced Coffee Maker 1L,Home & Kitchen,1,1299,480,1299,819,New Delhi,Delhi,North,Credit Card,Shipped,VIP Customer

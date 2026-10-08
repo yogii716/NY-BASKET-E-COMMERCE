@@ -24,10 +24,10 @@ Developed as a showcase portfolio project for a **3rd-year B.Tech Artificial Int
 
 | Layer | Technologies Used |
 | :--- | :--- |
-| **Frontend** | HTML5, CSS3 (Custom Design System + Dark Mode), Vanilla JavaScript (ES6+), Bootstrap 5 (CDN), FontAwesome 6 (CDN), Chart.js 4 (CDN) |
-| **Backend** | Python 3, Flask, Flask-CORS, SQLAlchemy ORM, Werkzeug (Security/Hashing) |
-| **Data Analytics** | Pandas, NumPy, SQLite Database (`nybasket.db`), Flat Analytical CSV (`ecommerce_data.csv`) |
-| **Tools & Architecture** | REST API Architecture, Git, VS Code / Antigravity IDE |
+| **Frontend** | HTML5, CSS3 (Custom Design System + Dark Mode), Modern JavaScript (ES6+), Bootstrap 5 (CDN), FontAwesome 6 (CDN), Chart.js 4 (CDN) |
+| **Client Analytics Engine** | Zero-Latency Pure JavaScript Analytics Engine, LocalStorage Database & State Engine |
+| **Backend & Tools** | Node.js Server (`server.js`), Netlify Deployment (`netlify.toml` + `_redirects`), Flat Analytical Dataset (`data/ecommerce_data.csv`) |
+| **Deployment** | 100% Netlify Ready, Zero-Config Static Web Hosting, GitHub Pages, Vercel |
 
 ---
 
@@ -161,38 +161,51 @@ NyBasket/
 
 ---
 
-## 🚀 Quick Start & Local Run Instructions
+## 🚀 1-Click Netlify Deployment (100% Ready)
 
-### 1. Prerequisites
-- Python 3.9+ installed on your system.
+NyBasket is configured for **instant continuous deployment on Netlify**:
 
-### 2. Clone the Repository
+1. **Push your code to GitHub / GitLab**:
+   ```bash
+   git add .
+   git commit -m "Deploy NyBasket JavaScript to Netlify"
+   git push origin main
+   ```
+2. **Deploy on Netlify**:
+   - Go to [Netlify App](https://app.netlify.com/) -> **Add new site** -> **Import an existing project**.
+   - Select your repository.
+   - Netlify will automatically detect [`netlify.toml`](file:///c:/Users/user/Desktop/NyBasket/netlify.toml):
+     - **Publish directory**: `frontend`
+     - **Build command**: `node seed.js` (or leave empty)
+   - Click **Deploy Site**!
+
+Your storefront, shopping basket, checkout simulation, executive BI dashboard, RFM customer segmentation, and CEO/CMO insights engine will be live instantly with zero backend hosting costs!
+
+---
+
+## 💻 Local Development & Quick Start (Node.js)
+
+### 1. Run NyBasket Locally (Zero external dependencies)
 ```bash
-git clone https://github.com/your-username/NyBasket.git
-cd NyBasket
-```
-
-### 3. Create Virtual Environment & Install Dependencies
-```bash
-# Windows
-python -m venv venv
-venv\Scripts\activate
-
-# macOS / Linux
-python3 -m venv venv
-source venv/bin/activate
-
-# Install requirements
-pip install -r requirements.txt
-```
-
-### 4. Run NyBasket with One Single Command
-```bash
-python run.py
+# Start the local server
+npm start
+# or: node server.js
 ```
 
 Open your browser and navigate to:
-👉 **`http://127.0.0.1:5000/`** or **`http://localhost:5000/`**
+👉 **`http://localhost:5000/`** or **`http://127.0.0.1:5000/`**
+
+### 2. Run Automated JavaScript Tests
+```bash
+npm test
+# or: node test.js
+```
+
+### 3. Re-seed & Export Analytical Dataset CSV
+```bash
+npm run seed
+# or: node seed.js
+```
 
 ---
 

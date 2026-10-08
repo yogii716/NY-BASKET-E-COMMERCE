@@ -1,6 +1,6 @@
 /**
  * NyBasket – Executive Analytics Dashboard Controller
- * Powered by Chart.js & Flask REST Analytics Engine
+ * Powered by Chart.js & JavaScript REST Analytics Engine
  */
 
 let monthlySalesChart = null;

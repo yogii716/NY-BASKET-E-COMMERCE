@@ -1,0 +1,23 @@
+{
+  "name": "nybasket-ecommerce-analytics",
+  "version": "2.0.0",
+  "description": "NyBasket – Smart E-Commerce Sales & Customer Analytics Platform built in Pure JavaScript for Netlify & Modern Web",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "node test.js",
+    "seed": "node seed.js",
+    "build": "node seed.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "analytics",
+    "javascript",
+    "business-intelligence",
+    "netlify",
+    "chartjs"
+  ],
+  "author": "NyBasket Team",
+  "license": "MIT"
+}
